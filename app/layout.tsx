@@ -1,0 +1,45 @@
+import type { Metadata } from "next";
+import { Open_Sans, Baskervville } from "next/font/google";
+import "./globals.css";
+import Header from "./components/ui/Header";
+
+import Footer from "./components/ui/Footer";
+import OnlyHomeContent from "./components/ui/OnlyHomeContent";
+import PageTransition from "./components/animation/PageTransition";
+import Glow from "./components/animation/Glow";
+import CustomCursor from "./components/animation/customCursor";
+
+const openSans = Open_Sans({
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const baskervville = Baskervville({ subsets: ["latin"], weight: ["400"] });
+
+export const metadata: Metadata = {
+  title: "Rabab designs",
+  description: "Designer's portfolio",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className={openSans.className}>
+        {/* <CustomCursor /> the one which is used */}
+
+        <div className="container mx-auto relative">
+          {/* 🔹 Only show this on Home */}
+          <OnlyHomeContent />
+          <Header />
+          {/* <PageTransition>{children}</PageTransition> */}
+          {children}
+          <Footer />
+        </div>
+      </body>
+    </html>
+  );
+}

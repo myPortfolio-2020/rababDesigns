@@ -1,0 +1,395 @@
+{
+  "projects": [
+    {
+      "id": "project-01",
+      "title": "The Right Assists",
+      "tagLine": "Dispatch and CRM System",
+      "description": "This System is designed as a comprehensive and modular software solution to support non-emergency medical transportation services. It operates within the context of the broader healthcare and transportation ecosystem, facilitating the seamless coordination of transportation services for patients. The system comprises various components, modules, and external interfaces to fulfill its objectives.",
+      "titleImages": "/assets/projects/TRA-Project.png",
+       "mobileView": "/assets/projects/tra/mobileView.png",
+      "myRole": [
+        "Build a clear, professional design system for healthcare: palette, typography, icons.",
+        "Build low-fi wires and prototypes to test workflows pre-development.",
+        "Collaboration with Technical Teams",
+        "Build simple dashboards and other screens for monitoring system performance and trip status."
+      ],
+      "timeline": {
+        "completionTime": "4 months",
+        "start": "2024-01",
+        "end": "2024-04"
+      },
+      "timelineNotes": [
+        "Phase 1: Research, requirements, and initial concepts",
+        "Phase 2: Wireframes and user flows",
+        "Phase 3: High-fidelity design and prototyping",
+        "Phase 4: Testing, refinement, and final handoff"
+      ],
+      "challenges": [
+        "Real-time Updates & Efficiency: Drivers need instant, reliable updates on job assignments, cancellations, and traffic conditions.",
+        "Creating clear, high-priority pathways for managing exceptions without disrupting the normal workflow."
+      ],
+      "tools": [
+        "Figma",
+        "Adobe Illustrator",
+        "GSAP"
+      ],
+      "goal": "To create a seamless, efficient, and reliable digital experience that supports the core business of coordinating patient transportation services, Since the system operates within the healthcare ecosystem, the design must foster trust and reliability among users, patients, and insurance providers.",
+      "persona": {
+        "name": "Daniel",
+        "age": 31,
+        "occupation": "Operations Dispatcher",
+        "focus": "Accelerating the Billing and Payment Cycle",
+        "Problem": [
+          "1. Visual Overload: Map view gets too cluttered with icons and labels, making quick decisions hard.",
+          "I don't have time to chase down drivers. I need to see every car, every job, and every conflict on one screen, right now"
+        ],
+        "Solution": [
+          "Allow the dispatcher to execute critical actions directly from the map or job list via context menus.",
+          "A driver status change (e.g., Arrived or Late), or a new high-priority job received from the Integration Layer.",
+          "Uses only a persistent indicator in a non-disruptive corner of the screen"
+        ],
+        "Result": [
+          "Reduced Miscommunication and Delayed Statuses",
+          "Notifying the dispatcher about a new high-priority job received from the Integration Layer",
+          "This allows the dispatcher to maintain focus on the real-time map and urgent tasks, improving overall efficiency and reducing errors on high-priority assignments"
+        ]
+      },
+      "wireframes": [
+        "/assets/projects/tra/w1.png",
+        "/assets/projects/tra/w2.png",
+        "/assets/projects/tra/w3.png"
+      ],
+      "styleGuide": {
+        "colors": {
+          "primary": [
+            "#F9941E",
+            "#D8D8D8"
+          ],
+          "secondary": [
+            "#20AAD6",
+            "#6DACB5",
+            "#DD7A7A",
+            "#20D6AA"
+          ]
+        },
+        "typography": {
+          "heading": "Jost",
+          "body": "Jost Medium"
+        },
+        "components": [
+          "Buttons",
+          "Pill Cards",
+          "Alerts",
+          "Graphs"
+        ]
+      },
+      "finalDesign": [
+        "/assets/projects/tra/01.png",
+        "/assets/projects/tra/02.png",
+        "/assets/projects/tra/03.png",
+        "/assets/projects/tra/04.png",
+        "/assets/projects/tra/05.png",
+        "/assets/projects/tra/06.png",
+        "/assets/projects/tra/07.png"
+      ],
+      "logo": {
+        "images": [
+          "/images/projects/pills-app/sketch1.jpg",
+          "/images/projects/pills-app/sketch1.jpg"
+        ],
+        "shades": [],
+        "LogoTypo": {
+          "heading": "Inter Bold",
+          "body": "Inter Regular"
+        }
+      }
+    },
+    {
+      "id": "project-02",
+      "title": "SkyUp",
+      "tagLine": "Managing business through effective time management & accountability",
+      "description": "SkyUp",
+      "titleImages": "/assets/projects/skyUp.png",
+       "mobileView": "/assets/projects/mobileScreen.png",
+      "myRole": [
+        "SkyUp",
+        "SkyUp",
+        "SkyUp",
+        "SkyUp"
+      ],
+      "timeline": {
+        "completionTime": "6 month",
+        "start": "2024-01",
+        "end": "2024-04"
+      },
+      "timelineNotes": [
+        "SkyUp"
+      ],
+      "challenges": [
+        "SkyUp",
+        "SkyUp"
+      ],
+      "tools": [
+        "Figma",
+        "Adobe Illustrator",
+        "GSAP"
+      ],
+      "goal": "SkyUp",
+      "persona": {
+        "name": "SkyUp",
+        "age": 31,
+        "occupation": "SkyUp",
+        "Problem": [
+          "SkyUp",
+          "SkyUp"
+        ],
+        "Solution": [
+          "SkyUp",
+          "SkyUp",
+          "SkyUp"
+        ],
+        "Result": [
+          "SkyUp",
+          "SkyUp",
+          "SkyUp"
+        ]
+      },
+      "wireframes": [
+        "/images/projects/pills-app/wireframes/wireframe1.png",
+        "/images/projects/pills-app/wireframes/wireframe2.png",
+        "/images/projects/pills-app/wireframes/wireframe3.png"
+      ],
+      "styleGuide": {
+        "colors": {
+          "primary": [
+            "#F9941E",
+            "#D8D8D8"
+          ],
+          "secondary": [
+            "#20AAD6",
+            "#6DACB5",
+            "#DD7A7A",
+            "#20D6AA"
+          ]
+        },
+        "typography": {
+          "heading": "Jost",
+          "body": "Jost Medium"
+        },
+        "components": [
+          "Buttons",
+          "Pill Cards",
+          "Alerts",
+          "Graphs"
+        ]
+      },
+      "finalDesign": [
+        "/images/projects/pills-app/final/final1.png",
+        "/images/projects/pills-app/final/final2.png",
+        "/images/projects/pills-app/final/final3.png"
+      ],
+      "logo": {
+        "images": [
+          "/images/projects/pills-app/sketch1.jpg",
+          "/images/projects/pills-app/sketch1.jpg"
+        ],
+        "shades": [],
+        "LogoTypo": {
+          "heading": "Inter Bold",
+          "body": "Inter Regular"
+        }
+      }
+    },
+    {
+      "id": "project-03",
+      "title": "Medifusion",
+      "tagLine": "Billing Software - Desktop & Mobile",
+      "description": "Medifusion",
+      "titleImages": "/assets/projects/bellmedex.png",
+       "mobileView": "/assets/projects/mobileScreen.png",
+      "myRole": [
+        "SkyUp",
+        "SkyUp",
+        "SkyUp",
+        "SkyUp"
+      ],
+      "timeline": {
+        "completionTime": "6 month",
+        "start": "2024-01",
+        "end": "2024-04"
+      },
+      "timelineNotes": [
+        "SkyUp"
+      ],
+      "challenges": [
+        "SkyUp",
+        "SkyUp"
+      ],
+      "tools": [
+        "Figma",
+        "Adobe Illustrator",
+        "GSAP"
+      ],
+      "goal": "SkyUp",
+      "persona": {
+        "name": "SkyUp",
+        "age": 31,
+        "occupation": "SkyUp",
+        "Problem": [
+          "SkyUp",
+          "SkyUp"
+        ],
+        "Solution": [
+          "SkyUp",
+          "SkyUp",
+          "SkyUp"
+        ],
+        "Result": [
+          "SkyUp",
+          "SkyUp",
+          "SkyUp"
+        ]
+      },
+      "wireframes": [
+        "/assets/projects/tra/w1.png",
+        "/assets/projects/tra/w2.png",
+        "/assets/projects/tra/w3.png"
+      ],
+      "styleGuide": {
+        "colors": {
+          "primary": [
+            "#F9941E",
+            "#D8D8D8"
+          ],
+          "secondary": [
+            "#20AAD6",
+            "#6DACB5",
+            "#DD7A7A",
+            "#20D6AA"
+          ]
+        },
+        "typography": {
+          "heading": "Jost",
+          "body": "Jost Medium"
+        },
+        "components": [
+          "Buttons",
+          "Pill Cards",
+          "Alerts",
+          "Graphs"
+        ]
+      },
+      "finalDesign": [
+        "/images/projects/pills-app/final/final1.png",
+        "/images/projects/pills-app/final/final2.png",
+        "/images/projects/pills-app/final/final3.png"
+      ],
+      "logo": {
+        "images": [
+          "/images/projects/pills-app/sketch1.jpg",
+          "/images/projects/pills-app/sketch1.jpg"
+        ],
+        "shades": [],
+        "LogoTypo": {
+          "heading": "Inter Bold",
+          "body": "Inter Regular"
+        }
+      }
+    },
+    {
+      "id": "project-04",
+      "title": "Home Care",
+      "tagLine": "Pills reminder & medication management app",
+      "description": "Home Care",
+      "titleImages": "/assets/projects/homeCare.png",
+       "mobileView": "/assets/projects/mobileScreen.png",
+      "myRole": [
+        "Home Care",
+        "Home Care",
+        "Home Care",
+        "Home Care"
+      ],
+      "timeline": {
+        "completionTime": "6 month",
+        "start": "2024-01",
+        "end": "2024-04"
+      },
+      "timelineNotes": [
+        "Home Care"
+      ],
+      "challenges": [
+        "Home Care",
+        "Home Care"
+      ],
+      "tools": [
+        "Figma",
+        "Adobe Illustrator"
+      ],
+      "goal": "Home Care",
+      "persona": {
+        "name": "Home Care",
+        "age": 31,
+        "occupation": "Home Care",
+        "Problem": [
+          "SkyUp",
+          "SkyUp"
+        ],
+        "Solution": [
+          "SkyUp",
+          "SkyUp",
+          "SkyUp"
+        ],
+        "Result": [
+          "SkyUp",
+          "SkyUp",
+          "SkyUp"
+        ]
+      },
+      "wireframes": [
+        "/images/projects/pills-app/wireframes/wireframe1.png",
+        "/images/projects/pills-app/wireframes/wireframe2.png",
+        "/images/projects/pills-app/wireframes/wireframe3.png"
+      ],
+      "styleGuide": {
+        "colors": {
+          "primary": [
+            "#F9941E",
+            "#D8D8D8"
+          ],
+          "secondary": [
+            "#20AAD6",
+            "#6DACB5",
+            "#DD7A7A",
+            "#20D6AA"
+          ]
+        },
+        "typography": {
+          "heading": "Jost",
+          "body": "Jost Medium"
+        },
+        "components": [
+          "Buttons",
+          "Pill Cards",
+          "Alerts",
+          "Graphs"
+        ]
+      },
+      "finalDesign": [
+        "/images/projects/pills-app/final/final1.png",
+        "/images/projects/pills-app/final/final2.png",
+        "/images/projects/pills-app/final/final3.png"
+      ],
+      "logo": {
+        "images": [
+          "/images/projects/pills-app/sketch1.jpg",
+          "/images/projects/pills-app/sketch1.jpg"
+        ],
+        "shades": [],
+        "LogoTypo": {
+          "heading": "Inter Bold",
+          "body": "Inter Regular"
+        }
+      }
+    }
+  ]
+}

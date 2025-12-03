@@ -1,0 +1,53 @@
+{
+  "interests": [
+    {
+      "interestId": "int-01",
+      "titleNum":"1",
+      "title": "Crafting Seamless Experiences",
+      "description": "Yes, a product where everything flows smoothly!",
+      "colorCode": "#06829d"
+    },
+    {
+      "interestId": "int-02",
+     "titleNum":"2",
+      "title": "User Empathy",
+      "description": "I care about what users feel, want, or struggle with.",
+      "colorCode": "#00a6a8"
+    },
+    {
+      "interestId": "int-03",
+    "titleNum":"3",
+      "title": "Visual Storytelling",
+      "description": "Shaping interfaces that communicate emotion and purpose.",
+      "colorCode": "#40c89d"
+    },
+    {
+      "interestId": "int-04",
+      "titleNum":"4",
+      "title": "Accessibility & Equity",
+      "description": "Designing for everyone, including those with disabilities.",
+      "colorCode": "#9ae484"
+    },
+    {
+      "interestId": "int-05",
+       "titleNum":"5",
+      "title": "Collaboration & Teamwork",
+      "description": "Sharing ideas, feedback, and learning from teams.",
+      "colorCode": "#f9f871"
+    },
+      {
+      "interestId": "int-06",
+      "titleNum":"6",
+      "title": "Creative Freedom",
+      "description": "Experimenting with layouts, colors, and typographic styles.",
+      "colorCode": "#ffeccc"
+    },
+          {
+      "interestId": "int-07",
+      "titleNum":"7",
+      "title": "Continuous Learning",
+      "description": "Exploring new tools, patterns, and trends.",
+      "colorCode": "#f15c69"
+    }
+  ]
+}
