@@ -3,13 +3,12 @@ import React, { useEffect, useRef } from "react";
 import { TrainHightlight } from "../../animation/TrainHighlight";
 
 const Transit = () => {
-  const trainRef = useRef<HTMLDivElement | null>(null);
+  const trainRef = useRef<SVGPathElement | null>(null);
   useEffect(() => {
     if (trainRef.current) {
-      TrainHightlight(trainRef.current);
+      TrainHightlight(trainRef.current as unknown as HTMLElement);
     }
-    TrainHightlight(trainRef.current);
-  });
+  }, []);
 
   return (
     <>
