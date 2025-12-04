@@ -13,7 +13,7 @@ const openSans = Open_Sans({
   display: "swap",
 });
 
-const baskervville = Baskervville({ subsets: ["latin"], weight: ["400"] });
+// const baskervville = Baskervville({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata: Metadata = {
   title: "Rabab designs",

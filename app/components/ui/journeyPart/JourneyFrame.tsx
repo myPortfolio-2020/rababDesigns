@@ -3,7 +3,6 @@ import HiThere from "../homeMiddleSection/HiThere";
 import Transit from "./Transit";
 import Mountains from "../homeMiddleSection/Mountains";
 import NewToMap from "../homeMiddleSection/NewToMap";
-import Pole from "../homeMiddleSection/Pole";
 
 const JourneyFrame = () => {
   return (

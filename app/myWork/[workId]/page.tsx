@@ -15,7 +15,7 @@ export async function generateMetadata({
 
 const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
   const { workId } = await params;
-  console.log("workId", workId);
+
   const project = projects.projects.find((p) => p.id === workId);
 
   const {

@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useRef } from "react";
 import { hiThereAnimation } from "../../animation/hiThereAnimation";
-import Pole from "./Pole";
 
 const HiThere = () => {
   const hiThereRef = useRef<HTMLDivElement | null>(null);
