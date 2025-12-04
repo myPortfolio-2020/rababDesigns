@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <>
       <div className="sticky top-0 w-full z-50 headerBg xl:h-[120px] h-[210px]">
-        <div className="flex xl:flex-row flex-col xl:justify-center justify-items-start xl:items-center xl:gap-x-5 h-[74]">
+        <div className="flex xl:flex-row flex-col xl:justify-center justify-items-start items-center xl:gap-x-5 h-[74px]">
           {routes.map((item) => {
             const isActive = pathname === item.href;
             return (
