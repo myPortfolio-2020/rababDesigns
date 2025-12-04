@@ -5,8 +5,7 @@ import Header from "./components/ui/Header";
 
 import Footer from "./components/ui/Footer";
 import OnlyHomeContent from "./components/ui/OnlyHomeContent";
-import PageTransition from "./components/animation/PageTransition";
-import Glow from "./components/animation/Glow";
+
 import CustomCursor from "./components/animation/customCursor";
 
 const openSans = Open_Sans({
