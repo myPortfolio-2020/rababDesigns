@@ -8,29 +8,34 @@ export default function CustomCursor() {
   const dotRefs = useRef<HTMLDivElement[]>([]);
   const TRAIL_DOTS_COUNT = 3;
 
-  // --- 1. Cursor Movement Effect ---
+  // --- Cursor Movement ---
   useEffect(() => {
     const cursor = cursorRef.current;
     if (!cursor) return;
 
     dotRefs.current = dotRefs.current.slice(0, TRAIL_DOTS_COUNT);
 
-    const moveCursor = (e: React.MouseEvent<HTMLDivElement>) => {
+    const moveCursor = (e: MouseEvent) => {
       const { clientX, clientY } = e;
 
-      // Move main cursor
+      const cursorWidth = cursor.offsetWidth || 0;
+      const cursorHeight = cursor.offsetHeight || 0;
+
       gsap.to(cursor, {
-        x: clientX - cursor.offsetWidth / 2,
-        y: clientY - cursor.offsetHeight / 2,
+        x: clientX - cursorWidth / 2,
+        y: clientY - cursorHeight / 2,
         duration: 0.1,
         ease: "power2.out",
       });
 
-      // Move trailing dots
       dotRefs.current.forEach((dot, i) => {
+        if (!dot) return;
+        const dotWidth = dot.offsetWidth || 0;
+        const dotHeight = dot.offsetHeight || 0;
+
         gsap.to(dot, {
-          x: clientX - dot.offsetWidth / 2,
-          y: clientY - dot.offsetHeight / 2,
+          x: clientX - dotWidth / 2,
+          y: clientY - dotHeight / 2,
           duration: 0.2 + i * 0.05,
           ease: "linear",
         });
@@ -46,46 +51,34 @@ export default function CustomCursor() {
     };
   }, []);
 
-  // --- 2. Interactive Hover Effect ---
+  // --- Interactive Hover Effect ---
   useEffect(() => {
     const cursor = cursorRef.current;
     if (!cursor) return;
 
-    const interactiveElements = document.querySelectorAll<
-      HTMLAnchorElement | HTMLButtonElement | HTMLElement
-    >(".interactive-hover, a, button");
+    const interactiveElements = document.querySelectorAll<HTMLElement>(
+      ".interactive-hover, a, button"
+    );
 
-    const cleanup: (() => void)[] = [];
+    const enter = () =>
+      gsap.to(cursor, { scale: 1.8, duration: 0.3, ease: "power2.out" });
+
+    const leave = () =>
+      gsap.to(cursor, { scale: 1, duration: 0.3, ease: "power2.out" });
 
     interactiveElements.forEach((el) => {
-      const handleMouseEnter = () => {
-        gsap.to(cursor, {
-          scale: 1.8,
-          duration: 0.3,
-          ease: "power2.out",
-        });
-      };
-      const handleMouseLeave = () => {
-        gsap.to(cursor, {
-          scale: 1,
-          duration: 0.3,
-          ease: "power2.out",
-        });
-      };
-
-      el.addEventListener("mouseenter", handleMouseEnter);
-      el.addEventListener("mouseleave", handleMouseLeave);
-
-      cleanup.push(() => {
-        el.removeEventListener("mouseenter", handleMouseEnter);
-        el.removeEventListener("mouseleave", handleMouseLeave);
-      });
+      el.addEventListener("mouseenter", enter);
+      el.addEventListener("mouseleave", leave);
     });
 
-    return () => cleanup.forEach((fn) => fn());
+    return () =>
+      interactiveElements.forEach((el) => {
+        el.removeEventListener("mouseenter", enter);
+        el.removeEventListener("mouseleave", leave);
+      });
   }, []);
 
-  // --- Component Styles ---
+  // --- Component ---
   const cursorStyle =
     "fixed top-0 left-0 rounded-full pointer-events-none z-[9999] will-change-transform";
 
@@ -95,7 +88,9 @@ export default function CustomCursor() {
       {[...Array(TRAIL_DOTS_COUNT)].map((_, i) => (
         <div
           key={i}
-          ref={(el) => (dotRefs.current[i] = el!)}
+          ref={(el) => {
+            if (el) dotRefs.current[i] = el;
+          }}
           className={`${cursorStyle} w-3 h-3 bg-[var(--terminalBlue)]`}
           style={{ opacity: 1 - i * 0.2, transform: "translate(-50%, -50%)" }}
         />

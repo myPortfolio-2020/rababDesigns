@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={openSans.className}>
-        {/* <CustomCursor /> the one which is used */}
+        <CustomCursor />
 
         <div className="container mx-auto relative">
           {/* 🔹 Only show this on Home */}
