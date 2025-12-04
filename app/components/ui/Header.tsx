@@ -17,14 +17,14 @@ const Header = () => {
 
   return (
     <>
-      <div className="sticky top-0 w-full z-50 headerBg xl:h-[120px] h-[210px]">
-        <div className="flex xl:flex-row flex-col xl:justify-center justify-items-start items-center xl:gap-x-5 h-[74px]">
+      <div className="sticky top-0 w-full z-50 headerBg xl:h-[120px] h-[170px]">
+        <div className="flex xl:flex-row flex-col xl:justify-center xl:items-center xl:gap-x-5 h-[74px]">
           {routes.map((item) => {
             const isActive = pathname === item.href;
             return (
               <div
                 key={item.id}
-                className="xl:border-none border border-[#a3e2ef] xl:pl-0 pl-6"
+                className="xl:border-0 border-b-1 border-b-[var(--terminalBlue)] xl:pl-0 pl-6"
               >
                 <div>
                   <Link
