@@ -15,7 +15,7 @@ export default function CustomCursor() {
 
     dotRefs.current = dotRefs.current.slice(0, TRAIL_DOTS_COUNT);
 
-    const moveCursor = (e: MouseEvent) => {
+    const moveCursor = (e: React.MouseEvent<HTMLDivElement>) => {
       const { clientX, clientY } = e;
 
       // Move main cursor
