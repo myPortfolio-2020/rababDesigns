@@ -5,6 +5,9 @@ import { TrainHightlight } from "../../animation/TrainHighlight";
 const Transit = () => {
   const trainRef = useRef<HTMLDivElement | null>(null);
   useEffect(() => {
+    if (trainRef.current) {
+      TrainHightlight(trainRef.current);
+    }
     TrainHightlight(trainRef.current);
   });
 
