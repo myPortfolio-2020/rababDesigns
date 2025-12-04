@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import interests from "./../../../lib/data/interests.json";
 
 const Interests = () => {
