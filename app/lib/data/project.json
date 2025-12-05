@@ -4,7 +4,7 @@
       "id": "project-01",
       "title": "The Right Assists",
       "tagLine": "Dispatch and CRM System",
-      "description": "This System is designed as a comprehensive and modular software solution to support non-emergency medical transportation services. It operates within the context of the broader healthcare and transportation ecosystem, facilitating the seamless coordination of transportation services for patients. The system comprises various components, modules, and external interfaces to fulfill its objectives.",
+      "description": "This Systemis a multi-tenant SaaS platform designed to bridge the gap between healthcare providers, transportation coordinators, drivers, and patients. The system replaces fragmented, manual scheduling processes with a unified digital ecosystem that handles trip booking, insurance verification, fleet management, and real-time tracking.",
       "titleImages": "/assets/projects/TRA-Project.png",
        "mobileView": "/assets/projects/tra/mobileView.png",
       "myRole": [

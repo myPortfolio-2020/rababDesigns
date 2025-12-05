@@ -268,14 +268,14 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
               return (
                 <div
                   key={index}
-                  className="w-full relative h-[auto] xl:w-[49%] border border-[var(--supportingColorBlue)] p-3"
+                  className="w-full relative h-[auto] xl:w-[25%] border border-[var(--supportingColorBlue)] p-3  transition-transform duration-300 hover:scale-106 hover:z-20"
                 >
                   <Image
                     src={wireframe}
                     alt=""
                     width={1940}
                     height={1767}
-                    className="w-full h-auto object-cover transition-transform duration-300 hover:scale-110 hover:z-20"
+                    className="w-full h-auto object-cover"
                   />
                 </div>
               );
