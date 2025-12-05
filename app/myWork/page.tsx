@@ -34,8 +34,8 @@ const myWork = () => {
                     <Image
                       src={titleImages}
                       alt="Responsive image"
-                      width={800}
-                      height={600}
+                      width={1440}
+                      height={1024}
                       className="rounded-lg"
                       layout="responsive"
                     />
