@@ -263,7 +263,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           <div className="mb-4  bg-[var(--supportingColorBlue)] rounded w-max p-2">
             wireframes and flow
           </div>
-          <div className="flex flex-col xl:flex-row xl:flex-wrap gap-12">
+          <div className="flex flex-col xl:flex-row xl:flex-wrap gap-6">
             {wireframes?.map((wireframe, index) => {
               return (
                 <div
