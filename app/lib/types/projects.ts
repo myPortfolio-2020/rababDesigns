@@ -55,7 +55,7 @@ export interface Project {
   persona: Persona;
   wireframes: string[];
   styleGuide: StyleGuide;
-  finalDesign: string[];
+  finalDesign: FinalDesign[]; // <-- array of objects
   sketchImages: string[];
 }
 
@@ -88,4 +88,8 @@ export interface Typography {
 
 export interface ProjectsData {
   projects: Project[];
+}
+export interface FinalDesign {
+  image: string;
+  caption: string;
 }

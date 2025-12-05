@@ -79,7 +79,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
         </div>
         <div className="mt-10 mb-10 flex xl:flex-row flex-col justify-between  gap-40">
           <div className="flex-1">
-            <div className="mb-4  bg-[var(--supportingColorBlue)] rounded w-max p-2">
+            <div className="mb-10  bg-[var(--supportingColorBlue)] rounded w-max p-2">
               My Role
             </div>
             <div className=" leading-[27px]">
@@ -100,7 +100,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
             </div>
           </div>
           <div className="flex-1">
-            <div className="flex justify-between mb-4 ">
+            <div className="flex justify-between mb-10 ">
               <div className=" bg-[var(--supportingColorBlue)] rounded w-max p-2">
                 Timeline
               </div>
@@ -126,7 +126,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
             </div>
           </div>
           <div className="flex-1 ">
-            <div className="mb-4  bg-[var(--supportingColorBlue)] rounded w-max p-2 ">
+            <div className="mb-10  bg-[var(--supportingColorBlue)] rounded w-max p-2 ">
               Challenges
             </div>
             <div className=" leading-[27px]">
@@ -175,7 +175,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
           <div>{goal}</div>
         </div>
-        <div className="mt-10 mb-4   bg-[var(--supportingColorBlue)] rounded w-max p-2">
+        <div className="mt-10 mb-10   bg-[var(--supportingColorBlue)] rounded w-max p-2">
           Persona
         </div>
         <div className="flex xl:flex-row flex-col justify-between gap-20">
@@ -260,15 +260,15 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </div>
         <div className="mt-10 mb-10">
-          <div className="mb-4  bg-[var(--supportingColorBlue)] rounded w-max p-2">
+          <div className="mb-10  bg-[var(--supportingColorBlue)] rounded w-max p-2">
             wireframes and flow
           </div>
-          <div className="flex flex-col xl:flex-row xl:flex-wrap gap-6">
+          <div className="flex flex-col xl:flex-row xl:flex-wrap gap-8">
             {wireframes?.map((wireframe, index) => {
               return (
                 <div
                   key={index}
-                  className="w-full relative h-[auto] xl:w-[25%] border border-[var(--supportingColorBlue)] p-3  transition-transform duration-300 hover:scale-106 hover:z-20"
+                  className="w-full relative h-[auto] xl:w-[20%] border border-[var(--supportingColorBlue)] p-3  transition-transform duration-300 hover:scale-106 hover:z-20"
                 >
                   <Image
                     src={wireframe}
@@ -284,7 +284,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
         </div>
 
         <div className="mt-10 mb-10">
-          <div className="mb-4  bg-[var(--supportingColorBlue)] rounded w-max p-2">
+          <div className="mb-10  bg-[var(--supportingColorBlue)] rounded w-max p-2">
             Style Guides
           </div>
           <div className="flex xl:flex-row flex-col flex-wrap gap-20 mt-6">
@@ -339,33 +339,37 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </div>
         <div className="mt-10 mb-10">
-          <div className="mb-4  bg-[var(--supportingColorBlue)] rounded w-max p-2">
+          <div className="mb-10  bg-[var(--supportingColorBlue)] rounded w-max p-2">
             Final Screens
           </div>
           <div className="flex flex-col xl:flex-row xl:flex-wrap gap-8">
             {finalDesign?.map((design, index) => {
+              const { image, caption } = design;
               return (
-                <div
-                  key={index}
-                  className="w-full relative h-[auto] xl:w-[48%] border border-[var(--supportingColorBlue)] p-3"
-                >
-                  <Image
-                    src={design}
-                    alt=""
-                    width={1940}
-                    height={1767}
-                    className="w-full h-auto object-cover transition-transform duration-300 hover:scale-110"
-                  />
-                </div>
+                <>
+                  <div
+                    key={index}
+                    className="w-full relative h-[auto] xl:w-[20%] border border-[var(--supportingColorBlue)] p-3  transition-transform duration-300 hover:scale-110"
+                  >
+                    <Image
+                      src={image}
+                      alt=""
+                      width={1940}
+                      height={1767}
+                      className="w-full h-auto object-cover"
+                    />
+                    <div className="text-sm pt-2">{caption}</div>
+                  </div>
+                </>
               );
             })}
           </div>
         </div>
         <div className="mt-10 mb-10">
-          <div className="mb-4  bg-[var(--supportingColorBlue)] rounded w-max p-2">
+          <div className="mb-10  bg-[var(--supportingColorBlue)] rounded w-max p-2">
             Logos
           </div>
-          <div>sad</div>
+          <div>logos</div>
         </div>
       </div>
     </>

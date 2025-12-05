@@ -83,15 +83,14 @@
           "Graphs"
         ]
       },
-      "finalDesign": [
-        "/assets/projects/tra/01.png",
-        "/assets/projects/tra/02.png",
-        "/assets/projects/tra/03.png",
-        "/assets/projects/tra/04.png",
-        "/assets/projects/tra/05.png",
-        "/assets/projects/tra/06.png",
-        "/assets/projects/tra/07.png"
-      ],
+        "finalDesign": [
+          {"caption": "captions comes here" , "image" : "/assets/projects/tra/01.png"},
+             {"caption": "cap comes here" , "image" : "/assets/projects/tra/02.png"},
+                {"caption": "cap comes here" , "image" : "/assets/projects/tra/03.png"},
+                   {"caption": "cap comes here" , "image" : "/assets/projects/tra/04.png"},
+                      {"caption": "cap comes here" , "image" : "/assets/projects/tra/05.png"}
+        ],
+
       "logo": {
         "images": [
           "/images/projects/pills-app/sketch1.jpg",
@@ -184,10 +183,12 @@
         ]
       },
       "finalDesign": [
-        "/images/projects/pills-app/final/final1.png",
-        "/images/projects/pills-app/final/final2.png",
-        "/images/projects/pills-app/final/final3.png"
-      ],
+          {"caption": "captions comes here" , "image" : "/assets/projects/tra/01.png"},
+             {"caption": "cap comes here" , "image" : "/assets/projects/tra/02.png"},
+                {"caption": "cap comes here" , "image" : "/assets/projects/tra/03.png"},
+                   {"caption": "cap comes here" , "image" : "/assets/projects/tra/04.png"},
+                      {"caption": "cap comes here" , "image" : "/assets/projects/tra/05.png"}
+        ],
       "logo": {
         "images": [
           "/images/projects/pills-app/sketch1.jpg",
@@ -280,10 +281,12 @@
         ]
       },
       "finalDesign": [
-        "/images/projects/pills-app/final/final1.png",
-        "/images/projects/pills-app/final/final2.png",
-        "/images/projects/pills-app/final/final3.png"
-      ],
+          {"caption": "captions comes here" , "image" : "/assets/projects/tra/01.png"},
+             {"caption": "cap comes here" , "image" : "/assets/projects/tra/02.png"},
+                {"caption": "cap comes here" , "image" : "/assets/projects/tra/03.png"},
+                   {"caption": "cap comes here" , "image" : "/assets/projects/tra/04.png"},
+                      {"caption": "cap comes here" , "image" : "/assets/projects/tra/05.png"}
+        ],
       "logo": {
         "images": [
           "/images/projects/pills-app/sketch1.jpg",
@@ -375,10 +378,12 @@
         ]
       },
       "finalDesign": [
-        "/images/projects/pills-app/final/final1.png",
-        "/images/projects/pills-app/final/final2.png",
-        "/images/projects/pills-app/final/final3.png"
-      ],
+          {"caption": "captions comes here" , "image" : "/assets/projects/tra/01.png"},
+             {"caption": "cap comes here" , "image" : "/assets/projects/tra/02.png"},
+                {"caption": "cap comes here" , "image" : "/assets/projects/tra/03.png"},
+                   {"caption": "cap comes here" , "image" : "/assets/projects/tra/04.png"},
+                      {"caption": "cap comes here" , "image" : "/assets/projects/tra/05.png"}
+        ],
       "logo": {
         "images": [
           "/images/projects/pills-app/sketch1.jpg",
@@ -393,3 +398,6 @@
     }
   ]
 }
+
+
+
