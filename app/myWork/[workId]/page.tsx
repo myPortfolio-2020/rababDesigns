@@ -64,13 +64,15 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           ) : null}
         </div>
         <div className="mt-10 mb-10">
-          <Image
-            src={mobileView}
-            alt="mobile view"
-            width={1200}
-            height={600}
-            className="transition-transform duration-300 hover:scale-110"
-          />
+          {mobileView && (
+            <Image
+              src={mobileView}
+              alt="mobile view"
+              width={1200}
+              height={600}
+              className="transition-transform duration-300 hover:scale-110"
+            />
+          )}
           <div className="w-max mx-auto mt-4 pt-2 pb-2 pl-4 pr-4 rounded bg-[var(--topTerminal)]">
             View all
           </div>
