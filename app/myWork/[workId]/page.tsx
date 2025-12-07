@@ -173,7 +173,14 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           <div className="mb-4  bg-[var(--supportingColorBlue)] rounded w-max p-2">
             Goals
           </div>
-          <div>{goal}</div>
+
+          {goal?.map((goal, index) => {
+            return (
+              <div key={index}>
+                <div>{goal}</div>
+              </div>
+            );
+          })}
         </div>
         <div className="mt-10 mb-10   bg-[var(--supportingColorBlue)] rounded w-max p-2">
           Persona
@@ -346,21 +353,19 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
             {finalDesign?.map((design, index) => {
               const { image, caption } = design;
               return (
-                <>
-                  <div
-                    key={index}
-                    className="w-full relative h-[auto] xl:w-[20%] border border-[var(--supportingColorBlue)] p-3  transition-transform duration-300 hover:scale-110"
-                  >
-                    <Image
-                      src={image}
-                      alt=""
-                      width={1940}
-                      height={1767}
-                      className="w-full h-auto object-cover"
-                    />
-                    <div className="text-sm pt-2">{caption}</div>
-                  </div>
-                </>
+                <div
+                  key={index}
+                  className="w-full relative h-[auto] xl:w-[20%] border border-[var(--supportingColorBlue)] p-3  transition-transform duration-300 hover:scale-110"
+                >
+                  <Image
+                    src={image}
+                    alt=""
+                    width={1940}
+                    height={1767}
+                    className="w-full h-auto object-cover"
+                  />
+                  <div className="text-sm pt-2">{caption}</div>
+                </div>
               );
             })}
           </div>

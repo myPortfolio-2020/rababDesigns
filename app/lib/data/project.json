@@ -33,7 +33,9 @@
         "Adobe Illustrator",
         "GSAP"
       ],
-      "goal": "To create a seamless, efficient, and reliable digital experience that supports the core business of coordinating patient transportation services, Since the system operates within the healthcare ecosystem, the design must foster trust and reliability among users, patients, and insurance providers.",
+      "goal": [
+        "To create a seamless, efficient, and reliable digital experience that supports the core business of coordinating patient transportation services, Since the system operates within the healthcare ecosystem, the design must foster trust and reliability among users, patients, and insurance providers."
+      ],
       "persona": {
         "name": "Daniel",
         "age": 31,
@@ -133,7 +135,11 @@
         "Adobe Illustrator",
         "GSAP"
       ],
-      "goal": "SkyUp",
+      "goal": [
+        "The primary objective of The UP System was to centralize and automate the critical processes of customer flow, staff assignment, and sales tracking to increase service efficiency and maximize closed deals. ",
+        "Maximize Sales Velocity: Ensure deals are efficiently moved from lead to Done Deal.",
+        "Optimize Staff Utilization: Provide real-time data on staff status - With the client-  On break  -waiting in queue - for immediate operational decisions."
+      ],
       "persona": {
         "name": "SkyUp",
         "age": 31,
@@ -231,7 +237,7 @@
         "Adobe Illustrator",
         "GSAP"
       ],
-      "goal": "SkyUp",
+      "goal": ["SkyUp"],
       "persona": {
         "name": "SkyUp",
         "age": 31,
@@ -328,7 +334,7 @@
         "Figma",
         "Adobe Illustrator"
       ],
-      "goal": "Home Care",
+      "goal": ["Home Care"],
       "persona": {
         "name": "Home Care",
         "age": 31,

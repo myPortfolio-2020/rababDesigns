@@ -8,8 +8,11 @@ export default function CustomCursor() {
   const dotRefs = useRef<HTMLDivElement[]>([]);
   const TRAIL_DOTS_COUNT = 3;
 
-  // --- Cursor Movement ---
+  // --- Cursor Movement + Hide Cursor ---
   useEffect(() => {
+    // Run only on client
+    if (typeof window === "undefined") return;
+
     const cursor = cursorRef.current;
     if (!cursor) return;
 
@@ -42,8 +45,9 @@ export default function CustomCursor() {
       });
     };
 
-    window.addEventListener("mousemove", moveCursor);
+    // Hide native cursor safely after hydration
     document.body.style.cursor = "none";
+    window.addEventListener("mousemove", moveCursor);
 
     return () => {
       window.removeEventListener("mousemove", moveCursor);
@@ -53,6 +57,8 @@ export default function CustomCursor() {
 
   // --- Interactive Hover Effect ---
   useEffect(() => {
+    if (typeof window === "undefined") return;
+
     const cursor = cursorRef.current;
     if (!cursor) return;
 
@@ -78,7 +84,7 @@ export default function CustomCursor() {
       });
   }, []);
 
-  // --- Component ---
+  // --- Component Rendering ---
   const cursorStyle =
     "fixed top-0 left-0 rounded-full pointer-events-none z-[9999] will-change-transform";
 

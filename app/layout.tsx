@@ -28,15 +28,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={openSans.className}>
-        <CustomCursor />
+        <div id="app-wrapper">
+          <CustomCursor />
 
-        <div className="container mx-auto relative">
-          {/* 🔹 Only show this on Home */}
-          <OnlyHomeContent />
-          <Header />
-          {/* <PageTransition>{children}</PageTransition> */}
-          {children}
-          <Footer />
+          <div className="container mx-auto relative">
+            {/* 🔹 Only show this on Home */}
+            <OnlyHomeContent />
+            <Header />
+            {/* <PageTransition>{children}</PageTransition> */}
+            {children}
+            <Footer />
+          </div>
         </div>
       </body>
     </html>
