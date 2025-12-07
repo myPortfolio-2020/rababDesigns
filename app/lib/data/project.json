@@ -127,8 +127,9 @@
         "SkyUp"
       ],
       "challenges": [
-        "SkyUp",
-        "SkyUp"
+        "Inefficient Customer Handoff: Lack of a unified system to handle the mix of Walk-in Appointments, and Return guests, leading to slow service and confused staff assignments.",
+        "Blind Staff Deployment: Managers lacked real-time visibility into staff availability, making it difficult to decide who is In queue Up Next  or who is best positioned to take a client.",
+        "Sales data, staff activity, and financial outcomes were siloed, making it impossible to produce a single Transaction Report (Revenue Report) or track Total Attended guests"
       ],
       "tools": [
         "Figma",

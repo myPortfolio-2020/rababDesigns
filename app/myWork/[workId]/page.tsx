@@ -177,7 +177,16 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           {goal?.map((goal, index) => {
             return (
               <div key={index}>
-                <div>{goal}</div>
+                <div>
+                  <Image
+                    src="/assets/indentArrowBlue.png"
+                    alt="dot"
+                    width={7}
+                    height={9}
+                    className="inline-block mr-2 mb-1"
+                  />
+                  {goal}
+                </div>
               </div>
             );
           })}
