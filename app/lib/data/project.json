@@ -113,23 +113,28 @@
       "titleImages": "/assets/projects/skyUp.png",
        "mobileView": "/assets/projects/mobileScreen.png",
       "myRole": [
-        "SkyUp",
-        "SkyUp",
-        "SkyUp",
-        "SkyUp"
+        "Conducted user research to understand dealership workflows",
+        "Translated dealership processes into wireframes and system flows",
+        "Designed complete UI layouts including dashboards, terminals, settings, and detail pages",
+        "Defined component structure, iconography, charts, and visual hierarchy",
+        "Collaborated with developers to ensure design consistency and responsiveness"
       ],
       "timeline": {
-        "completionTime": "6 month",
+        "completionTime": "4–6 Weeks",
         "start": "2024-01",
         "end": "2024-04"
       },
       "timelineNotes": [
-        "SkyUp"
+        "Week 1: Discovery, requirement gathering, competitor analysis",
+        "Week 2: User flows, IA, low-fidelity wireframes",
+        "Week 3–4: High-fidelity designs for dashboards, terminals, communication, and reporting",
+        "Week 5: Usability revisions, stakeholder feedback",
+        "Week 6: Final handoff + style guide creation"
       ],
       "challenges": [
-        "Inefficient Customer Handoff: Lack of a unified system to handle the mix of Walk-in Appointments, and Return guests, leading to slow service and confused staff assignments.",
-        "Blind Staff Deployment: Managers lacked real-time visibility into staff availability, making it difficult to decide who is In queue Up Next  or who is best positioned to take a client.",
-        "Sales data, staff activity, and financial outcomes were siloed, making it impossible to produce a single Transaction Report (Revenue Report) or track Total Attended guests"
+        "Ensuring real-time updates didn’t clutter the interface",
+        "Communicating complex dealership workflows (appointments → finance → deal)",
+        "Managing different terminal views (store, finance, service)"
       ],
       "tools": [
         "Figma",
@@ -137,17 +142,20 @@
         "GSAP"
       ],
       "goal": [
-        "The primary objective of The UP System was to centralize and automate the critical processes of customer flow, staff assignment, and sales tracking to increase service efficiency and maximize closed deals. ",
-        "Maximize Sales Velocity: Ensure deals are efficiently moved from lead to Done Deal.",
+        "Track staff status in real-time (break, with client, off today) ",
+        "Monitor customer flow (walk-in, appointments, service visits)",
         "Optimize Staff Utilization: Provide real-time data on staff status - With the client-  On break  -waiting in queue - for immediate operational decisions."
       ],
       "persona": {
-        "name": "SkyUp",
+        "name": "Alex",
         "age": 31,
-        "occupation": "SkyUp",
+        "occupation": "Sales Rep",
         "Problem": [
-          "SkyUp",
-          "SkyUp"
+          "Quick view of queue position",
+          "Track appointments & walk-in guests",
+          "Manage daily tasks with minimum navigation",
+          "Delays in knowing the next client",
+          "Manual updates and miscommunication"
         ],
         "Solution": [
           "SkyUp",
