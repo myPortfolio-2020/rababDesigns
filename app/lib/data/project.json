@@ -158,14 +158,15 @@
           "Manual updates and miscommunication"
         ],
         "Solution": [
-          "SkyUp",
-          "SkyUp",
-          "SkyUp"
+          "A real-time queue indicator placed at the top of Alex’s dashboard. Shows exact queue number, ",
+          "Displays estimated wait time",
+          "Alex can instantly see current, upcoming, and overdue clients",
+          "No need to switch multiple screens"
         ],
         "Result": [
-          "SkyUp",
-          "SkyUp",
-          "SkyUp"
+          "Automatically updates real-time status visible to managers & other reps",
+          "Eliminates miscommunication between departments",
+          "Removes the need for manual updates"
         ]
       },
       "wireframes": [
