@@ -29,7 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={openSans.className}>
         <div id="app-wrapper">
-          <CustomCursor />
+          {/* <CustomCursor /> */}
 
           <div className="container mx-auto relative">
             {/* 🔹 Only show this on Home */}

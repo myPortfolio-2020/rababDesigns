@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <>
       <div className="sticky top-0 w-full z-50 headerBg xl:h-[120px] h-[170px]">
-        <div className="flex xl:flex-row flex-col xl:justify-center xl:items-center xl:gap-x-5 h-[74px]">
+        <div className="flex xl:flex-row flex-col xl:justify-center xl:items-center xl:gap-x-6 h-[74px] tracking-[1px]">
           {routes.map((item) => {
             const isActive = pathname === item.href;
             return (
@@ -30,7 +30,7 @@ const Header = () => {
                   <Link
                     scroll={true}
                     href={`${item.href}`}
-                    className={`text-[19px] p-3 ${
+                    className={`text-[19px]  p-4 ${
                       isActive
                         ? "text-[var(--terminalBlue)]"
                         : "text-[var(--background)]"

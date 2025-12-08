@@ -42,13 +42,13 @@
         "occupation": "Operations Dispatcher",
         "focus": "Accelerating the Billing and Payment Cycle",
         "Problem": [
-          "1. Visual Overload: Map view gets too cluttered with icons and labels, making quick decisions hard.",
-          "I don't have time to chase down drivers. I need to see every car, every job, and every conflict on one screen, right now"
+          "Icons and labels clutter the map view, slowing down quick decisions.",
+          "Not much time to chase drivers. Need everything—cars, jobs, conflicts—in one view, immediately."
         ],
         "Solution": [
-          "Allow the dispatcher to execute critical actions directly from the map or job list via context menus.",
-          "A driver status change (e.g., Arrived or Late), or a new high-priority job received from the Integration Layer.",
-          "Uses only a persistent indicator in a non-disruptive corner of the screen"
+          "Critical actions available via map or job-list context menus.",
+          "Driver status changes or new high-priority jobs from the Integration Layer.",
+          "Displays a small, persistent corner indicator."
         ],
         "Result": [
           "Reduced Miscommunication and Delayed Statuses",
@@ -58,7 +58,7 @@
       },
       "wireframes": [
         "/assets/projects/tra/w1.png",
-        "/assets/projects/tra/w2.png",
+        "/assets/projects/tra/w2.png",          
         "/assets/projects/tra/w3.png"
       ],
       "styleGuide": {

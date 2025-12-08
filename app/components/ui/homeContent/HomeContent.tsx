@@ -8,7 +8,7 @@ const HomeContent = () => {
           <div className="flex xl:flex-row justify-center flex-col xl:items-center">
             <div className="w-full w-1/2">
               <div className="bracketBox">
-                <div className="text-3xl pb-12">Few Lines About Me</div>
+                <div className="text-4xl pb-12">Few Lines About Me</div>
                 <div className="mt-2 text-xl  leading-[36px]">
                   Hi,
                   <span className="text-[var(--supportingColorGreen)] pl-1 pr-1">

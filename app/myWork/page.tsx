@@ -13,16 +13,33 @@ const myWork = () => {
   return (
     <>
       <div className="pages">
-        <div className="flex items-center justify-center h-[319px] mb-30">
+        <div className="w-full h-[calc(100vh-220px)] flex flex-col justify-center items-center">
           <div className="bracketBox1 text-center">
-            <h1 className="text-3xl font-bold">
+            <h1 className="text-4xl font-bold">
               Creating Solutions
               <br />
               That Matter
             </h1>
-            <div className="text-sm mt-2">Projects I’ve Completed</div>
+            <div className="text-sm mt-2 tracking-[6px]">
+              Projects I’ve Completed
+            </div>
+          </div>
+          <div className="mt-10">
+            <Image src="/assets/downArrow.png" alt="" width={28} height={70} />
           </div>
         </div>
+        {/* <div className="flex items-center justify-center h-[319px] mb-30">
+          <div className="bracketBox1 text-center">
+            <h1 className="text-4xl font-bold">
+              Creating Solutions
+              <br />
+              That Matter
+            </h1>
+            <div className="text-sm mt-2 tracking-[6px]">
+              Projects I’ve Completed
+            </div>
+          </div>
+        </div> */}
 
         {projects.projects.map((project) => {
           const { id, title, titleImages, tagLine } = project;
@@ -43,8 +60,8 @@ const myWork = () => {
                 </div>
                 <div className="w-1/4">
                   <div className="text-center mt-10">
-                    <div className="text-3xl">{title}</div>
-                    <div className="text-xl">{tagLine}</div>
+                    <div className="text-4xl mb-3">{title}</div>
+                    <div className="text-sm tracking-[3px]">{tagLine}</div>
                   </div>
                   <div className="mt-10">
                     <div className="bg-[var(--supportingColorGreen)] w-max mx-auto px-4 py-2 rounded text-center text-[var(--background)] mt-6">
