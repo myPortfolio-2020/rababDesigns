@@ -177,14 +177,14 @@
       "styleGuide": {
         "colors": {
           "primary": [
-            "#F9941E",
-            "#D8D8D8"
+            "#3458A4",
+            "#86B543"
           ],
           "secondary": [
-            "#20AAD6",
-            "#6DACB5",
-            "#DD7A7A",
-            "#20D6AA"
+            "#0AB2EC",
+            "#FF8D7C",
+            "#EAEEFF",
+            "#444655"
           ]
         },
         "typography": {
