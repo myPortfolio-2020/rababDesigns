@@ -392,40 +392,32 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
               <div className="pb-3 text-sm uppercase tracking-[12px] text-[var(--foreground)]">
                 Primary Colors
               </div>
-              <div className="flex  items-center gap-12">
+              <div className="flex items-center gap-12">
                 {styleGuide?.colors.primary.map((color, index) => {
                   return (
-                    <div
-                      key={index}
-                      style={{ color: color }}
-                      className="flex items-center gap-6"
-                    >
-                      <div> {color}</div>
+                    <div key={index} style={{ color: color }} className="">
                       <div
-                        className="w-[16px] h-[16px] rounded-tl-[20px] rounded-tr-[20px] rounded-bl-[2px] rounded-br-[20px]"
+                        className="w-[96px] h-[86px] rounded-tl-[20px] rounded-tr-[20px] rounded-bl-[2px] rounded-br-[20px]"
                         style={{ backgroundColor: color }}
                       ></div>
+                      <div className="text-sm pt-4"> {color}</div>
                     </div>
                   );
                 })}
               </div>
-              <div className="mt-24">
+              <div className="mt-10">
                 <div className="pb-3 text-sm uppercase tracking-[12px] text-[var(--foreground)]">
                   Supporting Colors
                 </div>
-                <div className="flex xl:flex-row flex-col justify-between items-center gap-12">
+                <div className="flex xl:flex-row flex-wrap  justify-between items-center gap-12">
                   {styleGuide?.colors.secondary.map((color, index) => {
                     return (
-                      <div
-                        key={index}
-                        style={{ color: color }}
-                        className="flex items-center gap-6"
-                      >
-                        <div> {color}</div>
+                      <div key={index} style={{ color: color }} className="">
                         <div
-                          className="w-[16px] h-[16px] rounded-tl-[20px] rounded-tr-[20px] rounded-bl-[2px] rounded-br-[20px]"
+                          className="w-[96px] h-[86px] rounded-tl-[20px] rounded-tr-[20px] rounded-bl-[2px] rounded-br-[20px]"
                           style={{ backgroundColor: color }}
                         ></div>
+                        <div className="text-sm pt-4"> {color}</div>
                       </div>
                     );
                   })}
@@ -437,7 +429,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
 
         <div className="xl:h-screen xl:w-[80%] h-auto w-full xl:mx-auto">
           <div className="text-4xl pb-12 text-center">Final Screens</div>
-          <div className="flex flex-col xl:flex-row xl:flex-wrap gap-8">
+          <div className="flex flex-col xl:flex-row xl:flex-wrap justify-center gap-8">
             {finalDesign?.map((design, index) => {
               const { image, caption } = design;
               return (
