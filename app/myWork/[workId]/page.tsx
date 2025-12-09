@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import projects from "../../lib/data/project.json";
+import CaseStudySec from "@/app/components/ui/myWorkCom/CaseStudySec";
 
 export async function generateMetadata({
   params,
@@ -76,45 +77,45 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
             />
           )}
         </div>
-
-        <div className="xl:h-screen xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
-          <div className="w-full xl:w-1/3">
-            <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
-              1
-            </div>
-            <div className="flex items-center">
-              <div className="text-sm uppercase tracking-[12px] text-[var(--terminalBlue)]">
-                My Role
+        <CaseStudySec>
+          <div className="bg-amber-100 xl:h-screen xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
+            <div className="w-full xl:w-1/3">
+              <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
+                1
               </div>
-              <Image
-                src="/assets/downArrow2.png"
-                alt=""
-                width={70}
-                height={28}
-              />
+              <div className="flex items-center">
+                <div className="text-sm uppercase tracking-[12px] text-[var(--terminalBlue)]">
+                  My Role
+                </div>
+                <Image
+                  src="/assets/downArrow2.png"
+                  alt=""
+                  width={70}
+                  height={28}
+                />
+              </div>
+            </div>
+            <div className="w-full xl:w-2/3">
+              <div className=" leading-[27px] bracketBox">
+                {myRole?.map((role, index) => {
+                  return (
+                    <div key={index} className="pb-9">
+                      <Image
+                        src="/assets/indentArrowBlue.png"
+                        alt="dot"
+                        width={7}
+                        height={9}
+                        className="inline-block mr-2 mb-1"
+                      />
+                      {role}
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           </div>
-          <div className="w-full xl:w-2/3">
-            <div className=" leading-[27px] bracketBox">
-              {myRole?.map((role, index) => {
-                return (
-                  <div key={index} className="pb-9">
-                    <Image
-                      src="/assets/indentArrowBlue.png"
-                      alt="dot"
-                      width={7}
-                      height={9}
-                      className="inline-block mr-2 mb-1"
-                    />
-                    {role}
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        </div>
-
-        <div className="xl:h-screen xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
+        </CaseStudySec>
+        <div className=" xl:h-screen xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
           <div className="w-full xl:w-1/3">
             <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
               2
