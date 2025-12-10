@@ -4,19 +4,24 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 export const workList = (element: HTMLElement) => {
-  gsap.set(element, { x: "-100%" }); // fixed
+  const comeInElement = element.querySelector(".comeIn");
 
-  gsap.to(element, {
-    x: "10%",
-    duration: 1,
-    ease: "power4.inOut",
-    scrollTrigger: {
-      trigger: element, // ✅ real element, not a string
-      start: "top center",
-      end: "bottom 10%",
-      scrub: true,
-      markers: true,
-      invalidateOnRefresh: true,
-    },
-  });
+  if (!comeInElement) return;
+
+  gsap.fromTo(
+    comeInElement,
+    { x: "-100%" }, // Start position
+    {
+      x: "0%", // End position
+      ease: "power1.out",
+      duration: 0.5,
+      scrollTrigger: {
+        trigger: comeInElement,
+        start: "top 100%",
+        end: "top 50%",
+        scrub: 1,
+        // markers: true,
+      },
+    }
+  );
 };

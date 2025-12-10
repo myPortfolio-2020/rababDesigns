@@ -1,4 +1,5 @@
-import { gsap, ScrollTrigger } from "./gsapSetup";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export function cardPatternAnimation(element: HTMLElement) {
   if (!element) return;
@@ -15,11 +16,14 @@ export function cardPatternAnimation(element: HTMLElement) {
       duration: 2,
       ease: "power4.inOut",
       scrollTrigger: {
-        trigger: ".forPin",
-        start: "center -30%",
+        trigger: "element",
+        // start: "center -30%",
+        // end: "bottom 140%",
+        start: "center -40%",
         end: "bottom 140%",
         scrub: true,
-        pin: true,
+        anticipatePin: 1,
+
         invalidateOnRefresh: true, // ⭐ important fix
       },
     });

@@ -6,7 +6,7 @@ const CaseStudySec = ({ children }: { children: React.ReactNode }) => {
   const aniRef = useRef<HTMLDivElement | null>(null);
   useEffect(() => {
     if (aniRef.current) {
-      workList(aniRef.current.firstElementChild as HTMLElement);
+      workList(aniRef.current as HTMLElement);
     }
   }, []);
   return <div ref={aniRef}>{children}</div>;
