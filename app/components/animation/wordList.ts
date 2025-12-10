@@ -60,11 +60,11 @@ export const workList = (element: HTMLElement) => {
               start: "top 80%",
               end: "top 20%",
               scrub: 0.5,
-              markers: {
-                startColor: "red",
-                endColor: "red",
-                indent: index * 10,
-              }, // Unique marker for each item
+              // markers: {
+              //   startColor: "red",
+              //   endColor: "red",
+              //   indent: index * 10,
+              // }, // Unique marker for each item
             },
           }
         );
@@ -85,11 +85,11 @@ export const workList = (element: HTMLElement) => {
               start: "top bottom",
               end: "center center",
               scrub: 0.5,
-              markers: {
-                startColor: "blue",
-                endColor: "blue",
-                indent: index * 10,
-              }, // Unique marker for each item
+              // markers: {
+              //   startColor: "blue",
+              //   endColor: "blue",
+              //   indent: index * 10,
+              // }, // Unique marker for each item
             },
           }
         );
