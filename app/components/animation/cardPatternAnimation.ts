@@ -13,6 +13,7 @@ export function cardPatternAnimation(element: HTMLElement) {
       // y: 0,
       // rotate: 2,
       // skewX: 1,
+
       duration: 2,
       ease: "power4.inOut",
       scrollTrigger: {

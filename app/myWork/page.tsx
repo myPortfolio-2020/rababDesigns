@@ -54,7 +54,6 @@ const myWork = () => {
                       width={1440}
                       height={1024}
                       className="rounded-lg"
-                      layout="responsive"
                     />
                   </div>
                 </div>
