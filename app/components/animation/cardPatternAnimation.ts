@@ -6,7 +6,7 @@ export function cardPatternAnimation(element: HTMLElement) {
 
   // Create GSAP context (prevents cleanup bugs)
   const ctx = gsap.context(() => {
-    gsap.set(element, { x: "30%" });
+    gsap.set(element, { x: "40%" });
 
     gsap.to(element, {
       x: "-400%",
@@ -16,13 +16,12 @@ export function cardPatternAnimation(element: HTMLElement) {
       duration: 2,
       ease: "power4.inOut",
       scrollTrigger: {
-        trigger: "element",
+        trigger: ".forPin",
         // start: "center -30%",
         // end: "bottom 140%",
         start: "center -40%",
         end: "bottom 140%",
         scrub: true,
-        anticipatePin: 1,
 
         invalidateOnRefresh: true, // ⭐ important fix
       },
