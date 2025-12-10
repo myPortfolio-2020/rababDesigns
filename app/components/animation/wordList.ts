@@ -17,7 +17,9 @@ export const workList = (element: HTMLElement) => {
       duration: 0.5,
       scrollTrigger: {
         trigger: comeInElement,
-        start: "top 100%",
+        // start: "top 100%",
+        // end: "top 50%",
+        start: "top center",
         end: "top 50%",
         scrub: 1,
         // markers: true,
