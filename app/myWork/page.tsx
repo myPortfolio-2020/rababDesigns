@@ -46,7 +46,7 @@ const myWork = () => {
           return (
             <div key={project.id}>
               <div className="flex xl:flex-row flex-col items-center">
-                <div className="w-3/4">
+                <div className="w-full xl:w-3/4">
                   <div className="bracketBox1">
                     <Image
                       src={titleImages}
@@ -58,7 +58,7 @@ const myWork = () => {
                     />
                   </div>
                 </div>
-                <div className="w-1/4">
+                <div className="w-full xl:w-1/4">
                   <div className="text-center mt-10">
                     <div className="text-4xl mb-3">{title}</div>
                     <div className="text-sm tracking-[3px]">{tagLine}</div>
