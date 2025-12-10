@@ -9,7 +9,7 @@ export function cardPatternAnimation(element: HTMLElement) {
     gsap.set(element, { x: "30%" });
 
     gsap.to(element, {
-      x: "-300%",
+      x: "-400%",
       // y: 0,
       // rotate: 2,
       // skewX: 1,
