@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import projects from "../../lib/data/project.json";
 import CaseStudySec from "@/app/components/ui/myWorkCom/CaseStudySec";
+import ImageModal from "@/app/components/ui/myWorkCom/ImageModel";
 
 export async function generateMetadata({
   params,
@@ -317,18 +318,21 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
             </div>
             <div className="w-full xl:w-2/3 flex justify-center">
               <div className="leading-[27px] bracketBox">
-                <div className="flex gap-14">
+                <div className="">
                   {tools?.map((tool, index) => {
                     return (
-                      <div key={index}>
+                      <div
+                        key={index}
+                        className="flex justify-start items-center p-9 mt-2 rounded-2xl bg-[var(--terminalBlue)]"
+                      >
                         <Image
                           src="/assets/indentArrowBlue.png"
                           alt="dot"
                           width={7}
                           height={9}
-                          className="inline-block mr-2 mb-1"
+                          className="object-contain mr-2 mb-1"
                         />
-                        {tool}
+                        <div className="pl-1">{tool}</div>
                       </div>
                     );
                   })}
