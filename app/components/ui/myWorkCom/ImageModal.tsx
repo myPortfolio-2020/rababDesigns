@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect, useCallback } from "react";
-import Image from "next/image";
 
 interface ImageModalProps {
   imageSrc: string;
@@ -75,7 +74,7 @@ const ImageModal: React.FC<ImageModalProps> = ({
         className="min-h-screen w-full flex flex-col items-center justify-start p-16 pt-24"
         onClick={(e) => e.stopPropagation()}
       >
-        <Image
+        <img
           src={imageSrc}
           alt={imageAlt}
           className="w-auto h-auto max-w-none"
