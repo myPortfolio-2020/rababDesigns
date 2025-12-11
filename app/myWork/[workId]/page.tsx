@@ -80,7 +80,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           )}
         </div>
         <CaseStudySec>
-          <div className="comeIn xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
+          <div className="comeIn xl:h-dvh xl:w-[80%] h-auto w-[96%] mx-auto flex xl:flex-row flex-col items-center gap-30">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
                 1
