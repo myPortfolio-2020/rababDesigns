@@ -10,20 +10,13 @@ export function cardPatternAnimation(element: HTMLElement) {
 
     gsap.to(element, {
       x: "-400%",
-      // y: 0,
-      // rotate: 2,
-      // skewX: 1,
-
       duration: 2,
       ease: "power4.inOut",
       scrollTrigger: {
         trigger: ".forPin",
-        // start: "center -30%",
-        // end: "bottom 140%",
         start: "center -40%",
         end: "bottom 140%",
         scrub: true,
-
         invalidateOnRefresh: true, // ⭐ important fix
       },
     });
