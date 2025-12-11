@@ -86,11 +86,12 @@
         ]
       },
         "finalDesign": [
-          {"caption": "this is a one Image" , "image" : "/assets/projects/tra/01.png"},
-          {"caption": "this is 2" , "image" : "/assets/projects/tra/02.png"},
-          {"caption": "this is 3" , "image" : "/assets/projects/tra/03.png"},
-          {"caption": "this is 4" , "image" : "/assets/projects/tra/04.png"},
-          {"caption": "this is 5" , "image" : "/assets/projects/tra/05.png"}
+          {"caption": "Login screen" , "image" : "/assets/projects/tra/01.png"},
+          {"caption": "Dashboard" , "image" : "/assets/projects/tra/02.png"},
+          {"caption": "New user screen" , "image" : "/assets/projects/tra/03.png"},
+          {"caption": "Trip screen" , "image" : "/assets/projects/tra/04.png"},
+          {"caption": "Standing order for trip" , "image" : "/assets/projects/tra/05.png"},
+            {"caption": "Travel history" , "image" : "/assets/projects/tra/07.png"}
         ],
 
       "logo": {
@@ -199,11 +200,11 @@
         ]
       },
       "finalDesign": [
-          {"caption": "upSky1" , "image" : "/assets/projects/tra/01.png"},
-             {"caption": "upSky2" , "image" : "/assets/projects/tra/02.png"},
-                {"caption": "upSky3" , "image" : "/assets/projects/tra/03.png"},
-                   {"caption": "upSky4" , "image" : "/assets/projects/tra/04.png"},
-                      {"caption": "upSky5" , "image" : "/assets/projects/tra/05.png"}
+          {"caption": "upSky1" , "image" : ""},
+             {"caption": "upSky2" , "image" : ""},
+                {"caption": "upSky3" , "image" : ""},
+                   {"caption": "upSky4" , "image" : ""},
+                      {"caption": "upSky5" , "image" : ""}
         ],
       "logo": {
         "images": [
@@ -297,11 +298,11 @@
         ]
       },
       "finalDesign": [
-          {"caption": "captions comes here" , "image" : "/assets/projects/tra/01.png"},
-             {"caption": "cap comes here" , "image" : "/assets/projects/tra/02.png"},
-                {"caption": "cap comes here" , "image" : "/assets/projects/tra/03.png"},
-                   {"caption": "cap comes here" , "image" : "/assets/projects/tra/04.png"},
-                      {"caption": "cap comes here" , "image" : "/assets/projects/tra/05.png"}
+          {"caption": "captions comes here" , "image" : ""},
+             {"caption": "cap comes here" , "image" : ""},
+                {"caption": "cap comes here" , "image" : ""},
+                   {"caption": "cap comes here" , "image" : ""},
+                      {"caption": "cap comes here" , "image" : ""}
         ],
       "logo": {
         "images": [
@@ -394,11 +395,11 @@
         ]
       },
       "finalDesign": [
-          {"caption": "captions comes here" , "image" : "/assets/projects/tra/01.png"},
-             {"caption": "cap comes here" , "image" : "/assets/projects/tra/02.png"},
-                {"caption": "cap comes here" , "image" : "/assets/projects/tra/03.png"},
-                   {"caption": "cap comes here" , "image" : "/assets/projects/tra/04.png"},
-                      {"caption": "cap comes here" , "image" : "/assets/projects/tra/05.png"}
+          {"caption": "captions comes here" , "image" : ""},
+             {"caption": "cap comes here" , "image" : ""},
+                {"caption": "cap comes here" , "image" : ""},
+                   {"caption": "cap comes here" , "image" : ""},
+                      {"caption": "cap comes here" , "image" : ""}
         ],
       "logo": {
         "images": [
