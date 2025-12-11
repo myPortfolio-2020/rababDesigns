@@ -14,9 +14,8 @@ const FinalDesignImages: React.FC<Props> = ({ design }) => {
 
   const { caption, image } = design;
 
-  const handleOpenModal = useCallback((e: React.MouseEvent) => {
-    e.preventDefault();
-    e.stopPropagation();
+  // Simple function with no parameters
+  const handleOpenModal = useCallback(() => {
     setIsModalOpen(true);
   }, []);
 
@@ -24,20 +23,36 @@ const FinalDesignImages: React.FC<Props> = ({ design }) => {
     setIsModalOpen(false);
   }, []);
 
+  // Separate handler for click events - properly typed
+  const handleClick = useCallback(
+    (e: React.MouseEvent<HTMLDivElement>) => {
+      e.preventDefault();
+      e.stopPropagation();
+      handleOpenModal();
+    },
+    [handleOpenModal]
+  );
+
+  // Separate handler for keyboard events - properly typed
+  const handleKeyDown = useCallback(
+    (e: React.KeyboardEvent<HTMLDivElement>) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        handleOpenModal();
+      }
+    },
+    [handleOpenModal]
+  );
+
   return (
     <>
       <div
-        onClick={handleOpenModal}
+        onClick={handleClick}
+        onKeyDown={handleKeyDown}
         className="cursor-pointer group relative select-none transition-transform duration-200 hover:scale-110"
         role="button"
         tabIndex={0}
         aria-label="View image in full screen"
-        onKeyDown={(e) => {
-          if (e.key === "Enter" || e.key === " ") {
-            e.preventDefault();
-            handleOpenModal(e as any);
-          }
-        }}
       >
         <Image
           src={image}
