@@ -20,10 +20,7 @@ const CardPattern = () => {
             <span className="text-2xl">interested in..</span>.
           </h1>
         </div>
-        <div
-          ref={containerRef}
-          className="flex justify-center items-center gap-3"
-        >
+        <div ref={containerRef} className="flex  items-center gap-3">
           <Interests />
         </div>
       </div>
