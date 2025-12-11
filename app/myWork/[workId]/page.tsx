@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import projects from "../../lib/data/project.json";
 import CaseStudySec from "@/app/components/ui/myWorkCom/CaseStudySec";
-import ImageModal from "@/app/components/ui/myWorkCom/ImageModel";
+import ImageModal from "@/app/components/ui/myWorkCom/ImageModal";
 import FinalDesignImages from "@/app/components/ui/myWorkCom/FinalDesignImages";
 
 export async function generateMetadata({
@@ -473,7 +473,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
               return (
                 <div
                   key={index}
-                  className="w-full relative h-[auto] xl:w-[26%] border border-[var(--supportingColorBlue)] p-3  transition-transform duration-300 hover:scale-110"
+                  className="w-full relative h-[auto] xl:w-[26%] border border-[var(--supportingColorBlue)] p-3"
                 >
                   <FinalDesignImages design={design} />
                 </div>

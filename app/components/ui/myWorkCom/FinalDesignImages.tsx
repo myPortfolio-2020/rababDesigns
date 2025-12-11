@@ -1,21 +1,60 @@
-import React from "react";
+"use client";
+
+import React, { useState, useCallback } from "react";
 import Image from "next/image";
 import { FinalDesign } from "@/app/lib/types/projects";
+import ImageModal from "./ImageModal";
 
-const FinalDesignImages = ({ design }: { design: FinalDesign }) => {
+interface Props {
+  design: FinalDesign;
+}
+
+const FinalDesignImages: React.FC<Props> = ({ design }) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   const { caption, image } = design;
+
+  const handleOpenModal = useCallback((e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsModalOpen(true);
+  }, []);
+
+  const handleCloseModal = useCallback(() => {
+    setIsModalOpen(false);
+  }, []);
+
   return (
     <>
-      <div>
+      <div
+        onClick={handleOpenModal}
+        className="cursor-pointer group relative select-none transition-transform duration-200 hover:scale-110"
+        role="button"
+        tabIndex={0}
+        aria-label="View image in full screen"
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            handleOpenModal(e as any);
+          }
+        }}
+      >
         <Image
           src={image}
-          alt=""
+          alt={caption || "Design Image"}
           width={1940}
           height={1767}
           className="w-full h-auto object-cover"
         />
-        <div className="text-sm pt-2">{caption}</div>
+        {caption && <div className="text-sm pt-2">{caption}</div>}
       </div>
+
+      <ImageModal
+        imageSrc={image}
+        imageAlt={caption || ""}
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+      />
     </>
   );
 };
