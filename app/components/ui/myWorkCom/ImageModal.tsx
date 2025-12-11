@@ -63,7 +63,7 @@ const ImageModal: React.FC<ImageModalProps> = ({
     >
       <button
         onClick={handleCloseClick}
-        className="fixed top-4 right-4 z-[10000] text-white text-5xl leading-none w-14 h-14 flex items-center justify-center rounded-full bg-black bg-opacity-50 hover:bg-white hover:bg-opacity-20 transition-colors duration-200"
+        className="fixed top-4 right-4 z-[10000] text-[var(--terminalBlue)] text-5xl leading-none w-14 h-14 flex items-center justify-center rounded-full bg-black bg-opacity-50 hover:bg-white hover:bg-opacity-20 transition-colors duration-200"
         aria-label="Close modal"
         type="button"
       >
