@@ -22,7 +22,7 @@ const OnlyHomeContent = () => {
             <div className=" flex justify-center lg:h-[400px] lg:justify-start items-center pl-20 w-full xl:w-1/2 order-2 lg:order-1">
               <TopLogo />
             </div>
-            <div className="w-full xl:w-1/2 order-1 lg:order-2 xl:pr-0 xl:pl-0 pr-5 pl-5">
+            <div className="w-full xl:w-1/2 order-1 lg:order-2 xl:pr-0 xl:pl-0 xl:pr-5 xl:pl-5 pr-1 pl:1">
               <TopBoard />
             </div>
           </div>

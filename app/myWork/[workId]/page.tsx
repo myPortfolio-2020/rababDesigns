@@ -3,6 +3,7 @@ import React from "react";
 import projects from "../../lib/data/project.json";
 import CaseStudySec from "@/app/components/ui/myWorkCom/CaseStudySec";
 import ImageModal from "@/app/components/ui/myWorkCom/ImageModel";
+import FinalDesignImages from "@/app/components/ui/myWorkCom/FinalDesignImages";
 
 export async function generateMetadata({
   params,
@@ -79,7 +80,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           )}
         </div>
         <CaseStudySec>
-          <div className="comeIn xl:h-screen xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
+          <div className="comeIn xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
                 1
@@ -117,7 +118,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-screen xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
+          <div className="comeIn xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
                 2
@@ -159,7 +160,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-screen xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
+          <div className="comeIn xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
                 3
@@ -198,7 +199,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-screen xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
+          <div className="comeIn xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
                 4
@@ -221,7 +222,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-screen xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
+          <div className="comeIn xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
                 5
@@ -299,7 +300,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-screen xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
+          <div className="comeIn xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
                 6
@@ -342,7 +343,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-screen xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
+          <div className="comeIn xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
                 7
@@ -382,7 +383,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-screen xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
+          <div className="comeIn xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
                 8
@@ -439,7 +440,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
             </div>
           </div>
         </CaseStudySec>
-        <div className="xl:h-screen xl:w-[80%] h-auto w-full xl:mx-auto">
+        {/* <div className="xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto">
           <div className="text-4xl pb-12 text-center">Final Screens</div>
           <div className="flex flex-col xl:flex-row xl:flex-wrap justify-center gap-8">
             {finalDesign?.map((design, index) => {
@@ -461,13 +462,24 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
               );
             })}
           </div>
-        </div>
+        </div> */}
 
-        <div className="mt-10 mb-10">
-          <div className="mb-10  bg-[var(--supportingColorBlue)] rounded w-max p-2">
-            Logos
+        {/* this is the work for thumbnail this is the work --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
+
+        <div className="xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto">
+          <div className="text-4xl pb-12 text-center">Final Screens</div>
+          <div className="flex flex-col xl:flex-row xl:flex-wrap justify-center gap-8">
+            {finalDesign?.map((design, index) => {
+              return (
+                <div
+                  key={index}
+                  className="w-full relative h-[auto] xl:w-[26%] border border-[var(--supportingColorBlue)] p-3  transition-transform duration-300 hover:scale-110"
+                >
+                  <FinalDesignImages design={design} />
+                </div>
+              );
+            })}
           </div>
-          <div>logos</div>
         </div>
       </div>
     </>

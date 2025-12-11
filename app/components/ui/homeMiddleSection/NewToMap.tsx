@@ -13,7 +13,7 @@ const NewToMap = () => {
     <>
       <div
         ref={containerRef}
-        className="newToMap w-[260px] xl:ml-[200px] ml-[43%] xl:pt-39 pt-[120px]"
+        className="newToMap w-[260px] xl:ml-[200px] ml-[38%] xl:pt-39 pt-[120px]"
       >
         <div className="text-4xl pb-4">
           <span>Just new</span>

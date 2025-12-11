@@ -11,7 +11,7 @@ const HomeContent = () => {
                 <div className="text-4xl pb-12">Few Lines About Me</div>
                 <div className="mt-2 text-xl  leading-[36px]">
                   Hi,
-                  <span className="text-[var(--supportingColorGreen)] pl-1 pr-1">
+                  <span className="text-[var(--supportingColorGreen)] xl:pl-1 xl:pr-1">
                     I’m Rabab,
                   </span>
                   a senior web and mobile designer crafting seamless and
