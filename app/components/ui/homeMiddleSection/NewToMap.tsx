@@ -28,7 +28,7 @@ const NewToMap = () => {
           A journey of continuous learning, evolving passions, and purposeful
           impact.
         </div>
-        <div>
+        <div className="animate-bounce">
           <Image src="/assets/downArrow.png" alt="" width={28} height={70} />
         </div>
       </div>

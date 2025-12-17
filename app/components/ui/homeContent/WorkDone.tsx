@@ -15,7 +15,7 @@ const WorkDone = () => {
       ref={shape1}
       className="shape1 relative bg-[#fff] border-24 border-[#EEEEEE] rounded w-[80%] xl:mx-0 mx-auto min-h-[360px]"
     >
-      <div className="absolute bottom-[-12px] right-[-62px] p-3 rounded rotate-[-34deg] overflow-auto bg-[var(--supportingColorGreen)] z-10 text-[var(--background)]">
+      <div className="absolute bottom-[-12px] right-[-62px] p-3 rounded rotate-[-34deg] overflow-auto bg-[var(--supportingColorGreen)] z-10 text-[var(--background)] animate-bounce">
         Desktop & Mobile
       </div>
 

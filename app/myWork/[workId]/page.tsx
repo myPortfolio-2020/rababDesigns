@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 import projects from "../../lib/data/project.json";
 import CaseStudySec from "@/app/components/ui/myWorkCom/CaseStudySec";
-import ImageModal from "@/app/components/ui/myWorkCom/ImageModal";
 import FinalDesignImages from "@/app/components/ui/myWorkCom/FinalDesignImages";
 
 export async function generateMetadata({
@@ -422,7 +421,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
                   <div className="pb-3 text-sm uppercase tracking-[12px] text-[var(--foreground)]">
                     Supporting Colors
                   </div>
-                  <div className="flex xl:flex-row flex-wrap  justify-between items-center gap-12">
+                  <div className="flex xl:flex-row flex-wrap  justify-between items-center xl:gap-12 gap-6">
                     {styleGuide?.colors.secondary.map((color, index) => {
                       return (
                         <div key={index} style={{ color: color }} className="">

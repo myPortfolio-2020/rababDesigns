@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { poleAnimation } from "../../animation/poleAnimation";
+import Image from "next/image";
 
 const Pole = () => {
   const poleRef = useRef<HTMLDivElement | null>(null);
@@ -30,11 +31,18 @@ const Pole = () => {
           >
             <div className="xl:w-[400px] h-[669px]  w-full xl:pt-20 pt-10 pl-6 z-20">
               <div className="flex items-center gap-2">
-                <div className="w-12 h-12 mt-5 bg-[var(--supportingColorGreen)] rounded-full flex items-center justify-center">
-                  <div className="w-3 h-3 border-t-2 border-l-2 border-black rotate-45"></div>
+                <div className="w-12 h-12 mt-5 bg-[var(--supportingColorGreen)] rounded-full flex items-center justify-center animate-pulse animate-spin">
+                  <div className="rotate-45">
+                    <Image
+                      src="/assets/spin.png"
+                      alt=""
+                      width="12"
+                      height="11"
+                    />
+                  </div>
                 </div>
 
-                <div className="bg-[var(--supportingColorGreen)] p-4 rounded-md -rotate-6 text-black font-semibold tracking-wide text-sm z-20">
+                <div className="bg-[var(--supportingColorGreen)] p-4 rounded-md -rotate-6 text-black font-semibold tracking-wide text-sm z-20 ">
                   NEW IN A TOWN
                 </div>
               </div>

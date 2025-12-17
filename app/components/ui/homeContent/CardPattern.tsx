@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { cardPatternAnimation } from "./../../animation/cardPatternAnimation";
-import Image from "next/image";
+
 import Interests from "./Interests";
 
 const CardPattern = () => {
@@ -8,21 +8,22 @@ const CardPattern = () => {
 
   useEffect(() => {
     if (!containerRef.current) return;
-    cardPatternAnimation(containerRef.current);
+    const cleanup = cardPatternAnimation(containerRef.current, 150); // move 150px
+    return cleanup; // cleanup on unmount
   }, []);
   return (
     <>
-      <div className="forPin h-[110vh] overflow-hidden">
-        <div className="pt-[80px] pl-[70px] pb-[19px]">
-          <h1>
-            <span className="text-3xl">Deeply </span>
-            <br />
-            <span className="text-2xl">interested in..</span>.
-          </h1>
+      <div className="down pt-[80px] pl-[70px] pb-[19px]">
+        <div className="text-3xl">
+          Deeply
+          <br />
+          <span className="text-2xl">
+            interested in <span className="tracking-[6px]">...</span>
+          </span>
         </div>
-        <div ref={containerRef} className="flex  items-center gap-3">
-          <Interests />
-        </div>
+      </div>
+      <div>
+        <Interests />
       </div>
     </>
   );

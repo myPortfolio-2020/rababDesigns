@@ -1,30 +1,31 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-export function cardPatternAnimation(element: HTMLElement) {
+export function cardPatternAnimation(
+  element: HTMLElement,
+  distance: number = 100
+) {
   if (!element) return;
 
-  // Create GSAP context (prevents cleanup bugs)
+  // Create GSAP context (prevents cleanup issues)
   const ctx = gsap.context(() => {
-    gsap.set(element, { x: "40%" });
-
     gsap.to(element, {
-      x: "-400%",
-      duration: 2,
-      ease: "power4.inOut",
+      y: distance, // move down by `distance` px
+      ease: "power1.out", // smooth easing
       scrollTrigger: {
-        trigger: ".forPin",
-        start: "center -40%",
-        end: "bottom 140%",
-        scrub: true,
-        invalidateOnRefresh: true, // ⭐ important fix
+        trigger: element,
+        start: "top bottom", // start when top of element hits bottom of viewport
+        end: "bottom top", // end when bottom of element hits top of viewport
+        scrub: true, // moves element along with scroll
+        markers: false, // set true if you want debug markers
+        invalidateOnRefresh: true,
       },
     });
   }, element);
 
-  // Return a cleanup function to kill ScrollTrigger when component unmounts
+  // Return cleanup function
   return () => {
-    ctx.revert(); // kills animations safely
+    ctx.revert();
     ScrollTrigger.refresh();
   };
 }
