@@ -12,10 +12,13 @@ const AxIntro = () => {
             </div>
           </div>
           <div className="text-[13px] leading-[24px] pb-6">
-            AI Agent interface called &quot;AX Agent.&quot; It is designed to
-            manage and monitor autonomous or semi-autonomous AI tasks,
-            specifically focused on a Research Agent in this instance. The
-            interface allows a user to provide a prompt, watch the AI
+            AI Agent interface called &quot;AX Agent.&quot;
+            <span className="bg-[#23647b]">
+              It is designed to manage and monitor autonomous or semi-autonomous
+              AI tasks, specifically focused on a Research Agent in this
+              instance.
+            </span>
+            The interface allows a user to provide a prompt, watch the AI
             &quot;reason&quot; through the problem, and then execute a plan
             using various digital tools.
           </div>
