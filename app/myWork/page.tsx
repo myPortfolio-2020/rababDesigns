@@ -24,7 +24,7 @@ const myWork = () => {
               Projects I’ve Completed
             </div>
           </div>
-          <div className="mt-10">
+          <div className="mt-10 animate-bounce">
             <Image src="/assets/downArrow.png" alt="" width={28} height={70} />
           </div>
         </div>
