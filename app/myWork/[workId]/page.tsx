@@ -79,13 +79,13 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           )}
         </div>
         <CaseStudySec>
-          <div className="comeIn xl:h-dvh xl:w-[80%] h-auto w-[96%] mx-auto flex xl:flex-row flex-col items-center gap-30">
+          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-[96%] mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl mb-8">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
                 1
               </div>
               <div className="flex items-center">
-                <div className="text-sm uppercase tracking-[12px] text-[var(--terminalBlue)]">
+                <div className="text-3xl uppercase tracking-[12px] text-[var(--terminalBlue)]">
                   My Role
                 </div>
                 <Image
@@ -117,13 +117,13 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
+          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl  mb-8">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
                 2
               </div>
               <div className="flex items-center">
-                <div className="text-sm uppercase tracking-[12px] text-[var(--terminalBlue)]">
+                <div className="text-3xl uppercase tracking-[12px] text-[var(--terminalBlue)]">
                   Timeline
                 </div>
 
@@ -159,13 +159,13 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
+          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl  mb-8">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
                 3
               </div>
               <div className="flex items-center">
-                <div className="text-sm uppercase tracking-[12px] text-[var(--terminalBlue)]">
+                <div className="text-3xl uppercase tracking-[12px] text-[var(--terminalBlue)]">
                   Challenges
                 </div>
                 <Image
@@ -198,13 +198,13 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
+          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl  mb-8">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
                 4
               </div>
               <div className="flex items-center">
-                <div className="text-sm uppercase tracking-[12px] text-[var(--terminalBlue)]">
+                <div className="text-3xl uppercase tracking-[12px] text-[var(--terminalBlue)]">
                   Goals
                 </div>
                 <Image
@@ -221,13 +221,13 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
+          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl  mb-8">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
                 5
               </div>
               <div className="flex items-center">
-                <div className="text-sm uppercase tracking-[12px] text-[var(--terminalBlue)]">
+                <div className="text-3xl uppercase tracking-[12px] text-[var(--terminalBlue)]">
                   Persona
                 </div>
                 <Image
@@ -299,13 +299,13 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
+          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl  mb-8">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
                 6
               </div>
               <div className="flex items-center">
-                <div className="text-sm uppercase tracking-[12px] text-[var(--terminalBlue)]">
+                <div className="text-3xl uppercase tracking-[12px] text-[var(--terminalBlue)]">
                   Tools
                 </div>
                 <Image
@@ -342,13 +342,13 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
+          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-[96%] mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl mb-8">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
                 7
               </div>
               <div className="flex items-center">
-                <div className="text-sm uppercase tracking-[12px] text-[var(--terminalBlue)]">
+                <div className="text-3xl uppercase tracking-[12px] text-[var(--terminalBlue)]">
                   WireFrames
                 </div>
                 <Image
@@ -365,7 +365,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
                   return (
                     <div
                       key={index}
-                      className="w-full relative h-[auto] xl:w-[46%] border border-[var(--supportingColorBlue)] p-3  transition-transform duration-300 hover:scale-106 hover:z-20"
+                      className="w-full relative h-[auto] xl:w-[46%] border border-[var(--foreground)] p-3  transition-transform duration-300 hover:scale-106 hover:z-20"
                     >
                       <Image
                         src={wireframe}
@@ -382,13 +382,13 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30">
+          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-[96%] mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl mb-8">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center">
                 8
               </div>
               <div className="flex items-center">
-                <div className="text-sm uppercase tracking-[12px] text-[var(--terminalBlue)]">
+                <div className="text-3xl uppercase tracking-[12px] text-[var(--terminalBlue)]">
                   Style guide
                 </div>
                 <Image
@@ -401,7 +401,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
             </div>
             <div className="w-full xl:w-2/3">
               <div>
-                <div className="pb-3 text-sm uppercase tracking-[12px] text-[var(--foreground)]">
+                <div className="pb-3 text-sm uppercase tracking-[12px] text-[var(--background)]">
                   Primary Colors
                 </div>
                 <div className="flex items-center gap-12">
@@ -418,10 +418,10 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
                   })}
                 </div>
                 <div className="mt-10">
-                  <div className="pb-3 text-sm uppercase tracking-[12px] text-[var(--foreground)]">
+                  <div className="pb-3 text-sm uppercase tracking-[12px] text-[var(--background)]">
                     Supporting Colors
                   </div>
-                  <div className="flex xl:flex-row flex-wrap  justify-between items-center xl:gap-12 gap-6">
+                  <div className="flex xl:flex-row flex-wrap items-center xl:gap-12 gap-6">
                     {styleGuide?.colors.secondary.map((color, index) => {
                       return (
                         <div key={index} style={{ color: color }} className="">
