@@ -3,7 +3,7 @@ import React from "react";
 import projects from "../../lib/data/project.json";
 import CaseStudySec from "@/app/components/ui/myWorkCom/CaseStudySec";
 import FinalDesignImages from "@/app/components/ui/myWorkCom/FinalDesignImages";
-import notFound from "./not-found";
+import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
   return projects.projects.map((project) => ({
