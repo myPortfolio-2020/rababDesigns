@@ -3,22 +3,28 @@ import React from "react";
 import projects from "../../lib/data/project.json";
 import CaseStudySec from "@/app/components/ui/myWorkCom/CaseStudySec";
 import FinalDesignImages from "@/app/components/ui/myWorkCom/FinalDesignImages";
+import notFound from "./not-found";
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ workId?: string }>;
-}) {
-  const { workId } = await params;
+export async function generateStaticParams() {
+  return projects.projects.map((project) => ({
+    workId: project.id,
+  }));
+}
+
+export function generateMetadata({ params }: { params: { workId?: string } }) {
+  const { workId } = params;
   return {
     title: `My work - ${workId}`,
   };
 }
 
-const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
-  const { workId } = await params;
+const page = ({ params }: { params: { workId?: string } }) => {
+  const { workId } = params;
 
   const project = projects.projects.find((p) => p.id === workId);
+  if (!project) {
+    notFound();
+  }
 
   const {
     title,
