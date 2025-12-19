@@ -119,7 +119,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
         <CaseStudySec>
           <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl  mb-8">
             <div className="w-full xl:w-1/3">
-              <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center text-[var(--foreground)">
+              <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center  text-[var(--foreground)]">
                 2
               </div>
               <div className="flex items-center">
@@ -161,7 +161,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
         <CaseStudySec>
           <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl  mb-8">
             <div className="w-full xl:w-1/3">
-              <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center text-[var(--foreground)">
+              <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center  text-[var(--foreground)]">
                 3
               </div>
               <div className="flex items-center">
@@ -200,7 +200,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
         <CaseStudySec>
           <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl  mb-8">
             <div className="w-full xl:w-1/3">
-              <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center text-[var(--foreground)">
+              <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center  text-[var(--foreground)]">
                 4
               </div>
               <div className="flex items-center">
@@ -223,7 +223,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
         <CaseStudySec>
           <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl  mb-8">
             <div className="w-full xl:w-1/3">
-              <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center text-[var(--foreground)">
+              <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center  text-[var(--foreground)]">
                 5
               </div>
               <div className="flex items-center">
@@ -301,7 +301,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
         <CaseStudySec>
           <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl  mb-8">
             <div className="w-full xl:w-1/3">
-              <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center text-[var(--foreground)">
+              <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center  text-[var(--foreground)]">
                 6
               </div>
               <div className="flex items-center">
@@ -332,7 +332,9 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
                           height={9}
                           className="object-contain mr-2 mb-1"
                         />
-                        <div className="pl-1">{tool}</div>
+                        <div className="pl-1  text-[var(--foreground)]">
+                          {tool}
+                        </div>
                       </div>
                     );
                   })}
@@ -344,7 +346,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
         <CaseStudySec>
           <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-[96%] mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl mb-8">
             <div className="w-full xl:w-1/3">
-              <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center text-[var(--foreground)">
+              <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center  text-[var(--foreground)]">
                 7
               </div>
               <div className="flex items-center">
@@ -384,7 +386,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
         <CaseStudySec>
           <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-[96%] mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl mb-8">
             <div className="w-full xl:w-1/3">
-              <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center text-[var(--foreground)">
+              <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center  text-[var(--foreground)]">
                 8
               </div>
               <div className="flex items-center">
