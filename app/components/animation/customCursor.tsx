@@ -86,7 +86,7 @@ export default function CustomCursor() {
 
   // --- Component Rendering ---
   const cursorStyle =
-    "fixed top-0 left-0 rounded-full pointer-events-none z-[9999] will-change-transform";
+    "fixed top-0 left-0 rounded-full  z-[9999] will-change-transform";
 
   return (
     <>
