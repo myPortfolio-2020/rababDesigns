@@ -11,15 +11,19 @@ export async function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }: { params: { workId?: string } }) {
-  const { workId } = params;
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ workId?: string }>;
+}) {
+  const { workId } = await params;
   return {
     title: `My work - ${workId}`,
   };
 }
 
-const page = ({ params }: { params: { workId?: string } }) => {
-  const { workId } = params;
+const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
+  const { workId } = await params;
 
   const project = projects.projects.find((p) => p.id === workId);
   if (!project) {
