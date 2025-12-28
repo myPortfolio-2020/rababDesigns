@@ -26,7 +26,7 @@ const Header = () => {
                 key={item.id}
                 className="xl:border-0 border-b-1 border-b-[var(--terminalBlue)] xl:pl-0 pl-6"
               >
-                <div>
+                <div className="bg-[#e4e9ec] p-3">
                   <Link
                     scroll={true}
                     href={`${item.href}`}
