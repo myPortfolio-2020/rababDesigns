@@ -43,7 +43,7 @@ const Pole = () => {
                 </div>
 
                 <div className="bg-[var(--supportingColorGreen)] p-4 rounded-md -rotate-6 text-black font-semibold tracking-wide text-sm z-20 ">
-                  NEW IN A TOWN
+                  UI/UX/FrontEnd Developer
                 </div>
               </div>
             </div>
