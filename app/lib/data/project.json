@@ -200,8 +200,8 @@
         ]
       },
       "finalDesign": [
-          {"caption": "upSky1" , "image" : ""},
-             {"caption": "upSky2" , "image" : ""},
+          {"caption": "Admin Dashboard" , "image" : "/assets/projects/skyUp/02.png"},
+   
                 {"caption": "upSky3" , "image" : ""},
                    {"caption": "upSky4" , "image" : ""},
                       {"caption": "upSky5" , "image" : ""}
