@@ -202,9 +202,7 @@
       "finalDesign": [
           {"caption": "Admin Dashboard" , "image" : "/assets/projects/skyUp/02.png"},
    
-                {"caption": "upSky3" , "image" : ""},
-                   {"caption": "upSky4" , "image" : ""},
-                      {"caption": "upSky5" , "image" : ""}
+                {"caption": "Task Management" , "image" : "/assets/projects/skyUp/03.png"}           
         ],
       "logo": {
         "images": [
