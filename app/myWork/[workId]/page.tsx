@@ -477,7 +477,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
 
         {/* this is the work for thumbnail this is the work --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
 
-        <div className="xl:h-dvh xl:w-[80%] h-auto w-full xl:mx-auto">
+        <div className=" xl:w-[80%] h-auto w-full xl:mx-auto">
           <div className="text-4xl pb-12 text-center">Final Screens</div>
           <div className="flex flex-col xl:flex-row xl:flex-wrap justify-center gap-8">
             {finalDesign?.map((design, index) => {

@@ -112,7 +112,7 @@
       "tagLine": "Managing business through effective time management & accountability",
       "description": "A comprehensive multi-tenant SaaS platform designed to optimize sales floor operations, staff management, and transaction reporting for dealerships and service-oriented businesses",
       "titleImages": "/assets/projects/skyUp.png",
-       "mobileView": "/assets/projects/mobileScreen.png",
+       "mobileView": "",
       "myRole": [
         "Conducted user research to understand dealership workflows",
         "Translated dealership processes into wireframes and system flows",
@@ -171,9 +171,7 @@
         ]
       },
       "wireframes": [
-        "/images/projects/pills-app/wireframes/wirefrdsame1.png",
-        "/images/projects/pills-app/wireframes/wirefrsdame2.png",
-        "/images/projects/pills-app/wireframes/wirefsdrame3.png"
+ 
       ],
       "styleGuide": {
         "colors": {
@@ -222,12 +220,10 @@
       "tagLine": "Billing Software - Desktop & Mobile",
       "description": "Medifusion",
       "titleImages": "/assets/projects/bellmedex.png",
-       "mobileView": "/assets/projects/mobileScreen.png",
+       "mobileView": "",
       "myRole": [
-        "SkyUp",
-        "SkyUp",
-        "SkyUp",
-        "SkyUp"
+        "Medifusion"
+   
       ],
       "timeline": {
         "completionTime": "6 month",
@@ -235,41 +231,34 @@
         "end": "2024-04"
       },
       "timelineNotes": [
-        "SkyUp"
+        "Medifusion"
       ],
       "challenges": [
-        "SkyUp",
-        "SkyUp"
+        "Medifusion",
+        "Medifusion"
       ],
       "tools": [
         "Figma",
         "Adobe Illustrator",
         "GSAP"
       ],
-      "goal": ["SkyUp"],
+      "goal": [""],
       "persona": {
-        "name": "SkyUp",
+        "name": "",
         "age": 31,
-        "occupation": "SkyUp",
+        "occupation": "",
         "Problem": [
-          "SkyUp",
-          "SkyUp"
+         
         ],
         "Solution": [
-          "SkyUp",
-          "SkyUp",
-          "SkyUp"
+        
         ],
         "Result": [
-          "SkyUp",
-          "SkyUp",
-          "SkyUp"
+         
         ]
       },
       "wireframes": [
-        "/assets/projects/tra/w1.png",
-        "/assets/projects/tra/w2.png",
-        "/assets/projects/tra/w3.png"
+        ""
       ],
       "styleGuide": {
         "colors": {
@@ -285,8 +274,8 @@
           ]
         },
         "typography": {
-          "heading": "Jost",
-          "body": "Jost Medium"
+          "heading": "",
+          "body": ""
         },
         "components": [
           "Buttons",
@@ -296,21 +285,17 @@
         ]
       },
       "finalDesign": [
-          {"caption": "captions comes here" , "image" : ""},
-             {"caption": "cap comes here" , "image" : ""},
-                {"caption": "cap comes here" , "image" : ""},
-                   {"caption": "cap comes here" , "image" : ""},
-                      {"caption": "cap comes here" , "image" : ""}
+          {"caption": "" , "image" : ""}
         ],
       "logo": {
         "images": [
-          "/images/projects/pills-app/sketch1.jpg",
-          "/images/projects/pills-app/sketch1.jpg"
+          "",
+          ""
         ],
         "shades": [],
         "LogoTypo": {
-          "heading": "Inter Bold",
-          "body": "Inter Regular"
+          "heading": "",
+          "body": ""
         }
       }
     },
@@ -322,10 +307,8 @@
       "titleImages": "/assets/projects/homeCare.png",
        "mobileView": "/assets/projects/mobileScreen.png",
       "myRole": [
-        "Home Care",
-        "Home Care",
-        "Home Care",
-        "Home Care"
+        "",
+        ""
       ],
       "timeline": {
         "completionTime": "6 month",
@@ -336,8 +319,8 @@
         "Home Care"
       ],
       "challenges": [
-        "Home Care",
-        "Home Care"
+        "Challenge 1",
+        "Challenge 2"
       ],
       "tools": [
         "Figma",
@@ -349,41 +332,39 @@
         "age": 31,
         "occupation": "Home Care",
         "Problem": [
-          "SkyUp",
-          "SkyUp"
+          "Home Care",
+          "Home Care"
         ],
         "Solution": [
-          "SkyUp",
-          "SkyUp",
-          "SkyUp"
+          "Home Care",
+          "Home Care",
+          "Home Care"
         ],
         "Result": [
-          "SkyUp",
-          "SkyUp",
-          "SkyUp"
+          "Home Care",
+          "Home Care",
+          "Home Care"
         ]
       },
       "wireframes": [
-        "/images/projects/pills-app/wireframes/wireframe1.png",
-        "/images/projects/pills-app/wireframes/wireframe2.png",
-        "/images/projects/pills-app/wireframes/wireframe3.png"
+        ""
       ],
       "styleGuide": {
         "colors": {
           "primary": [
-            "#F9941E",
-            "#D8D8D8"
+            "#0094BE",
+            "#1BB9E6"
           ],
           "secondary": [
-            "#20AAD6",
-            "#6DACB5",
-            "#DD7A7A",
-            "#20D6AA"
+            "#1BB9E6",
+            "#FB2F6C",
+            "#59EA4C",
+            "#C5EFEC"
           ]
         },
         "typography": {
-          "heading": "Jost",
-          "body": "Jost Medium"
+          "heading": "",
+          "body": ""
         },
         "components": [
           "Buttons",
@@ -393,11 +374,19 @@
         ]
       },
       "finalDesign": [
-          {"caption": "captions comes here" , "image" : ""},
-             {"caption": "cap comes here" , "image" : ""},
-                {"caption": "cap comes here" , "image" : ""},
-                   {"caption": "cap comes here" , "image" : ""},
-                      {"caption": "cap comes here" , "image" : ""}
+          {"caption": "Splash Screen" , "image" : "/assets/projects/homeCare/splash.png"},
+          {"caption": "Register Screen" , "image" : "/assets/projects/homeCare/Register.png"},
+          {"caption": "VerificationCode" , "image" : "/assets/projects/homeCare/VerificationCode.png"},
+          {"caption": "Login" , "image" : "/assets/projects/homeCare/Login.png"},
+          {"caption": "Home Screen" , "image" : "/assets/projects/homeCare/MainScreen.png"},
+          {"caption": "Create A Patient" , "image" : "/assets/projects/homeCare/CreateAPatient.png"},
+          {"caption": "Be An Attendant" , "image" : "/assets/projects/homeCare/BeAnAttendant.png"},
+          {"caption": "Find A Patient" , "image" : "/assets/projects/homeCare/FindAPatient.png"},
+          {"caption": "Find An Attendant" , "image" : "/assets/projects/homeCare/FindAttendant.png"},
+          {"caption": "Need Services For Patient Tab #1" , "image" : "/assets/projects/homeCare/NeedServicesForPatient__Tab01.png"},
+          {"caption": "Need Services For Patient Tab #2" , "image" : "/assets/projects/homeCare/NeedServicesForPatientTab02.png"},
+          {"caption": "Need Services For Patient Tab #3" , "image" : "/assets/projects/homeCare/NeedServicesForPatientTab03.png"}
+
         ],
       "logo": {
         "images": [
