@@ -35,6 +35,12 @@ body {
   font-family: var(--font-sans);
   overflow-x: hidden;
 }
+/*  */
+@layer components {
+  .myResumeContent {
+    @apply block w-full text-sm leading-6 px-1 py-6 border-b border-[var(--lineStroke)];
+  }
+}
 
 /* css shapes */
 .trapezoid {
@@ -209,6 +215,15 @@ body {
 .pages {
   width: 100%;
   max-width: 1288px;
+  height: auto;
+  padding: 10px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+}
+.resume {
+  width: 100%;
+  max-width: 991px;
   height: auto;
   padding: 10px;
   margin: 40px auto;

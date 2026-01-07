@@ -126,7 +126,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
               <div className=" leading-[27px] bracketBox">
                 {myRole?.map((role, index) => {
                   return (
-                    <div key={index} className="pb-9">
+                    <div key={index} className="pb-4">
                       <Image
                         src="/assets/indentArrowBlue.png"
                         alt="dot"
@@ -168,7 +168,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
               <div className=" leading-[27px] bracketBox">
                 {timelineNotes?.map((timeline, index) => {
                   return (
-                    <div key={index} className="pb-9">
+                    <div key={index} className="pb-4">
                       <Image
                         src="/assets/indentArrowBlue.png"
                         alt="dot"
@@ -206,7 +206,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
               <div className=" leading-[27px] bracketBox">
                 {challenges?.map((challenge, index) => {
                   return (
-                    <div key={index} className="pb-9">
+                    <div key={index} className="pb-4">
                       <Image
                         src="/assets/indentArrowBlue.png"
                         alt="dot"
@@ -245,7 +245,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
               <div className=" leading-[27px] bracketBox">
                 {goal?.map((goal, index) => {
                   return (
-                    <div key={index} className="pb-9">
+                    <div key={index} className="pb-4">
                       <Image
                         src="/assets/indentArrowBlue.png"
                         alt="dot"
