@@ -90,7 +90,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
                 loop
                 muted
                 playsInline
-                controls={false}
+                controls={true}
                 className="w-full max-w-[1200px] rounded-xl transition-transform duration-300 hover:scale-105"
               />
             ) : (
