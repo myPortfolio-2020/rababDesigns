@@ -69,10 +69,16 @@ const myWork = () => {
                   </div>
                   <div className="mt-10 flex flex-wrap justify-center gap-3">
                     {tags?.map((tag, index) => {
+                      const isPersonalProject = tag === "Personal Project";
+
                       return (
                         <div
                           key={index}
-                          className="text-[12px] bg-[var(--terminalBlue)] rounded-2xl pr-2 pl-2"
+                          className={`text-[12px] rounded-2xl pr-2 pl-2 ${
+                            isPersonalProject
+                              ? "bg-green-500" // green for Industry Project
+                              : "bg-[var(--terminalBlue)]" // blue for others
+                          }`}
                         >
                           {tag}
                         </div>
