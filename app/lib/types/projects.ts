@@ -3,6 +3,7 @@ export interface Project {
   title: string;
   description: string;
   myRole: string[];
+  tags: string[];
   timeline: Timeline;
   timelineNotes: string[];
   tools: string[];

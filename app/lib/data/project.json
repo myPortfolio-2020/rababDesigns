@@ -7,6 +7,7 @@
       "description": "This Systemis a multi-tenant SaaS platform designed to bridge the gap between healthcare providers, transportation coordinators, drivers, and patients. The system replaces fragmented, manual scheduling processes with a unified digital ecosystem that handles trip booking, insurance verification, fleet management, and real-time tracking.",
       "titleImages": "/assets/projects/TRA-Project.png",
        "mobileView": "/assets/projects/tra/mobileView.png",
+       "tags":["Industry Project","UI Design", "Responsive","Mobile app", "Web App","Interaction Design","Wireframes"],
       "myRole": [
         "Build a clear, professional design system for healthcare: palette, typography, icons.",
         "Build low-fi wires and prototypes to test workflows pre-development.",
@@ -113,6 +114,8 @@
       "description": "A comprehensive multi-tenant SaaS platform designed to optimize sales floor operations, staff management, and transaction reporting for dealerships and service-oriented businesses",
       "titleImages": "/assets/projects/skyUp.png",
        "mobileView": "",
+      "tags":["Industry Project","UI/UX Design", "Responsive","Mobile app", "Web App","Interaction Design","Wireframes"],
+
       "myRole": [
         "Conducted user research to understand dealership workflows",
         "Translated dealership processes into wireframes and system flows",
@@ -214,13 +217,140 @@
         }
       }
     },
-    {
+      {
       "id": "project-03",
+      "title": "Own Wall",
+      "tagLine": "Simple Solution",
+      "description": "It is a web-based education platform designed to strengthen collaboration between students, teachers, and parents by centralizing academic activities, personal growth, and communication into a single system. Unlike traditional school portals that focus only on grades and attendance, Roots Academy introduces a student-centric experience where learners can express themselves, help peers, and build confidence — while parents and teachers stay informed and connected.",
+      "titleImages": "/assets/projects/ownWall.png",
+       "mobileView": "/assets/projects/ownWall/SMS_AppointmentVideo03.mp4",
+              "tags":["Personal Project","UI/UX Design", "Responsive", "Web App","Wireframes"],
+
+      "myRole": [
+   "Solo UI/UX Designer & Product Thinker"  ,
+   "I was responsible for:",
+   "Ideation & concept development",
+    "UX flows for Students, Teachers, and Parents",
+     "Wireframing and high-fidelity UI design",
+      "Thinking through real-world constraints (children, parents, time, safety)",
+      "This project was fully self-initiated — from idea to execution."
+   
+      ],
+      "timeline": {
+        "completionTime": "1 month",
+        "start": "",
+        "end": ""
+      },
+      "timelineNotes": [
+        "The timeline was flexible, but I worked within self-imposed milestones to simulate real project constraints."
+      ],
+      "challenges": [
+        "Students → playful, expressive, motivating and had to use simple language for children",
+        "Parents → informative, trustworthy",
+        "Teachers → structured, efficient",
+       "Car Pooling UX Complexity - Availability & capacity - while keeping it simple for parents was challenging but rewarding"
+       
+      ],
+      "tools": [
+        "Figma",
+        "Adobe Illustrator"
+       
+      ],
+      "goal": [
+             "Create a safe digital space where students can learn, share, and grow",
+        "Improve communication between students, teachers, and parents",
+        "Allow parents to monitor progress without micromanaging",
+        "Reduce daily stress for parents through car pooling support" ,
+        "Simple, friendly interface suitable for children",
+        "Encourage participation rather than passive usage"
+      ],
+      "persona": {
+        "name": "",
+        "age": 31,
+        "occupation": "",
+        "Problem": [
+         
+        ],
+        "Solution": [
+        
+        ],
+        "Result": [
+         
+        ]
+      },
+      "wireframes": [
+        ""
+      ],
+      "styleGuide": {
+        "colors": {
+          "primary": [
+            "#00C2FF",
+            "#E9F6FF"
+          ],
+          "secondary": [
+            "#06D6A0",
+            "#FDDA1F",
+            "#00EBBA",
+            "#3D4756"
+          ]
+        },
+        "typography": {
+          "heading": "",
+          "body": ""
+        },
+        "components": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "finalDesign": [
+          {"caption": "Home" , "image" : "/assets/projects/ownWall/Home.png"},
+        
+          {"caption": "Login as a child" , "image" : "/assets/projects/ownWall/Login.png"},
+          {"caption": "Register As a Child" , "image" : "/assets/projects/ownWall/RegisterAsChild.png"},
+          {"caption": "Ready To Login" , "image" : "/assets/projects/ownWall/Ready__To__Login.png"},
+          {"caption": "Child's Screen AboutMe" , "image" : "/assets/projects/ownWall/CS_AboutMe.png"},
+          {"caption": "Child's Screen My Parents" , "image" : "/assets/projects/ownWall/CS_MyParents.png"},
+          {"caption": "Child's Screen Siblings" , "image" : "/assets/projects/ownWall/CS_siblings.png"},
+          {"caption": "Child's Screen Previous School" , "image" : "/assets/projects/ownWall/CS_PreviousSchool.png"},
+          {"caption": "Child's Screen Nutration" , "image" : "/assets/projects/ownWall/CS_Nutration.png"},
+          {"caption": "MyWall For Me" , "image" : "/assets/projects/ownWall/MyWall__ForMe.png"},
+          {"caption": "Share Wall For All" , "image" : "/assets/projects/ownWall/ShareWall__ForAll.png"},        
+          {"caption": "Create Album" , "image" : "/assets/projects/ownWall/CreateAlbum.png"},
+          {"caption": "MyWall Album" , "image" : "/assets/projects/ownWall/MyWall__Album.png"},
+           {"caption": "Assigned Task" , "image" : "/assets/projects/ownWall/assignedTask.png"},
+            {"caption": "Task Progress" , "image" : "/assets/projects/ownWall/TaskProgress.png"},
+             {"caption": "Spelling Test" , "image" : "/assets/projects/ownWall/SpellingTest.png"},
+          {"caption": "myAssistanceList" , "image" : "/assets/projects/ownWall/myAssistanceList.png"},
+            {"caption": "SearchByGradeOrKid" , "image" : "/assets/projects/ownWall/SearchByGradeOrKid.png"},
+          {"caption": "Search By Kid" , "image" : "/assets/projects/ownWall/searchByKid.png"},
+          {"caption": "Search By Kid's Grade" , "image" : "/assets/projects/ownWall/SearchByKidGrade.png"},
+          {"caption": "Kids Wall List" , "image" : "/assets/projects/ownWall/KidsWallList.png"},
+          {"caption": "CarPooling" , "image" : "/assets/projects/ownWall/CarPooling.png"}
+        ],
+      "logo": {
+        "images": [
+          "",
+          ""
+        ],
+        "shades": [],
+        "LogoTypo": {
+          "heading": "",
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": "project-04",
       "title": "Medifusion",
       "tagLine": "Billing Software - Desktop & Mobile",
       "description": "Medifusion",
       "titleImages": "/assets/projects/bellmedex.png",
        "mobileView": "",
+              "tags":["Industry Project","UI/UX Design", "Responsive", "Web App","Wireframes"],
+
       "myRole": [
         "Medifusion"
    
@@ -300,12 +430,14 @@
       }
     },
     {
-      "id": "project-04",
+      "id": "project-05",
       "title": "Home Care",
       "tagLine": "Pills reminder & medication management app",
       "description": "Home Care",
       "titleImages": "/assets/projects/homeCare.png",
        "mobileView": "/assets/projects/mobileScreen.png",
+                "tags":["Personal Project","UI/UX Design", "Mobile app", "Interaction Design","Wireframes"],
+
       "myRole": [
         "",
         ""

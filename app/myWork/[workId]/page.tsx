@@ -5,6 +5,10 @@ import CaseStudySec from "@/app/components/ui/myWorkCom/CaseStudySec";
 import FinalDesignImages from "@/app/components/ui/myWorkCom/FinalDesignImages";
 import { notFound } from "next/navigation";
 
+const isVideo = (src?: string) => {
+  return src?.toLowerCase().endsWith(".mp4");
+};
+
 export async function generateStaticParams() {
   return projects.projects.map((project) => ({
     workId: project.id,
@@ -78,16 +82,28 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           ) : null}
         </div>
         <div className="mt-10 mb-10">
-          {mobileView && (
-            <Image
-              src={mobileView}
-              alt="mobile view"
-              width={1200}
-              height={600}
-              className="transition-transform duration-300 hover:scale-110"
-            />
-          )}
+          {mobileView &&
+            (isVideo(mobileView) ? (
+              <video
+                src={mobileView}
+                autoPlay
+                loop
+                muted
+                playsInline
+                controls={false}
+                className="w-full max-w-[1200px] rounded-xl transition-transform duration-300 hover:scale-105"
+              />
+            ) : (
+              <Image
+                src={mobileView}
+                alt="mobile view"
+                width={1200}
+                height={600}
+                className="transition-transform duration-300 hover:scale-110"
+              />
+            ))}
         </div>
+
         <CaseStudySec>
           <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-[96%] mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl mb-8">
             <div className="w-full xl:w-1/3">
@@ -226,7 +242,22 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
               </div>
             </div>
             <div className="w-full xl:w-2/3">
-              <div className=" leading-[27px] bracketBox">{goal}</div>
+              <div className=" leading-[27px] bracketBox">
+                {goal?.map((goal, index) => {
+                  return (
+                    <div key={index} className="pb-9">
+                      <Image
+                        src="/assets/indentArrowBlue.png"
+                        alt="dot"
+                        width={7}
+                        height={9}
+                        className="inline-block mr-2 mb-1"
+                      />
+                      {goal}
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </CaseStudySec>

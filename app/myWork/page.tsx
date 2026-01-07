@@ -42,7 +42,7 @@ const myWork = () => {
         </div> */}
 
         {projects.projects.map((project) => {
-          const { id, title, titleImages, tagLine } = project;
+          const { id, title, titleImages, tagLine, tags } = project;
           return (
             <div key={project.id}>
               <div className="flex xl:flex-row flex-col items-center">
@@ -66,6 +66,18 @@ const myWork = () => {
                     <div className="bg-[var(--supportingColorGreen)] w-max mx-auto px-4 py-2 rounded text-center text-[var(--background)] mt-6">
                       <Link href={`/myWork/${id}`}>Case study</Link>
                     </div>
+                  </div>
+                  <div className="mt-10 flex flex-wrap justify-center gap-3">
+                    {tags?.map((tag, index) => {
+                      return (
+                        <div
+                          key={index}
+                          className="text-[12px] bg-[var(--terminalBlue)] rounded-2xl pr-2 pl-2"
+                        >
+                          {tag}
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
               </div>
