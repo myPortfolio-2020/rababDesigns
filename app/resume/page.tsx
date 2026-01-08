@@ -76,7 +76,7 @@ const resume = () => {
                       <li>ChatGPT</li>
                       <li>Copilot</li>
                       <li>Gemini AI Studio</li>
-                      <li>Claude AI</li>
+                      <li>Windsurf</li>
                     </ul>
                   </div>
                 </div>
