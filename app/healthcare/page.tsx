@@ -1,6 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import Rcm from "../components/ui/healthcare/Rcm";
+import Dashboards from "../components/ui/healthcare/Dashboards";
+import Scheduling from "../components/ui/healthcare/Scheduling";
+import Pms from "../components/ui/healthcare/Pms";
+import Ehr from "../components/ui/healthcare/Ehr";
 
 const page = () => {
   const tabStyles =
@@ -35,30 +40,42 @@ const page = () => {
             </div>
           </div>
         </div>
-        <Tabs defaultValue="ehr" activationMode="automatic">
-          <TabsList className="mx-auto w-fit">
-            <TabsTrigger value="ehr" className={tabStyles}>
-              EHR / EMR
-            </TabsTrigger>
-            <TabsTrigger value="pms" className={tabStyles}>
-              PMS
-            </TabsTrigger>
-            <TabsTrigger value="rcm" className={tabStyles}>
-              RCM
-            </TabsTrigger>
-            <TabsTrigger value="dashboards" className={tabStyles}>
-              Dashboard
-            </TabsTrigger>
-            <TabsTrigger value="scheduling" className={tabStyles}>
-              Scheduling
-            </TabsTrigger>
-          </TabsList>
-          <TabsContent value="ehr">ehr</TabsContent>
-          <TabsContent value="pms">PMS</TabsContent>
-          <TabsContent value="rcm">RCM</TabsContent>
-          <TabsContent value="dashboards">Dashboard</TabsContent>
-          <TabsContent value="scheduling">Scheduling</TabsContent>
-        </Tabs>
+        <div className="xl:ml-14 xl:mr-14 ml-0 mr-0">
+          <Tabs defaultValue="ehr" activationMode="automatic">
+            <TabsList className="mx-auto w-[80%]">
+              <TabsTrigger value="dashboards" className={tabStyles}>
+                Dashboard
+              </TabsTrigger>
+              <TabsTrigger value="scheduling" className={tabStyles}>
+                Scheduling
+              </TabsTrigger>
+              <TabsTrigger value="ehr" className={tabStyles}>
+                EHR / EMR
+              </TabsTrigger>
+              <TabsTrigger value="pms" className={tabStyles}>
+                PMS
+              </TabsTrigger>
+              <TabsTrigger value="rcm" className={tabStyles}>
+                RCM
+              </TabsTrigger>
+            </TabsList>
+            <TabsContent value="ehr">
+              <Ehr />
+            </TabsContent>
+            <TabsContent value="pms">
+              <Pms />
+            </TabsContent>
+            <TabsContent value="rcm">
+              <Rcm />
+            </TabsContent>
+            <TabsContent value="dashboards">
+              <Dashboards />
+            </TabsContent>
+            <TabsContent value="scheduling">
+              <Scheduling />
+            </TabsContent>
+          </Tabs>
+        </div>
       </div>
     </>
   );
