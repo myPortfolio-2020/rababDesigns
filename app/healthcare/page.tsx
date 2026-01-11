@@ -41,7 +41,7 @@ const page = () => {
           </div>
         </div>
         <div className="xl:ml-14 xl:mr-14 ml-0 mr-0">
-          <Tabs defaultValue="ehr" activationMode="automatic">
+          <Tabs defaultValue="rcm" activationMode="automatic">
             <TabsList className="mx-auto xl:w-[80%] w-[99%]">
               <TabsTrigger value="dashboards" className={tabStyles}>
                 Dashboard
