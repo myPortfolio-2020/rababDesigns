@@ -33,7 +33,9 @@ const TopBoard = () => {
                   Let’s Work Together...
                 </div>
                 <div className="text-sm bg-[var(--sharpRed)] pl-2 pr-2 rounded-2xl">
-                  rabab_imman@hotmail.com
+                  <a href="mailto:rabab_imman@hotmail.com">
+                    rabab_imman@hotmail.com
+                  </a>
                 </div>
               </div>
             </div>
