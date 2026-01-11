@@ -17,20 +17,20 @@ const Header = () => {
 
   return (
     <>
-      <div className="sticky top-0 w-full z-50 headerBg xl:h-[120px] h-[170px]">
+      <div className="sticky top-0 w-full z-50 headerBg xl:h-[120px] h-[180px]">
         <div className="flex xl:flex-row flex-col xl:justify-center xl:items-center xl:gap-x-6 h-[74px] tracking-[1px]">
           {routes.map((item) => {
             const isActive = pathname === item.href;
             return (
               <div
                 key={item.id}
-                className="xl:border-0 border-b-1 border-b-[var(--terminalBlue)] xl:pl-0 pl-6"
+                className="xl:border-0 border-b-1 border-b-[var(--terminalBlue)] xl:pl-0 pl-3"
               >
-                <div className="bg-[#e4e9ec] pb-3">
+                <div className="bg-[#e4e9ec] pb-1">
                   <Link
                     scroll={true}
                     href={`${item.href}`}
-                    className={`text-[19px]  p-4 ${
+                    className={`xl:text-[19px] text-[16px]  p-2 ${
                       isActive
                         ? "text-[var(--terminalBlue)]"
                         : "text-[var(--background)]"

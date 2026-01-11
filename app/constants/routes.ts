@@ -21,6 +21,11 @@ export const routes = [
   // },
   {
     id: 3,
+    title: "Healthcare UI/UX",
+    href: "/healthcare",
+  },
+  {
+    id: 4,
     title: "CV",
     href: "/resume",
   },
