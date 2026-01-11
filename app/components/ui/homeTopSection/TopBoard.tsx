@@ -50,10 +50,9 @@ const TopBoard = () => {
           A seasoned designer on
         </div>
         <div className=" text-[var(--terminalBlue)] text-4xl">new ground.</div>
-        <div className="text-[16px] text-[#32889c] pt-3">
-          With over a decade of experience,
-          <span className="text-[var(--foreground)]"> including 4+ years </span>
-          designing complex healthcare and enterprise systems.
+        <div className=" text-[#32889c] pt-3">
+          With over a decade of experience, including 4+ years designing complex
+          healthcare and enterprise systems.
         </div>
       </div>
     </>
