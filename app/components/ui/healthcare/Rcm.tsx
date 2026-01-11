@@ -142,14 +142,68 @@ const Rcm = () => {
         <div className="mt-6">
           <div>
             <Image
-              src="/assets/projects/healthCare/RCM/01_Assignment.png"
+              src="/assets/projects/healthCare/RCM/04-ProviderRoaster.png"
               alt=""
               width={1440}
               height={1031}
               className="w-full h-auto object-cover"
             />
           </div>
-          <div>d</div>
+        </div>
+        <div className="mt-6">
+          <div>
+            <Image
+              src="/assets/projects/healthCare/RCM/04-ProviderRoaster_add.png"
+              alt=""
+              width={1440}
+              height={1031}
+              className="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+        <div className="mt-6">
+          <div>
+            <Image
+              src="/assets/projects/healthCare/RCM/01_Assignment_addAssignee.png"
+              alt=""
+              width={1440}
+              height={1031}
+              className="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+        <div className="mt-6">
+          <div>
+            <Image
+              src="/assets/projects/healthCare/RCM/02_Payer.png"
+              alt=""
+              width={1440}
+              height={1031}
+              className="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+        <div className="mt-6">
+          <div>
+            <Image
+              src="/assets/projects/healthCare/RCM/02_Payer_addPayers.png"
+              alt=""
+              width={1440}
+              height={1031}
+              className="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+        <div className="mt-6">
+          <div>
+            <Image
+              src="/assets/projects/healthCare/RCM/02_Payer_PayersSummary.png"
+              alt=""
+              width={1440}
+              height={1031}
+              className="w-full h-auto object-cover"
+            />
+          </div>
         </div>
       </div>
     </>
