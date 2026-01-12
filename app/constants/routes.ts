@@ -26,7 +26,7 @@ export const routes = [
   },
   {
     id: 4,
-    title: "CV",
+    title: "My Approach",
     href: "/resume",
   },
 ];
