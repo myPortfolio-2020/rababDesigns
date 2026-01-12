@@ -11,7 +11,7 @@ export const routes = [
   // },
   {
     id: 2,
-    title: "My Creations & Expressions",
+    title: "Work",
     href: "/myWork",
   },
   // {
@@ -27,6 +27,11 @@ export const routes = [
   {
     id: 4,
     title: "My Approach",
+    href: "/myApproach",
+  },
+  {
+    id: 5,
+    title: "Resume",
     href: "/resume",
   },
 ];
