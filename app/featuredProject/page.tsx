@@ -138,7 +138,7 @@ const page = () => {
                       Running Appointment
                     </div>
                     <Image
-                      src="/assets/projects/healthCare/patientQueue/running.png"
+                      src="/assets/projects/healthCare/patientQueue/runningScreen.png"
                       alt="Responsive image"
                       width={1440}
                       height={1024}
