@@ -6,6 +6,7 @@ import Dashboards from "../components/ui/healthcare/Dashboards";
 import Scheduling from "../components/ui/healthcare/Scheduling";
 import Pms from "../components/ui/healthcare/Pms";
 import Ehr from "../components/ui/healthcare/Ehr";
+import Link from "next/link";
 
 const page = () => {
   const tabStyles =
@@ -27,16 +28,28 @@ const page = () => {
             <div className="text-4xl pb-6">
               Human-Centered Healthcare Interfaces
             </div>
-            <div className="pb-10">
-              I concentrate on in creating intuitive, reliable, and
-              workflow‑driven interfaces for healthcare teams. My work spans
-              EHR, EMR, PMS, RCM, scheduling, and clinical dashboards, with a
-              strong focus on reducing cognitive load, improving accuracy, and
-              supporting real‑world clinical decision‑making. I design with a
-              deep understanding of multi‑role environments — from providers and
-              medical assistants to billers, front‑desk staff, and
-              administrators — ensuring every workflow is clear, efficient, and
-              compliant.
+            <div className="pb-6">
+              <div>
+                I concentrate on in creating intuitive, reliable, and
+                workflow‑driven interfaces for healthcare teams. My work spans
+                EHR, EMR, PMS, RCM, scheduling, and clinical dashboards, with a
+                strong focus on reducing cognitive load, improving accuracy, and
+                supporting real‑world clinical decision‑making. I design with a
+                deep understanding of multi‑role environments — from providers
+                and medical assistants to billers, front‑desk staff, and
+                administrators — ensuring every workflow is clear, efficient,
+                and compliant.
+              </div>
+
+              <div className="font-bold pt-4 pb-4">
+                <span className="text-[var(--terminalBlue)]">
+                  Featured product:
+                </span>
+                <Link href="/featuredProject">
+                  {" "}
+                  OPD Queue Management System
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -59,6 +72,7 @@ const page = () => {
                 RCM
               </TabsTrigger>
             </TabsList>
+
             <TabsContent value="ehr">
               <Ehr />
             </TabsContent>
