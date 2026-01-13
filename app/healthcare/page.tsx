@@ -45,7 +45,10 @@ const page = () => {
                 <span className="text-[var(--terminalBlue)]">
                   Featured product:
                 </span>
-                <Link href="/featuredProject">
+                <Link
+                  href="/featuredProject"
+                  className="bg-[var(--lightBg)] p-1 rounded ml-2 text-[var(--terminalBlue)]"
+                >
                   {" "}
                   OPD Queue Management System
                 </Link>
