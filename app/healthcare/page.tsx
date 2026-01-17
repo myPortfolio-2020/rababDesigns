@@ -6,11 +6,12 @@ import Dashboards from "../components/ui/healthcare/Dashboards";
 import Scheduling from "../components/ui/healthcare/Scheduling";
 import Pms from "../components/ui/healthcare/Pms";
 import Ehr from "../components/ui/healthcare/Ehr";
-import Link from "next/link";
+import Telehealth from "../components/ui/healthcare/Telehealth";
+import OPDQueue from "../components/ui/healthcare/OPDQueue";
 
 const page = () => {
   const tabStyles =
-    "data-[state=active]:bg-[var(--terminalBlue)] data-[state=active]:text-primary-foreground text-[var(--background)] focus-visible:ring-none focus-visible:ring-none focus-visible:outline-none transition-all";
+    "data-[state=active]:bg-[var(--terminalBlue)] data-[state=active]:text-primary-foreground text-[var(--background)] focus-visible:ring-none focus-visible:ring-none focus-visible:outline-none transition-all xl:border-0 border-1 border-[var(--terminalBlue)] m-1 overflow-visible";
 
   return (
     <>
@@ -40,25 +41,12 @@ const page = () => {
                 administrators — ensuring every workflow is clear, efficient,
                 and compliant.
               </div>
-
-              <div className="font-bold pt-4 pb-4">
-                <span className="text-[var(--terminalBlue)]">
-                  Featured product:
-                </span>
-                <Link
-                  href="/featuredProject"
-                  className="bg-[var(--lightBg)] p-1 rounded ml-2 text-[var(--terminalBlue)]"
-                >
-                  {" "}
-                  OPD Queue Management System
-                </Link>
-              </div>
             </div>
           </div>
         </div>
-        <div className="xl:ml-14 xl:mr-14 ml-0 mr-0">
+        <div className="xl:ml-14 xl:mr-14 ml-0 mr-0 mt-3">
           <Tabs defaultValue="rcm" activationMode="automatic">
-            <TabsList className="mx-auto xl:w-[80%] w-[99%]">
+            <TabsList className="mx-auto xl:w-[86%] w-[99%]">
               <TabsTrigger value="dashboards" className={tabStyles}>
                 Dashboard
               </TabsTrigger>
@@ -74,22 +62,34 @@ const page = () => {
               <TabsTrigger value="rcm" className={tabStyles}>
                 RCM
               </TabsTrigger>
+              <TabsTrigger value="telehealth" className={tabStyles}>
+                Telehealth
+              </TabsTrigger>
+              <TabsTrigger value="queue" className={tabStyles}>
+                OPD Queue Management System
+              </TabsTrigger>
             </TabsList>
 
-            <TabsContent value="ehr">
+            <TabsContent value="ehr" className="overflow-visible">
               <Ehr />
             </TabsContent>
-            <TabsContent value="pms">
+            <TabsContent value="pms" className="overflow-visible">
               <Pms />
             </TabsContent>
             <TabsContent value="rcm">
               <Rcm />
             </TabsContent>
-            <TabsContent value="dashboards">
+            <TabsContent value="dashboards" className="overflow-visible">
               <Dashboards />
             </TabsContent>
-            <TabsContent value="scheduling">
+            <TabsContent value="scheduling" className="overflow-visible">
               <Scheduling />
+            </TabsContent>
+            <TabsContent value="telehealth" className="overflow-visible">
+              <Telehealth />
+            </TabsContent>
+            <TabsContent value="queue" className="overflow-visible">
+              <OPDQueue />
             </TabsContent>
           </Tabs>
         </div>

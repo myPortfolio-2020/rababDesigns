@@ -4,7 +4,7 @@ import interests from "./../../../lib/data/interests.json";
 const Interests = () => {
   return (
     <>
-      <div className="flex xl:flex-row xl:flex-wrap flex-col justify-end items-center">
+      <div className="flex xl:flex-row xl:flex-wrap flex-col justify-end items-center pointer-events-auto">
         {interests.interests.map((interest) => {
           const { titleNum, title, description, colorCode } = interest;
 
@@ -14,9 +14,7 @@ const Interests = () => {
           return (
             <div
               key={interest.interestId}
-              className="shrink-0 xl:w-[520px] w-[80%] xl:m-9 mb-10 xl:skew-2 skew-1
-              transition-transform duration-500 ease-in-out transform 
-            hover:scale-105 hover:-translate-y-2 hover:skew-y-2 hover:rotate-2 hover:shadow-2xl hover:brightness-110 cursor-pointer"
+              className={`relative z-10 shrink-0 xl:w-[520px] w-[80%] xl:m-9 mb-10 xl:skew-x-2 skew-x-1 transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 hover:skew-y-2 hover:rotate-2 hover:shadow-2xl hover:brightness-110 cursor-pointer  transform-gpu`}
             >
               <div className="shrink-0">
                 <div className="interestcard">
