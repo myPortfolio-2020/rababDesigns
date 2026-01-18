@@ -5,6 +5,7 @@ const page = () => {
     <>
       <div className="resume text-xl  leading-[36px]">
         <div className="text-3xl pt-6 pb-12">My Design Approach</div>
+        <div className="text-5xl">Add system Design</div>
         <div>
           <div className="text-sm uppercase tracking-[12px] text-[var(--terminalBlue)] pt-6 pb-6">
             1. Discover

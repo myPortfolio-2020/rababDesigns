@@ -26,11 +26,11 @@ const Header = () => {
                 key={item.id}
                 className="xl:border-0 border-b-1 border-b-[var(--terminalBlue)] xl:pl-0 pl-3"
               >
-                <div className="bg-[#e4e9ec] pb-0">
+                <div className=" pb-0">
                   <Link
                     scroll={true}
                     href={`${item.href}`}
-                    className={`xl:text-[19px] text-[16px]  p-2 ${
+                    className={`xl:text-[19px] text-[16px] ${
                       isActive
                         ? "text-[var(--terminalBlue)]"
                         : "text-[var(--background)]"

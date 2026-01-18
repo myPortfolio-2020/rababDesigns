@@ -63,7 +63,7 @@ export default function CustomCursor() {
     if (!cursor) return;
 
     const interactiveElements = document.querySelectorAll<HTMLElement>(
-      ".interactive-hover, a, button"
+      ".interactive-hover, a, button",
     );
 
     const enter = () =>
