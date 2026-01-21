@@ -11,7 +11,7 @@ import OPDQueue from "../components/ui/healthcare/OPDQueue";
 
 const page = () => {
   const tabStyles =
-    "data-[state=active]:bg-[var(--terminalBlue)] data-[state=active]:text-primary-foreground text-[var(--background)] focus-visible:ring-none focus-visible:ring-none focus-visible:outline-none transition-all xl:border-0 border-1 border-[var(--terminalBlue)] m-1 overflow-visible";
+    "data-[state=active]:bg-[var(--terminalBlue)] data-[state=active]:text-primary-foreground text-[var(--background)] focus-visible:ring-none focus-visible:ring-none focus-visible:outline-none transition-all xl:border-0 border-1 border-[var(--terminalBlue)] overflow-visible text-[18px]";
 
   return (
     <>
@@ -44,9 +44,9 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="xl:ml-14 xl:mr-14 ml-0 mr-0 mt-3">
+        <div className="mt-3">
           <Tabs defaultValue="rcm" activationMode="automatic">
-            <TabsList className="mx-auto xl:w-[86%] w-[99%]">
+            <TabsList className="mx-auto xl:w-[86%] w-full h-[90px]">
               <TabsTrigger value="dashboards" className={tabStyles}>
                 Dashboard
               </TabsTrigger>
@@ -62,11 +62,9 @@ const page = () => {
               <TabsTrigger value="rcm" className={tabStyles}>
                 RCM
               </TabsTrigger>
-              <TabsTrigger value="telehealth" className={tabStyles}>
-                Telehealth
-              </TabsTrigger>
+
               <TabsTrigger value="queue" className={tabStyles}>
-                OPD Queue Management System
+                OQMS
               </TabsTrigger>
             </TabsList>
 
@@ -85,9 +83,7 @@ const page = () => {
             <TabsContent value="scheduling" className="overflow-visible">
               <Scheduling />
             </TabsContent>
-            <TabsContent value="telehealth" className="overflow-visible">
-              <Telehealth />
-            </TabsContent>
+
             <TabsContent value="queue" className="overflow-visible">
               <OPDQueue />
             </TabsContent>

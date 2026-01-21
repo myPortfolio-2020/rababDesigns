@@ -15,7 +15,7 @@ const Rcm = () => {
           Healthcare) compliance.
         </div>
         <div className="text-3xl pt-6 pb-6">The Problem</div>
-        <div className="bracketBox1">
+        <div className="bracketBox1  text-xl  leading-[36px]">
           <div>Healthcare administrators often struggle with:</div>
 
           <div className="flex justify-start gap-3">
@@ -64,7 +64,7 @@ const Rcm = () => {
         </div>
 
         <div className="text-3xl pt-6 pb-6">Design Solutions</div>
-        <div className="bracketBox1">
+        <div className="bracketBox1  text-xl  leading-[36px]">
           <div className="flex justify-start gap-3">
             <div>
               <Image
@@ -133,7 +133,7 @@ const Rcm = () => {
         <div className="text-3xl pt-6 pb-6">
           User Flow Highlight: CAQH Management
         </div>
-        <div>
+        <div className=" text-xl  leading-[36px]">
           The system tracks the CAQH ID and Attestation Dates CAHQ screen. By
           highlighting the re-attestation date, the system prevents provider
           &quot;deactivation,&quot; which is a major pain point in RCM where
