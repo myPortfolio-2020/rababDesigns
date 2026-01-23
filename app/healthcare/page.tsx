@@ -6,7 +6,6 @@ import Dashboards from "../components/ui/healthcare/Dashboards";
 import Scheduling from "../components/ui/healthcare/Scheduling";
 import Pms from "../components/ui/healthcare/Pms";
 import Ehr from "../components/ui/healthcare/Ehr";
-import Telehealth from "../components/ui/healthcare/Telehealth";
 import OPDQueue from "../components/ui/healthcare/OPDQueue";
 
 const page = () => {
