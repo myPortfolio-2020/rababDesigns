@@ -85,20 +85,18 @@ const General = () => {
             </div>
           </div>
         </div>
+        <div className="xl:w-1/2 w-full">
+          <div className="flex justify-center items-center h-[100%]">
+            <div className="p-14">
+              <div className="text-3xl pb-6">How I Work With Teams</div>
+              <div>
+                I partner with product, engineering, and stakeholders to create
+                user-friendly, business-aligned solutions.
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="text-3xl  pt-6">How I Work With Teams</div>
-      <div className="pt-6">
-        I work closely with product managers, developers, and stakeholders to
-        ensure that solutions are not only user-friendly, but also technically
-        feasible and aligned with business goals.
-      </div>
-      <div className="text-3xl  pt-6">My Design Values</div>
-      <ul className="list-disc p-6">
-        <li>Clarity over decoration</li>
-        <li>Usability over trends</li>
-        <li>Systems over one-off screens</li>
-        <li>Real user problems over assumptions</li>
-      </ul>
     </>
   );
 };
