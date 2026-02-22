@@ -29,7 +29,7 @@ const Header = () => {
                 <div className=" pb-0">
                   <Link
                     scroll={true}
-                    href={`${item.href}`}
+                    href={item.href}
                     className={`xl:text-[19px] text-[16px] ${
                       isActive
                         ? "text-[var(--terminalBlue)]"
