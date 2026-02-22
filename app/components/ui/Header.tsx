@@ -59,16 +59,20 @@
 import Link from "next/link";
 import React from "react";
 import { routes } from "@/app/constants/routes";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 const Header = () => {
   const pathname = usePathname();
+  const router = useRouter();
 
   const handleClick = (href: string, e: React.MouseEvent) => {
     if (href === "/" && pathname === "/") {
       e.preventDefault();
       window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
     }
+    e.preventDefault();
+    router.push(href);
   };
 
   return (
@@ -86,17 +90,13 @@ const Header = () => {
                   <Link
                     scroll={true}
                     href={item.href}
-                    prefetch={true} // ← only change
+                    prefetch={true}
                     className={`xl:text-[19px] text-[16px] ${
                       isActive
                         ? "text-[var(--terminalBlue)]"
                         : "text-[var(--background)]"
                     }`}
-                    onClick={
-                      item.href === "/"
-                        ? (e) => handleClick(item.href, e)
-                        : undefined
-                    }
+                    onClick={(e) => handleClick(item.href, e)}
                   >
                     {item.title}
                   </Link>
