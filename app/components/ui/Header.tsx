@@ -35,7 +35,11 @@ const Header = () => {
                         ? "text-[var(--terminalBlue)]"
                         : "text-[var(--background)]"
                     }`}
-                    onClick={(e) => handleClick(item.href, e)}
+                    onClick={
+                      item.href === "/"
+                        ? (e) => handleClick(item.href, e)
+                        : undefined
+                    }
                   >
                     {item.title}
                   </Link>
