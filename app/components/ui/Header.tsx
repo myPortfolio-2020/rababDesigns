@@ -57,53 +57,56 @@
 
 "use client";
 import Link from "next/link";
-import React, { useCallback } from "react";
+import React from "react";
 import { routes } from "@/app/constants/routes";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
   const pathname = usePathname();
-  const router = useRouter();
 
-  const handleClick = useCallback(
-    (href: string, e: React.MouseEvent) => {
+  const handleClick = (href: string, e: React.MouseEvent) => {
+    if (href === "/" && pathname === "/") {
       e.preventDefault();
-      if (href === "/" && pathname === "/") {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      } else {
-        router.push(href);
-      }
-    },
-    [pathname, router],
-  );
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
 
   return (
-    <div className="sticky top-0 w-full z-50 headerBg xl:h-[120px] h-[192px]">
-      <div className="flex xl:flex-row flex-col xl:justify-center xl:items-center xl:gap-x-6 h-[74px] tracking-[1px]">
-        {routes.map((item) => {
-          const isActive = pathname === item.href;
-          return (
-            <div
-              key={item.id}
-              className="xl:border-0 border-b-1 border-b-[var(--terminalBlue)] xl:pl-0 pl-3"
-            >
-              <Link
-                href={item.href}
-                prefetch={true}
-                className={`xl:text-[19px] text-[16px] ${
-                  isActive
-                    ? "text-[var(--terminalBlue)]"
-                    : "text-[var(--background)]"
-                }`}
-                onClick={(e) => handleClick(item.href, e)}
+    <>
+      <div className="sticky top-0 w-full z-50 headerBg xl:h-[120px] h-[192px]">
+        <div className="flex xl:flex-row flex-col xl:justify-center xl:items-center xl:gap-x-6 h-[74px] tracking-[1px]">
+          {routes.map((item) => {
+            const isActive = pathname === item.href;
+            return (
+              <div
+                key={item.id}
+                className="xl:border-0 border-b-1 border-b-[var(--terminalBlue)] xl:pl-0 pl-3"
               >
-                {item.title}
-              </Link>
-            </div>
-          );
-        })}
+                <div className="pb-0">
+                  <Link
+                    scroll={true}
+                    href={item.href}
+                    prefetch={true} // ← only change
+                    className={`xl:text-[19px] text-[16px] ${
+                      isActive
+                        ? "text-[var(--terminalBlue)]"
+                        : "text-[var(--background)]"
+                    }`}
+                    onClick={
+                      item.href === "/"
+                        ? (e) => handleClick(item.href, e)
+                        : undefined
+                    }
+                  >
+                    {item.title}
+                  </Link>
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
