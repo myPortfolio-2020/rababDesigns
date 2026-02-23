@@ -46,7 +46,7 @@ const page = () => {
           </div>
           <div className="mt-3">
             <Tabs defaultValue="rcm" activationMode="automatic">
-              <TabsList className="mx-auto xl:w-[86%] w-full h-[90px]">
+              <TabsList className="mx-auto xl:w-[86%] w-full h-[40px]">
                 <TabsTrigger value="dashboards" className={tabStyles}>
                   Dashboard
                 </TabsTrigger>
