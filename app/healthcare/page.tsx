@@ -14,79 +14,80 @@ const page = () => {
 
   return (
     <>
-      <div className="pages">
-        <div className="flex">
-          <div className="min-w-[45px] h-[45px]  max-h-[45px] rounded-full bg-[var(--supportingColorGreen)] flex items-center justify-center mb-10">
-            <Image
-              src="/assets/goArrow.png"
-              alt="description"
-              width={43}
-              height={43}
-            />
-          </div>
-          <div className="ml-10">
-            <div className="text-4xl pb-6">
-              Human-Centered Healthcare Interfaces
+      <div className="pagesLight">
+        <div className="pages">
+          <div className="flex">
+            <div className="min-w-[45px] h-[45px]  max-h-[45px] rounded-full bg-[var(--supportingColorGreen)] flex items-center justify-center mb-10">
+              <Image
+                src="/assets/goArrow.png"
+                alt="description"
+                width={43}
+                height={43}
+              />
             </div>
-            <div className="pb-6">
-              <div>
-                I concentrate on in creating intuitive, reliable, and
-                workflow‑driven interfaces for healthcare teams. My work spans
-                EHR, EMR, PMS, RCM, scheduling, and clinical dashboards, with a
-                strong focus on reducing cognitive load, improving accuracy, and
-                supporting real‑world clinical decision‑making. I design with a
-                deep understanding of multi‑role environments — from providers
-                and medical assistants to billers, front‑desk staff, and
-                administrators — ensuring every workflow is clear, efficient,
-                and compliant.
+            <div className="ml-10">
+              <div className="text-4xl pb-6">
+                Human-Centered Healthcare Interfaces
+              </div>
+              <div className="pb-6">
+                <div>
+                  I concentrate on in creating intuitive, reliable, and
+                  workflow‑driven interfaces for healthcare teams. My work spans
+                  EHR, EMR, PMS, RCM, scheduling, and clinical dashboards, with
+                  a strong focus on reducing cognitive load, improving accuracy,
+                  and supporting real‑world clinical decision‑making. I design
+                  with a deep understanding of multi‑role environments — from
+                  providers and medical assistants to billers, front‑desk staff,
+                  and administrators — ensuring every workflow is clear,
+                  efficient, and compliant.
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="mt-3">
-          <Tabs defaultValue="rcm" activationMode="automatic">
-            <TabsList className="mx-auto xl:w-[86%] w-full h-[90px]">
-              <TabsTrigger value="dashboards" className={tabStyles}>
-                Dashboard
-              </TabsTrigger>
-              <TabsTrigger value="scheduling" className={tabStyles}>
-                Scheduling
-              </TabsTrigger>
-              <TabsTrigger value="ehr" className={tabStyles}>
-                EHR / EMR
-              </TabsTrigger>
-              <TabsTrigger value="pms" className={tabStyles}>
-                PMS
-              </TabsTrigger>
-              <TabsTrigger value="rcm" className={tabStyles}>
-                RCM
-              </TabsTrigger>
+          <div className="mt-3">
+            <Tabs defaultValue="rcm" activationMode="automatic">
+              <TabsList className="mx-auto xl:w-[86%] w-full h-[90px]">
+                <TabsTrigger value="dashboards" className={tabStyles}>
+                  Dashboard
+                </TabsTrigger>
+                <TabsTrigger value="scheduling" className={tabStyles}>
+                  Scheduling
+                </TabsTrigger>
+                <TabsTrigger value="ehr" className={tabStyles}>
+                  EHR / EMR
+                </TabsTrigger>
+                <TabsTrigger value="pms" className={tabStyles}>
+                  PMS
+                </TabsTrigger>
+                <TabsTrigger value="rcm" className={tabStyles}>
+                  RCM
+                </TabsTrigger>
+                <TabsTrigger value="queue" className={tabStyles}>
+                  OQMS
+                </TabsTrigger>
+              </TabsList>
 
-              <TabsTrigger value="queue" className={tabStyles}>
-                OQMS
-              </TabsTrigger>
-            </TabsList>
+              <TabsContent value="ehr" className="overflow-visible">
+                <Ehr />
+              </TabsContent>
+              <TabsContent value="pms" className="overflow-visible">
+                <Pms />
+              </TabsContent>
+              <TabsContent value="rcm">
+                <Rcm />
+              </TabsContent>
+              <TabsContent value="dashboards" className="overflow-visible">
+                <Dashboards />
+              </TabsContent>
+              <TabsContent value="scheduling" className="overflow-visible">
+                <Scheduling />
+              </TabsContent>
 
-            <TabsContent value="ehr" className="overflow-visible">
-              <Ehr />
-            </TabsContent>
-            <TabsContent value="pms" className="overflow-visible">
-              <Pms />
-            </TabsContent>
-            <TabsContent value="rcm">
-              <Rcm />
-            </TabsContent>
-            <TabsContent value="dashboards" className="overflow-visible">
-              <Dashboards />
-            </TabsContent>
-            <TabsContent value="scheduling" className="overflow-visible">
-              <Scheduling />
-            </TabsContent>
-
-            <TabsContent value="queue" className="overflow-visible">
-              <OPDQueue />
-            </TabsContent>
-          </Tabs>
+              <TabsContent value="queue" className="overflow-visible">
+                <OPDQueue />
+              </TabsContent>
+            </Tabs>
+          </div>
         </div>
       </div>
     </>
