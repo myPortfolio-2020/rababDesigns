@@ -46,11 +46,13 @@ const TopBoard = () => {
             </div>
           </div>
         </div>
-        <div className=" text-[var(--terminalBlue)] mt-2">
-          A seasoned designer on
+        <div className=" text-[var(--terminalBlue)] mt-5 text-2xl">
+          A Seasoned Healthcare UX Designer -
         </div>
-        <div className=" text-[var(--terminalBlue)] text-4xl">new ground.</div>
-        <div className=" text-[#32889c] pt-3">
+        <div className=" text-[var(--terminalBlue)] text-sm">
+          new to Albuquerque, ready to contribute.
+        </div>
+        <div className="text-[var(--foreground)] pt-3 text-sm">
           With over a decade of experience, including 4+ years designing complex
           healthcare and enterprise systems.
         </div>
