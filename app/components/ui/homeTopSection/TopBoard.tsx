@@ -46,8 +46,11 @@ const TopBoard = () => {
             </div>
           </div>
         </div>
-        <div className=" text-[var(--terminalBlue)] mt-5 text-2xl">
-          A Seasoned Healthcare UX Designer -
+        <div className=" text-[var(--terminalBlue)] mt-4 text-sm">
+          A Seasoned
+        </div>
+        <div className=" text-[var(--terminalBlue)] text-2xl">
+          Healthcare UX Designer -
         </div>
         <div className=" text-[var(--terminalBlue)] text-sm">
           new to Albuquerque, ready to contribute.
