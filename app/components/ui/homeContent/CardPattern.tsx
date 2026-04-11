@@ -14,11 +14,11 @@ const CardPattern = () => {
   return (
     <>
       <div className="down pt-[80px] pl-[70px] pb-[19px]">
-        <div className="text-3xl">
-          Deeply
+        <div className="text-xl">
+          What I bring to
           <br />
-          <span className="text-2xl">
-            interested in <span className="tracking-[6px]">...</span>
+          <span className="text-3xl">
+            healthcare teams <span className="tracking-[6px]">...</span>
           </span>
         </div>
       </div>

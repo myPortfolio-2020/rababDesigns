@@ -1,0 +1,30 @@
+{
+    "slides" : [
+  {
+    "id": "1",
+    "label": "PMS Scheduling Screen based on NIST Design Principles",
+    "width": 1233,
+    "height": 765,
+    "caption": "Before and After",
+    "image": "/assets/projects/collection/coll-01.png"
+  },
+  {
+    "id": "2",
+    "label":
+      "A trusted community for women, empowering every stage of life—with personalized AI support.",
+    "width": 1233,
+    "height": 765,
+    "caption": "Mental Health App",
+    "image": "/assets/projects/collection/coll-02.png"
+  },
+  {
+    "id": "3",
+    "label":
+      "The Challenge: Clinicians struggled with fragmented note sections, leading to slower documentation and increased cognitive load.",
+    "width": 1233,
+    "height": 765,
+    "caption": "Clinical Documentation",
+    "image": "/assets/projects/collection/coll-03.png"
+  }
+]
+}

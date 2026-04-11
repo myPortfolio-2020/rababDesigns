@@ -3,6 +3,8 @@ import Link from "next/link";
 import React from "react";
 import projects from "../lib/data/project.json";
 import { Metadata } from "next";
+import AxIntro from "../components/ui/homeContent/AxIntro";
+import AxDesigns from "../components/ui/homeContent/AxDesigns";
 
 export const metadata: Metadata = {
   title: "My work - Prototype of Rabab",
@@ -48,13 +50,15 @@ const myWork = () => {
               <div className="flex xl:flex-row flex-col items-center">
                 <div className="w-full xl:w-3/4">
                   <div className="bracketBox1">
-                    <Image
-                      src={titleImages}
-                      alt="Responsive image"
-                      width={1440}
-                      height={1024}
-                      className="rounded-lg"
-                    />
+                    <Link href={`/myWork/${id}`}>
+                      <Image
+                        src={titleImages}
+                        alt="Responsive image"
+                        width={1440}
+                        height={1024}
+                        className="rounded-lg"
+                      />
+                    </Link>
                   </div>
                 </div>
                 <div className="w-full xl:w-1/4">
@@ -95,6 +99,35 @@ const myWork = () => {
             </div>
           );
         })}
+      </div>
+      <div className="pages">
+        <div className="flex items-center text-2xl mb-8  xl-[369px] m-auto">
+          <div className="p-1">UI</div>
+          <div className="p-1">
+            <Image src="/assets/downArrow2.png" alt="" width="47" height="19" />
+          </div>
+          <div className="p-1">UX</div>
+          <div className="p-1">
+            <Image src="/assets/downArrow2.png" alt="" width="47" height="19" />
+          </div>
+          <div className="p-1 animate-bounce animation-duration-200ms [animation-delay:1s]">
+            AX
+          </div>
+        </div>
+        <div className="xl:w-[40%] xl-[76%] m-auto text-center text-xl leading-[36px]">
+          I am currently expanding my skills in
+          <span className="text-[var(--terminalBlue)] pl-2 pr-2">
+            AX (Agent Experience),
+          </span>
+          designing systems that work seamlessly for both humans and intelligent
+          agents.
+        </div>
+        <div className="mt-24 mb-4">
+          <AxIntro />
+        </div>
+        <div className="flex justify-center mb-24">
+          <AxDesigns />
+        </div>
       </div>
     </>
   );

@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import React from "react";
 import Image from "next/image";
+import ProjectSlider from "../components/ui/homeMiddleSection/ProjectSlider";
 export const metadata: Metadata = {
   title: "Resume - Prototype of Rabab",
   description: "Rabab's professional resume showcasing skills and experience.",

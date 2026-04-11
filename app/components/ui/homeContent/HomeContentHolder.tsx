@@ -9,8 +9,9 @@ const HomeContentHolder = () => {
   return (
     <>
       <HomeContent />
-      <WorkShades />
       <CardPattern />
+      <WorkShades />
+
       {/* <Interests /> */}
     </>
   );

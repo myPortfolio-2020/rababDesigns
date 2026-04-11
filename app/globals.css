@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
+/* @custom-variant dark (&:is(.dark *)); */
 
 :root {
   /* --background: #0e0d0f; */
@@ -281,6 +281,15 @@ body {
   display: flex;
   flex-direction: column;
 }
+.healthcarePages {
+  width: 100%;
+  max-width: 1288px;
+  height: auto;
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
 .pagesLight {
   background-color: var(--lightBg);
   width: 98%;
@@ -392,6 +401,8 @@ body {
   position: relative;
   width: 369px;
   height: 439px;
+  max-width: 369px;
+  max-height: 439px;
   display: flex;
   flex-direction: column;
   background: url("./../public/assets/infoBoardBg.png") repeat;
@@ -399,6 +410,7 @@ body {
   color: var(--foreground);
   justify-content: center;
   align-items: center;
+  padding: 40px;
 }
 .approachCard {
   width: auto;

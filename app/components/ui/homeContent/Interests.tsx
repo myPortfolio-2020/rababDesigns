@@ -25,7 +25,7 @@ const Interests = () => {
                     {titleNum}
                   </div>
                   <div className="w-full text-center flex flex-col justify-center items-center">
-                    <div className="text-3xl tracking-[1]">
+                    <div className="text-2xl tracking-[1]">
                       <span style={{ color: colorCode }}>{firstWord}</span>
                       {restText ? " " + restText : ""}
                     </div>
