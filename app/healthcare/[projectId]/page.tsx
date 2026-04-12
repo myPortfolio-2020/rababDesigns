@@ -4,6 +4,8 @@ import notFound from "../notFound";
 import Image from "next/image";
 import CredentialingAndEnrollment from "@/app/components/ui/healthcare/CredentialingAndEnrollment";
 import OPDQueue from "@/app/components/ui/healthcare/OPDQueue";
+import MentalHealthApp from "@/app/components/ui/healthcare/MentalHealthApp";
+import Link from "next/link";
 const page = async ({
   params,
 }: {
@@ -20,6 +22,22 @@ const page = async ({
 
   return (
     <>
+      <div className="pages">
+        <div className="pl-36">
+          <Link
+            className="pl-2 pr-2 text-[var(--supportingColorGreen)]"
+            href={
+              healthcareProjects?.projectType === "Scheduling" ||
+              healthcareProjects?.projectType === "mentalHealth" ||
+              healthcareProjects?.projectType === "documentation"
+                ? "/#projectSlider"
+                : "/healthcare"
+            }
+          >
+            &larr; Go back
+          </Link>
+        </div>
+      </div>
       <div className="pages  text-xl leading-[32px]">
         <div className="xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col mb-10">
           <div className="flex">
@@ -41,7 +59,7 @@ const page = async ({
       {healthcareProjects?.CredentialingAndEnrollment ? (
         <CredentialingAndEnrollment />
       ) : null}
-      {healthcareProjects?.mentalHealth ? <div>mentalHealth</div> : null}
+      {healthcareProjects?.mentalHealth ? <MentalHealthApp /> : null}
       {healthcareProjects?.documentation ? <div>documentation</div> : null}
       {healthcareProjects?.scheduling ? <div>scheduling</div> : null}
       {healthcareProjects?.opd ? (

@@ -1,12 +1,25 @@
 "use client";
 import { useRouter } from "next/navigation";
 import useEmblaCarousel from "embla-carousel-react";
-import { useCallback } from "react";
+import { useCallback, useEffect } from "react";
 import Image from "next/image";
 import slides from "../../../lib/data/homeWorkSlide.json";
 import healthcare from "../../../lib/data/healthcare.json";
 
 const ProjectSlider = () => {
+  useEffect(() => {
+    const hash = window.location.hash;
+
+    if (hash) {
+      const el = document.querySelector(hash);
+
+      if (el) {
+        setTimeout(() => {
+          el.scrollIntoView({ behavior: "smooth" });
+        }, 100); // small delay helps with rendering
+      }
+    }
+  }, []);
   const router = useRouter();
 
   const handleClick = (slideId: string) => {
@@ -28,6 +41,7 @@ const ProjectSlider = () => {
 
   return (
     <>
+      <div id="projectSlider" className="absolute top-[-500px]"></div>
       <div className="flex flex-col justify-center items-center mt-12 mb-20">
         <div className="w-full mx-auto">
           {/* Embla viewport */}
