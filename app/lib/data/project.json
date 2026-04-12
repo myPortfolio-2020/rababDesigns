@@ -6,8 +6,16 @@
       "tagLine": "Dispatch and CRM System",
       "description": "This Systemis a multi-tenant SaaS platform designed to bridge the gap between healthcare providers, transportation coordinators, drivers, and patients. The system replaces fragmented, manual scheduling processes with a unified digital ecosystem that handles trip booking, insurance verification, fleet management, and real-time tracking.",
       "titleImages": "/assets/projects/TRA-Project.png",
-       "mobileView": "/assets/projects/tra/mobileView.png",
-       "tags":["Industry Project","UI Design", "Responsive","Mobile app", "Web App","Interaction Design","Wireframes"],
+      "mobileView": "/assets/projects/tra/mobileView.png",
+      "tags": [
+        "Industry Project",
+        "UI Design",
+        "Responsive",
+        "Mobile app",
+        "Web App",
+        "Interaction Design",
+        "Wireframes"
+      ],
       "myRole": [
         "Build a clear, professional design system for healthcare: palette, typography, icons.",
         "Build low-fi wires and prototypes to test workflows pre-development.",
@@ -29,11 +37,7 @@
         "Real-time Updates & Efficiency: Drivers need instant, reliable updates on job assignments, cancellations, and traffic conditions.",
         "Creating clear, high-priority pathways for managing exceptions without disrupting the normal workflow."
       ],
-      "tools": [
-        "Figma",
-        "Adobe Illustrator",
-        "GSAP"
-      ],
+      "tools": ["Figma", "Adobe Illustrator", "GSAP"],
       "goal": [
         "To create a seamless, efficient, and reliable digital experience that supports the core business of coordinating patient transportation services, Since the system operates within the healthcare ecosystem, the design must foster trust and reliability among users, patients, and insurance providers."
       ],
@@ -59,41 +63,34 @@
       },
       "wireframes": [
         "/assets/projects/tra/w1.png",
-        "/assets/projects/tra/w2.png",          
+        "/assets/projects/tra/w2.png",
         "/assets/projects/tra/w3.png"
       ],
       "styleGuide": {
         "colors": {
-          "primary": [
-            "#F9941E",
-            "#D8D8D8"
-          ],
-          "secondary": [
-            "#20AAD6",
-            "#6DACB5",
-            "#DD7A7A",
-            "#20D6AA"
-          ]
+          "primary": ["#F9941E", "#D8D8D8"],
+          "secondary": ["#20AAD6", "#6DACB5", "#DD7A7A", "#20D6AA"]
         },
         "typography": {
           "heading": "Jost",
           "body": "Jost Medium"
         },
-        "components": [
-          "Buttons",
-          "Pill Cards",
-          "Alerts",
-          "Graphs"
-        ]
+        "components": ["Buttons", "Pill Cards", "Alerts", "Graphs"]
       },
-        "finalDesign": [
-          {"caption": "Login screen" , "image" : "/assets/projects/tra/01.png"},
-          {"caption": "Dashboard" , "image" : "/assets/projects/tra/02.png"},
-          {"caption": "New user screen" , "image" : "/assets/projects/tra/03.png"},
-          {"caption": "Trip screen" , "image" : "/assets/projects/tra/04.png"},
-          {"caption": "Standing order for trip" , "image" : "/assets/projects/tra/05.png"},
-            {"caption": "Travel history" , "image" : "/assets/projects/tra/07.png"}
-        ],
+      "finalDesign": [
+        { "caption": "Login screen", "image": "/assets/projects/tra/01.png" },
+        { "caption": "Dashboard", "image": "/assets/projects/tra/02.png" },
+        {
+          "caption": "New user screen",
+          "image": "/assets/projects/tra/03.png"
+        },
+        { "caption": "Trip screen", "image": "/assets/projects/tra/04.png" },
+        {
+          "caption": "Standing order for trip",
+          "image": "/assets/projects/tra/05.png"
+        },
+        { "caption": "Travel history", "image": "/assets/projects/tra/07.png" }
+      ],
 
       "logo": {
         "images": [
@@ -113,8 +110,16 @@
       "tagLine": "Managing business through effective time management & accountability",
       "description": "A comprehensive multi-tenant SaaS platform designed to optimize sales floor operations, staff management, and transaction reporting for dealerships and service-oriented businesses",
       "titleImages": "/assets/projects/skyUp.png",
-       "mobileView": "",
-      "tags":["Industry Project","UI/UX Design", "Responsive","Mobile app", "Web App","Interaction Design","Wireframes"],
+      "mobileView": "",
+      "tags": [
+        "Industry Project",
+        "UI/UX Design",
+        "Responsive",
+        "Mobile app",
+        "Web App",
+        "Interaction Design",
+        "Wireframes"
+      ],
 
       "myRole": [
         "Conducted user research to understand dealership workflows",
@@ -140,11 +145,7 @@
         "Communicating complex dealership workflows (appointments → finance → deal)",
         "Managing different terminal views (store, finance, service)"
       ],
-      "tools": [
-        "Figma",
-        "Adobe Illustrator",
-        "GSAP"
-      ],
+      "tools": ["Figma", "Adobe Illustrator", "GSAP"],
       "goal": [
         "Track staff status in real-time (break, with client, off today) ",
         "Monitor customer flow (walk-in, appointments, service visits)",
@@ -173,38 +174,29 @@
           "Removes the need for manual updates"
         ]
       },
-      "wireframes": [
- 
-      ],
+      "wireframes": [],
       "styleGuide": {
         "colors": {
-          "primary": [
-            "#3458A4",
-            "#86B543"
-          ],
-          "secondary": [
-            "#0AB2EC",
-            "#FF8D7C",
-            "#EAEEFF",
-            "#444655"
-          ]
+          "primary": ["#3458A4", "#86B543"],
+          "secondary": ["#0AB2EC", "#FF8D7C", "#EAEEFF", "#444655"]
         },
         "typography": {
           "heading": "Jost",
           "body": "Jost Medium"
         },
-        "components": [
-          "Buttons",
-          "Pill Cards",
-          "Alerts",
-          "Graphs"
-        ]
+        "components": ["Buttons", "Pill Cards", "Alerts", "Graphs"]
       },
       "finalDesign": [
-          {"caption": "Admin Dashboard" , "image" : "/assets/projects/skyUp/02.png"},
-   
-                {"caption": "Task Management" , "image" : "/assets/projects/skyUp/03.png"}           
-        ],
+        {
+          "caption": "Admin Dashboard",
+          "image": "/assets/projects/skyUp/02.png"
+        },
+
+        {
+          "caption": "Task Management",
+          "image": "/assets/projects/skyUp/03.png"
+        }
+      ],
       "logo": {
         "images": [
           "/images/projects/pills-app/sketch1.jpg",
@@ -217,24 +209,29 @@
         }
       }
     },
-      {
+    {
       "id": "project-03",
       "title": "Own Wall",
       "tagLine": "Simple Solution",
       "description": "It is a web-based education platform designed to strengthen collaboration between students, teachers, and parents by centralizing academic activities, personal growth, and communication into a single system. Unlike traditional school portals that focus only on grades and attendance, Roots Academy introduces a student-centric experience where learners can express themselves, help peers, and build confidence — while parents and teachers stay informed and connected.",
       "titleImages": "/assets/projects/ownWall.png",
-       "mobileView": "/assets/projects/ownWall/SMS_AppointmentVideo03.mp4",
-              "tags":["Personal Project","UI/UX Design", "Responsive", "Web App","Wireframes"],
+      "mobileView": "/assets/projects/ownWall/SMS_AppointmentVideo03.mp4",
+      "tags": [
+        "Personal Project",
+        "UI/UX Design",
+        "Responsive",
+        "Web App",
+        "Wireframes"
+      ],
 
       "myRole": [
-   "Solo UI/UX Designer & Product Thinker"  ,
-   "I was responsible for:",
-   "Ideation & concept development",
-    "UX flows for Students, Teachers, and Parents",
-     "Wireframing and high-fidelity UI design",
-      "Thinking through real-world constraints (children, parents, time, safety)",
-      "This project was fully self-initiated — from idea to execution."
-   
+        "Solo UI/UX Designer & Product Thinker",
+        "I was responsible for:",
+        "Ideation & concept development",
+        "UX flows for Students, Teachers, and Parents",
+        "Wireframing and high-fidelity UI design",
+        "Thinking through real-world constraints (children, parents, time, safety)",
+        "This project was fully self-initiated — from idea to execution."
       ],
       "timeline": {
         "completionTime": "1 month",
@@ -248,19 +245,14 @@
         "Students → playful, expressive, motivating and had to use simple language for children",
         "Parents → informative, trustworthy",
         "Teachers → structured, efficient",
-       "Car Pooling UX Complexity - Availability & capacity - while keeping it simple for parents was challenging but rewarding"
-       
+        "Car Pooling UX Complexity - Availability & capacity - while keeping it simple for parents was challenging but rewarding"
       ],
-      "tools": [
-        "Figma",
-        "Adobe Illustrator"
-       
-      ],
+      "tools": ["Figma", "Adobe Illustrator"],
       "goal": [
-             "Create a safe digital space where students can learn, share, and grow",
+        "Create a safe digital space where students can learn, share, and grow",
         "Improve communication between students, teachers, and parents",
         "Allow parents to monitor progress without micromanaging",
-        "Reduce daily stress for parents through car pooling support" ,
+        "Reduce daily stress for parents through car pooling support",
         "Simple, friendly interface suitable for children",
         "Encourage participation rather than passive usage"
       ],
@@ -268,160 +260,112 @@
         "name": "",
         "age": 31,
         "occupation": "",
-        "Problem": [
-         
-        ],
-        "Solution": [
-        
-        ],
-        "Result": [
-         
-        ]
+        "Problem": [],
+        "Solution": [],
+        "Result": []
       },
-      "wireframes": [
-        ""
-      ],
+      "wireframes": [""],
       "styleGuide": {
         "colors": {
-          "primary": [
-            "#00C2FF",
-            "#E9F6FF"
-          ],
-          "secondary": [
-            "#06D6A0",
-            "#FDDA1F",
-            "#00EBBA",
-            "#3D4756"
-          ]
+          "primary": ["#00C2FF", "#E9F6FF"],
+          "secondary": ["#06D6A0", "#FDDA1F", "#00EBBA", "#3D4756"]
         },
         "typography": {
           "heading": "",
           "body": ""
         },
-        "components": [
-          "",
-          "",
-          "",
-          ""
-        ]
+        "components": ["", "", "", ""]
       },
       "finalDesign": [
-          {"caption": "Home" , "image" : "/assets/projects/ownWall/Home.png"},
-        
-          {"caption": "Login as a child" , "image" : "/assets/projects/ownWall/Login.png"},
-          {"caption": "Register As a Child" , "image" : "/assets/projects/ownWall/RegisterAsChild.png"},
-          {"caption": "Ready To Login" , "image" : "/assets/projects/ownWall/Ready__To__Login.png"},
-          {"caption": "Child's Screen AboutMe" , "image" : "/assets/projects/ownWall/CS_AboutMe.png"},
-          {"caption": "Child's Screen My Parents" , "image" : "/assets/projects/ownWall/CS_MyParents.png"},
-          {"caption": "Child's Screen Siblings" , "image" : "/assets/projects/ownWall/CS_siblings.png"},
-          {"caption": "Child's Screen Previous School" , "image" : "/assets/projects/ownWall/CS_PreviousSchool.png"},
-          {"caption": "Child's Screen Nutration" , "image" : "/assets/projects/ownWall/CS_Nutration.png"},
-          {"caption": "MyWall For Me" , "image" : "/assets/projects/ownWall/MyWall__ForMe.png"},
-          {"caption": "Share Wall For All" , "image" : "/assets/projects/ownWall/ShareWall__ForAll.png"},        
-          {"caption": "Create Album" , "image" : "/assets/projects/ownWall/CreateAlbum.png"},
-          {"caption": "MyWall Album" , "image" : "/assets/projects/ownWall/MyWall__Album.png"},
-           {"caption": "Assigned Task" , "image" : "/assets/projects/ownWall/assignedTask.png"},
-            {"caption": "Task Progress" , "image" : "/assets/projects/ownWall/TaskProgress.png"},
-             {"caption": "Spelling Test" , "image" : "/assets/projects/ownWall/SpellingTest.png"},
-          {"caption": "myAssistanceList" , "image" : "/assets/projects/ownWall/myAssistanceList.png"},
-            {"caption": "SearchByGradeOrKid" , "image" : "/assets/projects/ownWall/SearchByGradeOrKid.png"},
-          {"caption": "Search By Kid" , "image" : "/assets/projects/ownWall/searchByKid.png"},
-          {"caption": "Search By Kid's Grade" , "image" : "/assets/projects/ownWall/SearchByKidGrade.png"},
-          {"caption": "Kids Wall List" , "image" : "/assets/projects/ownWall/KidsWallList.png"},
-          {"caption": "CarPooling" , "image" : "/assets/projects/ownWall/CarPooling.png"}
-        ],
-      "logo": {
-        "images": [
-          "",
-          ""
-        ],
-        "shades": [],
-        "LogoTypo": {
-          "heading": "",
-          "body": ""
-        }
-      }
-    },
-    {
-      "id": "project-04",
-      "title": "Medifusion",
-      "tagLine": "Billing Software - Desktop & Mobile",
-      "description": "Medifusion",
-      "titleImages": "/assets/projects/bellmedex.png",
-       "mobileView": "",
-              "tags":["Industry Project","UI/UX Design", "Responsive", "Web App","Wireframes"],
+        { "caption": "Home", "image": "/assets/projects/ownWall/Home.png" },
 
-      "myRole": [
-        "Medifusion"
-   
-      ],
-      "timeline": {
-        "completionTime": "6 month",
-        "start": "2024-01",
-        "end": "2024-04"
-      },
-      "timelineNotes": [
-        "Medifusion"
-      ],
-      "challenges": [
-        "Medifusion",
-        "Medifusion"
-      ],
-      "tools": [
-        "Figma",
-        "Adobe Illustrator",
-        "GSAP"
-      ],
-      "goal": [""],
-      "persona": {
-        "name": "",
-        "age": 31,
-        "occupation": "",
-        "Problem": [
-         
-        ],
-        "Solution": [
-        
-        ],
-        "Result": [
-         
-        ]
-      },
-      "wireframes": [
-        ""
-      ],
-      "styleGuide": {
-        "colors": {
-          "primary": [
-            "#F9941E",
-            "#D8D8D8"
-          ],
-          "secondary": [
-            "#20AAD6",
-            "#6DACB5",
-            "#DD7A7A",
-            "#20D6AA"
-          ]
+        {
+          "caption": "Login as a child",
+          "image": "/assets/projects/ownWall/Login.png"
         },
-        "typography": {
-          "heading": "",
-          "body": ""
+        {
+          "caption": "Register As a Child",
+          "image": "/assets/projects/ownWall/RegisterAsChild.png"
         },
-        "components": [
-          "Buttons",
-          "Pill Cards",
-          "Alerts",
-          "Graphs"
-        ]
-      },
-      "finalDesign": [
-          {"caption": "" , "image" : ""}
-        ],
+        {
+          "caption": "Ready To Login",
+          "image": "/assets/projects/ownWall/Ready__To__Login.png"
+        },
+        {
+          "caption": "Child's Screen AboutMe",
+          "image": "/assets/projects/ownWall/CS_AboutMe.png"
+        },
+        {
+          "caption": "Child's Screen My Parents",
+          "image": "/assets/projects/ownWall/CS_MyParents.png"
+        },
+        {
+          "caption": "Child's Screen Siblings",
+          "image": "/assets/projects/ownWall/CS_siblings.png"
+        },
+        {
+          "caption": "Child's Screen Previous School",
+          "image": "/assets/projects/ownWall/CS_PreviousSchool.png"
+        },
+        {
+          "caption": "Child's Screen Nutration",
+          "image": "/assets/projects/ownWall/CS_Nutration.png"
+        },
+        {
+          "caption": "MyWall For Me",
+          "image": "/assets/projects/ownWall/MyWall__ForMe.png"
+        },
+        {
+          "caption": "Share Wall For All",
+          "image": "/assets/projects/ownWall/ShareWall__ForAll.png"
+        },
+        {
+          "caption": "Create Album",
+          "image": "/assets/projects/ownWall/CreateAlbum.png"
+        },
+        {
+          "caption": "MyWall Album",
+          "image": "/assets/projects/ownWall/MyWall__Album.png"
+        },
+        {
+          "caption": "Assigned Task",
+          "image": "/assets/projects/ownWall/assignedTask.png"
+        },
+        {
+          "caption": "Task Progress",
+          "image": "/assets/projects/ownWall/TaskProgress.png"
+        },
+        {
+          "caption": "Spelling Test",
+          "image": "/assets/projects/ownWall/SpellingTest.png"
+        },
+        {
+          "caption": "myAssistanceList",
+          "image": "/assets/projects/ownWall/myAssistanceList.png"
+        },
+        {
+          "caption": "SearchByGradeOrKid",
+          "image": "/assets/projects/ownWall/SearchByGradeOrKid.png"
+        },
+        {
+          "caption": "Search By Kid",
+          "image": "/assets/projects/ownWall/searchByKid.png"
+        },
+        {
+          "caption": "Search By Kid's Grade",
+          "image": "/assets/projects/ownWall/SearchByKidGrade.png"
+        },
+        {
+          "caption": "Kids Wall List",
+          "image": "/assets/projects/ownWall/KidsWallList.png"
+        },
+        {
+          "caption": "CarPooling",
+          "image": "/assets/projects/ownWall/CarPooling.png"
+        }
+      ],
       "logo": {
-        "images": [
-          "",
-          ""
-        ],
+        "images": ["", ""],
         "shades": [],
         "LogoTypo": {
           "heading": "",
@@ -429,97 +373,99 @@
         }
       }
     },
+
     {
       "id": "project-05",
       "title": "Home Care",
       "tagLine": "Pills reminder & medication management app",
       "description": "Home Care",
       "titleImages": "/assets/projects/homeCare.png",
-       "mobileView": "/assets/projects/mobileScreen.png",
-                "tags":["Personal Project","UI/UX Design", "Mobile app", "Interaction Design","Wireframes"],
-
-      "myRole": [
-        "",
-        ""
+      "mobileView": "/assets/projects/mobileScreen.png",
+      "tags": [
+        "Personal Project",
+        "UI/UX Design",
+        "Mobile app",
+        "Interaction Design",
+        "Wireframes"
       ],
+
+      "myRole": ["", ""],
       "timeline": {
         "completionTime": "6 month",
         "start": "2024-01",
         "end": "2024-04"
       },
-      "timelineNotes": [
-        "Home Care"
-      ],
-      "challenges": [
-        "Challenge 1",
-        "Challenge 2"
-      ],
-      "tools": [
-        "Figma",
-        "Adobe Illustrator"
-      ],
+      "timelineNotes": ["Home Care"],
+      "challenges": ["Challenge 1", "Challenge 2"],
+      "tools": ["Figma", "Adobe Illustrator"],
       "goal": ["Home Care"],
       "persona": {
         "name": "Home Care",
         "age": 31,
         "occupation": "Home Care",
-        "Problem": [
-          "Home Care",
-          "Home Care"
-        ],
-        "Solution": [
-          "Home Care",
-          "Home Care",
-          "Home Care"
-        ],
-        "Result": [
-          "Home Care",
-          "Home Care",
-          "Home Care"
-        ]
+        "Problem": ["Home Care", "Home Care"],
+        "Solution": ["Home Care", "Home Care", "Home Care"],
+        "Result": ["Home Care", "Home Care", "Home Care"]
       },
-      "wireframes": [
-        ""
-      ],
+      "wireframes": [""],
       "styleGuide": {
         "colors": {
-          "primary": [
-            "#0094BE",
-            "#1BB9E6"
-          ],
-          "secondary": [
-            "#1BB9E6",
-            "#FB2F6C",
-            "#59EA4C",
-            "#C5EFEC"
-          ]
+          "primary": ["#0094BE", "#1BB9E6"],
+          "secondary": ["#1BB9E6", "#FB2F6C", "#59EA4C", "#C5EFEC"]
         },
         "typography": {
           "heading": "",
           "body": ""
         },
-        "components": [
-          "Buttons",
-          "Pill Cards",
-          "Alerts",
-          "Graphs"
-        ]
+        "components": ["Buttons", "Pill Cards", "Alerts", "Graphs"]
       },
       "finalDesign": [
-          {"caption": "Splash Screen" , "image" : "/assets/projects/homeCare/splash.png"},
-          {"caption": "Register Screen" , "image" : "/assets/projects/homeCare/Register.png"},
-          {"caption": "VerificationCode" , "image" : "/assets/projects/homeCare/VerificationCode.png"},
-          {"caption": "Login" , "image" : "/assets/projects/homeCare/Login.png"},
-          {"caption": "Home Screen" , "image" : "/assets/projects/homeCare/MainScreen.png"},
-          {"caption": "Create A Patient" , "image" : "/assets/projects/homeCare/CreateAPatient.png"},
-          {"caption": "Be An Attendant" , "image" : "/assets/projects/homeCare/BeAnAttendant.png"},
-          {"caption": "Find A Patient" , "image" : "/assets/projects/homeCare/FindAPatient.png"},
-          {"caption": "Find An Attendant" , "image" : "/assets/projects/homeCare/FindAttendant.png"},
-          {"caption": "Need Services For Patient Tab #1" , "image" : "/assets/projects/homeCare/NeedServicesForPatient__Tab01.png"},
-          {"caption": "Need Services For Patient Tab #2" , "image" : "/assets/projects/homeCare/NeedServicesForPatientTab02.png"},
-          {"caption": "Need Services For Patient Tab #3" , "image" : "/assets/projects/homeCare/NeedServicesForPatientTab03.png"}
-
-        ],
+        {
+          "caption": "Splash Screen",
+          "image": "/assets/projects/homeCare/splash.png"
+        },
+        {
+          "caption": "Register Screen",
+          "image": "/assets/projects/homeCare/Register.png"
+        },
+        {
+          "caption": "VerificationCode",
+          "image": "/assets/projects/homeCare/VerificationCode.png"
+        },
+        { "caption": "Login", "image": "/assets/projects/homeCare/Login.png" },
+        {
+          "caption": "Home Screen",
+          "image": "/assets/projects/homeCare/MainScreen.png"
+        },
+        {
+          "caption": "Create A Patient",
+          "image": "/assets/projects/homeCare/CreateAPatient.png"
+        },
+        {
+          "caption": "Be An Attendant",
+          "image": "/assets/projects/homeCare/BeAnAttendant.png"
+        },
+        {
+          "caption": "Find A Patient",
+          "image": "/assets/projects/homeCare/FindAPatient.png"
+        },
+        {
+          "caption": "Find An Attendant",
+          "image": "/assets/projects/homeCare/FindAttendant.png"
+        },
+        {
+          "caption": "Need Services For Patient Tab #1",
+          "image": "/assets/projects/homeCare/NeedServicesForPatient__Tab01.png"
+        },
+        {
+          "caption": "Need Services For Patient Tab #2",
+          "image": "/assets/projects/homeCare/NeedServicesForPatientTab02.png"
+        },
+        {
+          "caption": "Need Services For Patient Tab #3",
+          "image": "/assets/projects/homeCare/NeedServicesForPatientTab03.png"
+        }
+      ],
       "logo": {
         "images": [
           "/images/projects/pills-app/sketch1.jpg",
@@ -534,6 +480,3 @@
     }
   ]
 }
-
-
-

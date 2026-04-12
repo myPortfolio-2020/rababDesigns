@@ -4,6 +4,7 @@ import projects from "../../lib/data/project.json";
 import CaseStudySec from "@/app/components/ui/myWorkCom/CaseStudySec";
 import FinalDesignImages from "@/app/components/ui/myWorkCom/FinalDesignImages";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 
 const isVideo = (src?: string) => {
   return src?.toLowerCase().endsWith(".mp4");
@@ -53,6 +54,16 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
 
   return (
     <>
+      <div className="pages">
+        <div className="pl-36">
+          <Link
+            className="pl-2 pr-2 text-[var(--supportingColorGreen)]"
+            href={"/myWork"}
+          >
+            &larr; Go back
+          </Link>
+        </div>
+      </div>
       <div className="pages text-xl leading-[32px]">
         <div className="xl:h-[calc(100vh-420px)] xl:w-[80%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col  gap-30">
           <div className="flex">
