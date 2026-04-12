@@ -23,8 +23,8 @@ const Header = () => {
       <div className="sticky top-0 w-full z-50 headerBg xl:h-[120px] h-[192px]">
         <div className="flex xl:flex-row flex-col xl:justify-center xl:items-center xl:gap-x-9 h-[74px] tracking-[1px]">
           {routes.map((item) => {
-            // const isActive = pathname.startsWith(item.href);
-            const isActive = pathname === item.href;
+            const isActive = pathname.startsWith(item.href);
+            // const isActive = pathname === item.href;
 
             return (
               <div
