@@ -139,10 +139,10 @@ const CredentialingAndEnrollment = () => {
           <div className="text-3xl"> From flat rows to actionable cards</div>
         </div>
       </div>
-      <div className="flex xl:flex-row flex-col w-full mt-20">
+      <div className="flex xl:flex-row flex-col w-full mt-20 bg-[var(--topTerminal)] border-t-2 border-b-4 border-[var(--supportingColorBlue)]">
         <div className="w-full xl:w-1/2">
           <div className="p-6">
-            <div className="p-6">Before</div>
+            <div className="p-6 text-2xl">Before</div>
             <Image
               src="/assets/projects/healthCare/RCM/Assignment__Before.png"
               alt="description"
@@ -171,7 +171,7 @@ const CredentialingAndEnrollment = () => {
         </div>
         <div className="w-full xl:w-1/2">
           <div className="p-6">
-            <div className="p-6">After</div>
+            <div className="p-6 text-2xl">After</div>
             <Image
               src="/assets/projects/healthCare/RCM/Assignment__after.png"
               alt="description"
@@ -236,7 +236,7 @@ const CredentialingAndEnrollment = () => {
             needs attention.
           </div>
         </div>
-        <div className="min-h-[100px] bg-[var(--topTerminal)] p-4 mt-4 rounded-2xl">
+        <div className="min-h-[100px] bg-[var(--topTerminal)] p-4 mt-18 rounded-2xl">
           <div className="text-[var(--supportingColorGreen)] pb-3">Impact</div>
           <div>
             A manager can now answer in under 5 seconds: Who is behind? What
@@ -256,10 +256,10 @@ const CredentialingAndEnrollment = () => {
         </div>
       </div>
       <div>
-        <div className="flex xl:flex-row flex-col w-full mt-20">
+        <div className="flex xl:flex-row flex-col w-full mt-20 bg-[var(--topTerminal)] border-t-2 border-b-4 border-[var(--supportingColorBlue)]">
           <div className="w-full xl:w-1/2">
             <div className="p-6">
-              <div className="p-6">Before</div>
+              <div className="p-6 text-2xl">Before</div>
               <Image
                 src="/assets/projects/healthCare/RCM/Payer_before.png"
                 alt="description"
@@ -288,7 +288,7 @@ const CredentialingAndEnrollment = () => {
           </div>
           <div className="w-full xl:w-1/2">
             <div className="p-6">
-              <div className="p-6">After</div>
+              <div className="p-6 text-2xl">After</div>
               <Image
                 src="/assets/projects/healthCare/RCM/payer_after.png"
                 alt="description"
@@ -320,7 +320,7 @@ const CredentialingAndEnrollment = () => {
           </div>
         </div>
         <div className="healthcarePages text-xl leading-[32px]">
-          <div className="min-h-[100px] bg-[var(--topTerminal)] p-4 mt-4 rounded-2xl">
+          <div className="min-h-[100px] bg-[var(--topTerminal)] p-4 mt-24 rounded-2xl">
             <div className="text-[var(--supportingColorGreen)] pb-3">
               Impact
             </div>
@@ -345,10 +345,10 @@ const CredentialingAndEnrollment = () => {
           are impossible to miss and compliance history is always visible.
         </div>
       </div>
-      <div className="flex xl:flex-row flex-col w-full mt-20">
+      <div className="flex xl:flex-row flex-col w-full mt-20 bg-[var(--topTerminal)] border-t-2 border-b-4 border-[var(--supportingColorBlue)]">
         <div className="w-full xl:w-1/2">
           <div className="p-6">
-            <div className="p-6">Before</div>
+            <div className="p-6 text-2xl">Before</div>
             <Image
               src="/assets/projects/healthCare/RCM/CAQH_before.png"
               alt="description"
@@ -377,7 +377,7 @@ const CredentialingAndEnrollment = () => {
         </div>
         <div className="w-full xl:w-1/2">
           <div className="p-6">
-            <div className="p-6">After</div>
+            <div className="p-6 text-2xl">After</div>
             <Image
               src="/assets/projects/healthCare/RCM/CAQH_after.png"
               alt="description"
@@ -432,7 +432,7 @@ const CredentialingAndEnrollment = () => {
           </div>
         </div>
 
-        <div className="min-h-[100px] bg-[var(--topTerminal)] p-4 mt-4 rounded-2xl">
+        <div className="min-h-[100px] bg-[var(--topTerminal)] p-4 mt-18 rounded-2xl">
           <div className="text-[var(--supportingColorGreen)] pb-3">Impact</div>
           <div>
             A credentialing coordinator can now open CAQH and immediately know:

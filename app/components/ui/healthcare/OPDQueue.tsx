@@ -28,13 +28,16 @@ const OPDQueue = () => {
           </div>
         </div>
       </div>
-      <Image
-        src="/assets/projects/healthCare/patientQueue/patientQueueScreens.png"
-        alt="description"
-        width={1920}
-        height={793}
-        className="transition-transform duration-300 hover:scale-102"
-      />
+      <div className="pt-10 pb-10 bg-[var(--topTerminal)] border-t-2 border-b-4 border-[var(--supportingColorBlue)]">
+        <Image
+          src="/assets/projects/healthCare/patientQueue/patientQueueScreens.png"
+          alt="description"
+          width={1920}
+          height={793}
+          className="transition-transform duration-300 hover:scale-102"
+        />
+      </div>
+
       <div className="pages">
         <div className="xl:w-[80%] h-auto w-full xl:mx-auto flex flex-col mb-10">
           <div className="mt-12  leading-[32px]">
