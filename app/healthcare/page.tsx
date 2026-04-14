@@ -1,10 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Rcm from "../components/ui/healthcare/Rcm";
-import Scheduling from "../components/ui/healthcare/Scheduling";
-import Pms from "../components/ui/healthcare/Pms";
-import Ehr from "../components/ui/healthcare/Ehr";
-import OPDQueue from "../components/ui/healthcare/OPDQueue";
+
 import HealthcareApproach from "../components/ui/healthcare/approach/HealthcareApproach";
 import HealthCareProjects from "../components/ui/healthcare/HealthCareProjects";
 
