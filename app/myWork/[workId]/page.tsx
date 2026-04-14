@@ -116,7 +116,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
         </div>
 
         <CaseStudySec>
-          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-[96%] mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl mb-8">
+          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-[96%] mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--topTerminal)] text-[var(--lightBg)] p-10 rounded-2xl mb-8">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center text-[var(--foreground)]">
                 1
@@ -154,7 +154,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl  mb-8">
+          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30  bg-[var(--topTerminal02)] text-[var(--lightBg)] p-10 rounded-2xl  mb-8">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center  text-[var(--foreground)]">
                 2
@@ -196,7 +196,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl  mb-8">
+          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--topTerminal)] text-[var(--lightBg)] p-10 rounded-2xl  mb-8">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center  text-[var(--foreground)]">
                 3
@@ -235,7 +235,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl  mb-8">
+          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--topTerminal02)] text-[var(--lightBg)] p-10 rounded-2xl  mb-8">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center  text-[var(--foreground)]">
                 4
@@ -273,7 +273,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl  mb-8">
+          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--topTerminal)] text-[var(--lightBg)] p-10 rounded-2xl  mb-8">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center  text-[var(--foreground)]">
                 5
@@ -351,7 +351,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl  mb-8">
+          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-full xl:mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--topTerminal02)] text-[var(--lightBg)] p-10 rounded-2xl  mb-8">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center  text-[var(--foreground)]">
                 6
@@ -396,7 +396,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-[96%] mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl mb-8">
+          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-[96%] mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--topTerminal)] text-[var(--lightBg)] p-10 rounded-2xl mb-8">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center  text-[var(--foreground)]">
                 7
@@ -436,7 +436,7 @@ const page = async ({ params }: { params: Promise<{ workId?: string }> }) => {
           </div>
         </CaseStudySec>
         <CaseStudySec>
-          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-[96%] mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--lightBg)] text-[var(--background)] p-10 rounded-2xl mb-8">
+          <div className="comeIn xl:h-dvh xl:w-[100%] h-auto w-[96%] mx-auto flex xl:flex-row flex-col items-center gap-30 bg-[var(--topTerminal02)] text-[var(--lightBg)] p-10 rounded-2xl mb-8">
             <div className="w-full xl:w-1/3">
               <div className="w-[52px] h-[52px] rounded-full bg-[var(--terminalBlue)] mb-10 flex justify-center items-center  text-[var(--foreground)]">
                 8
