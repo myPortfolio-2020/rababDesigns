@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { initialScreen } from "./../../../../public/assets/projects/collection/mentalHealth/metalHealthScreen02.png";
-import { SeparatorHorizontal } from "lucide-react";
 import SepratorLine from "../SepratorLine";
 
 const MentalHealthApp = () => {
@@ -620,24 +618,37 @@ const MentalHealthApp = () => {
             aesthetics. Every screen was about one question: does this flow feel
             natural and pressure-free?
           </div>
-          <div>
-            <div className="pb-8 pt-8">das</div>
-          </div>
+        </div>
+      </div>
+      <div className="bg-[var(--topTerminal)] border-t-2 border-b-4 border-[var(--supportingColorBlue)]">
+        <div className="p-4">
+          <Image
+            src="/assets/projects/collection/mentalHealth/mainUserKeyWireframeScreens.png"
+            alt="description"
+            width={1920}
+            height={848}
+            className="transition-transform duration-300 hover:scale-102"
+          />
         </div>
       </div>
       {/* new section 7 ------------------------------------------------------- */}
-      <SepratorLine />
-      <div className="mt-16">
-        <div className="text-sm tracking-[11px] uppercase pt-8 pb-4">
-          <div className="text-3xl  pb-2">07</div>
-          <div className="text-[var(--terminalBlue)]">asd</div>
-        </div>
-        <div>
-          <div className="pb-8 pt-8">das</div>
-          <div className="pb-8 pt-8">das</div>
-          <div className="pb-8 pt-8">das</div>
+      <div className="pages text-xl leading-[32px]">
+        <div className="w-[94%] xl:w-[80%] mx-auto">
+          <SepratorLine />
+          <div className="mt-16">
+            <div className="text-sm tracking-[11px] uppercase pt-8 pb-4">
+              <div className="text-3xl  pb-2">07</div>
+              <div className="text-[var(--terminalBlue)]">asd</div>
+            </div>
+            <div>
+              <div className="pb-8 pt-8">das</div>
+              <div className="pb-8 pt-8">das</div>
+              <div className="pb-8 pt-8">das</div>
+            </div>
+          </div>
         </div>
       </div>
+
       {/* new section 8------------------------------------------------------- */}
       <SepratorLine />
       <div className="mt-16">
