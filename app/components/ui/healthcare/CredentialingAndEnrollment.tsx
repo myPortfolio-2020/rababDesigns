@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import healthcare from "../../../lib/data/healthcare.json";
 import DecoratedSeprator from "../DecoratedSeprator";
+import SepratorLine from "../SepratorLine";
 const CredentialingAndEnrollment = () => {
   return (
     <>
@@ -66,11 +67,7 @@ const CredentialingAndEnrollment = () => {
                   No task visibility creates duplicated effort across billing
                   and credentialing staff
                 </div>
-                <div className="w-full flex items-center gap-1 py-4 bg-[#111] mt-4 mb-4">
-                  <div className="w-2 h-2 rounded-full bg-gray-500"></div>
-                  <div className="flex-1 h-px bg-gradient-to-r from-gray-700 via-gray-600 to-gray-700"></div>
-                  <div className="w-2 h-2 rounded-full bg-gray-500"></div>
-                </div>
+                <SepratorLine />
                 <div className="p-2 text-[var(--supportingColorGreen)]">
                   This system was designed to make those failure modes visible
                   before they become revenue losses.

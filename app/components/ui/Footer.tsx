@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="w-full xl:w-3/4 mb-3 ml-[6%]">
               <div className="flex items-center w-full xl:max-w-[658px] max-w-[360px]">
                 <div className="mr-6">Linkedin</div>
-                <div className="w-full flex items-center gap-1 py-4 bg-[#111]">
+                <div className="w-full flex items-center gap-1 py-4 bg-[var(--background)]">
                   <div className="w-2 h-2 rounded-full bg-gray-500"></div>
                   <div className="flex-1 h-px bg-gradient-to-r from-gray-700 via-gray-600 to-gray-700"></div>
                   <div className="w-2 h-2 rounded-full bg-gray-500"></div>
@@ -24,7 +24,7 @@ const Footer = () => {
               </div>
               <div className="flex just items-center w-full xl:max-w-[658px] max-w-[360px]">
                 <div className="mr-6">Behance</div>
-                <div className="w-full flex items-center gap-1 py-4 bg-[#111]">
+                <div className="w-full flex items-center gap-1 py-4 bg-[var(--background)]">
                   <div className="w-2 h-2 rounded-full bg-gray-500"></div>
                   <div className="flex-1 h-px bg-gradient-to-r from-gray-700 via-gray-600 to-gray-700"></div>
                   <div className="w-2 h-2 rounded-full bg-gray-500"></div>
@@ -34,7 +34,7 @@ const Footer = () => {
 
               <div className="flex just items-center w-full xl:max-w-[658px] max-w-[360px]">
                 <div className="mr-6">GitHub</div>
-                <div className="w-full flex items-center gap-1 py-4 bg-[#111]">
+                <div className="w-full flex items-center gap-1 py-4 bg-[var(--background)]">
                   <div className="w-2 h-2 rounded-full bg-gray-500"></div>
                   <div className="flex-1 h-px bg-gradient-to-r from-gray-700 via-gray-600 to-gray-700"></div>
                   <div className="w-2 h-2 rounded-full bg-gray-500"></div>
