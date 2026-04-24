@@ -67,7 +67,7 @@ const ProjectSlider = () => {
                       <div className="pb-1 text-xl  text-[var(--terminalBlue)]">
                         {slide.caption}
                       </div>
-                      <div className="text-sm">{slide.label}</div>
+                      <div className="text-xl font-medium">{slide.label}</div>
                     </div>
                   </div>
                 </div>
