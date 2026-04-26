@@ -6,6 +6,7 @@ import CredentialingAndEnrollment from "@/app/components/ui/healthcare/Credentia
 import OPDQueue from "@/app/components/ui/healthcare/OPDQueue";
 import MentalHealthApp from "@/app/components/ui/healthcare/MentalHealthApp";
 import Link from "next/link";
+import Scheduling from "@/app/components/ui/healthcare/Scheduling";
 const page = async ({
   params,
 }: {
@@ -61,36 +62,14 @@ const page = async ({
       ) : null}
       {healthcareProjects?.mentalHealth ? <MentalHealthApp /> : null}
       {healthcareProjects?.documentation ? <div>documentation</div> : null}
-      {healthcareProjects?.scheduling ? <div>scheduling</div> : null}
+      {healthcareProjects?.scheduling ? (
+        <div>
+          <Scheduling />
+        </div>
+      ) : null}
       {healthcareProjects?.opd ? (
         <div>
           <OPDQueue />
-        </div>
-      ) : null}
-
-      {healthcareProjects?.comparison ? (
-        <div>
-          <div className="p-8 w-[94%] mx-auto">
-            <div className="p-6 text-2xl">Before</div>
-            <Image
-              src={healthcareProjects?.before}
-              alt="description"
-              width={1920}
-              height={793}
-              className="transition-transform duration-300 hover:scale-102 border-4 rounded-4xl"
-            />
-          </div>
-
-          <div className="p-8 w-[94%] mx-auto">
-            <div className="p-6 text-2xl">After</div>
-            <Image
-              src={healthcareProjects?.after}
-              alt="description"
-              width={1920}
-              height={793}
-              className="transition-transform duration-300 hover:scale-102 border-4 rounded-4xl"
-            />
-          </div>
         </div>
       ) : null}
     </>
