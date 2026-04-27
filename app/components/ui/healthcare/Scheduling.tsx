@@ -50,17 +50,19 @@ const Scheduling = () => {
         <div className="text-2xl pl-12 pb-8">Before</div>
         {healthcare.healthcare
           ?.filter((item) => item.projectType === "Scheduling")
-          .map((item) => (
-            <div key={item.id}>
-              <Image
-                src={item.before}
-                alt="description"
-                width={1920}
-                height={793}
-                className="transition-transform duration-300 hover:scale-102 rounded"
-              />
-            </div>
-          ))}
+          .map((item) =>
+            item.before ? (
+              <div key={item.id}>
+                <Image
+                  src={item.before}
+                  alt="description"
+                  width={1920}
+                  height={793}
+                  className="transition-transform duration-300 hover:scale-102 rounded"
+                />
+              </div>
+            ) : null,
+          )}
       </div>
       <div className="pages">
         <div className="w-[94%] xl:w-[80%] mx-auto">
@@ -256,17 +258,19 @@ const Scheduling = () => {
         <div className="text-2xl pl-12 pb-8">After</div>
         {healthcare.healthcare
           ?.filter((item) => item.projectType === "Scheduling")
-          .map((item) => (
-            <div key={item.id}>
-              <Image
-                src={item.after}
-                alt="description"
-                width={1920}
-                height={793}
-                className="transition-transform duration-300 hover:scale-102  rounded"
-              />
-            </div>
-          ))}
+          .map((item) =>
+            item.after ? (
+              <div key={item.id}>
+                <Image
+                  src={item.after}
+                  alt="description"
+                  width={1920}
+                  height={793}
+                  className="transition-transform duration-300 hover:scale-102 rounded"
+                />
+              </div>
+            ) : null,
+          )}
       </div>
       <div className="pages">
         <div className="w-[94%] xl:w-[80%] mx-auto">
