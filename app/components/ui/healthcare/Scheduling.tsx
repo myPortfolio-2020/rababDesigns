@@ -113,8 +113,8 @@ const Scheduling = () => {
             <div className="font-bold">The Risk:</div>
             <div>
               If the admin is interrupted, they might return to the screen and
-              apply changes to the wrong provider, leading to a "Wrong-Provider"
-              error.
+              apply changes to the wrong provider, leading to a
+              &quot;Wrong-Provider&quot; error.
             </div>
           </div>
           <div className="pt-4">
