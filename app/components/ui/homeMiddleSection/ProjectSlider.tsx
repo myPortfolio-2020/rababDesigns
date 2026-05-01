@@ -76,18 +76,12 @@ const ProjectSlider = () => {
           </div>
 
           {/* Controls */}
-          <div className="flex gap-2  justify-center">
-            <button
-              onClick={scrollPrev}
-              className="px-4 py-2 bg-[var(--supportingColorBlue)] text-white rounded-4xl hover:bg-gray-800"
-            >
-              Prev
+          <div className="flex gap-10  justify-center">
+            <button onClick={scrollPrev} className="text-white text-2xl p-2">
+              &#8592;
             </button>
-            <button
-              onClick={scrollNext}
-              className="px-4 py-2 bg-[var(--terminalBlue)] text-white rounded-4xl hover:bg-gray-800"
-            >
-              Next
+            <button onClick={scrollNext} className=" text-white text-2xl p-2">
+              &#8594;
             </button>
           </div>
         </div>

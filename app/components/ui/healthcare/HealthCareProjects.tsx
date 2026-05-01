@@ -6,7 +6,7 @@ import healthcare from "../../../lib/data/healthcare.json";
 const excludedTitles = [
   "PMS Scheduling Screen",
   "MentalHealth",
-  "documentation",
+  "Clinical documentation system",
 ];
 
 const HealthCareProjects = () => {

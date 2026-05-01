@@ -7,6 +7,7 @@ import OPDQueue from "@/app/components/ui/healthcare/OPDQueue";
 import MentalHealthApp from "@/app/components/ui/healthcare/MentalHealthApp";
 import Link from "next/link";
 import Scheduling from "@/app/components/ui/healthcare/Scheduling";
+import Documentation from "@/app/components/ui/healthcare/Documentation";
 const page = async ({
   params,
 }: {
@@ -53,6 +54,20 @@ const page = async ({
             <div className="ml-10">
               <div className="text-4xl pb-6">{healthcareProjects?.title}</div>
               <div>{healthcareProjects?.description}</div>
+
+              <div className="pt-4 font-medium flex gap-10 flex-wrap">
+                {healthcareProjects?.descriptionTag
+                  ? healthcareProjects?.descriptionTags.map((tag, index) => {
+                      return (
+                        <div key={index} className="pt-2">
+                          <div className="flex gap-4">
+                            <span>-</span> <span>{tag}</span>
+                          </div>
+                        </div>
+                      );
+                    })
+                  : null}
+              </div>
             </div>
           </div>
         </div>
@@ -61,7 +76,7 @@ const page = async ({
         <CredentialingAndEnrollment />
       ) : null}
       {healthcareProjects?.mentalHealth ? <MentalHealthApp /> : null}
-      {healthcareProjects?.documentation ? <div>documentation</div> : null}
+      {healthcareProjects?.documentation ? <Documentation /> : null}
       {healthcareProjects?.scheduling ? (
         <div>
           <Scheduling />
